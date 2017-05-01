@@ -1,25 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5107a8c2-c94e-4f6a-8a1c-f94031000c21" name="Composite" linkedPackageId="badf0f1e-36af-4a12-9db3-2aed739c06d7" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="1feccfae-8f9e-44ae-bbb0-4414b9d2c812">
-      <profileInstance Id="beefba29-2017-418f-9066-a4c9b7417944" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="3d13d6cc-5a83-4056-8e6d-8a3f3a0cb745">
-      <profileInstance Id="149432cd-7c27-41b8-b855-fdd19cbb7d05" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="649383c2-50dd-4894-9c6b-13bd5ac60d72">
-      <profileInstance Id="24c1cc35-f6be-4674-99c6-951096eb6cc3" name="CSharpProfile">
-        <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
-      </profileInstance>
-      <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="1eec0303-a725-489e-8fb0-6cea37e8a8be" name="Component" isAbstract="true" isLeaf="false" isActiveClass="false">
@@ -235,13 +215,8 @@
             <elementDefinition Id="a7127245-acef-43b2-89b5-9558a646b088" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="a8e36278-2dc6-4c8d-83c7-fa74eb870294" name="c" direction="In">
-                  <referencesInternal>
-                    <reference Id="f53241fe-3e5c-4f0f-bafb-770dc41efe08" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
-                      <elementDefinition Id="8b8d44d5-0d6b-4fc5-8e39-207db0a0fc2a" />
-                    </reference>
-                  </referencesInternal>
-                  <elementDefinition Id="c0d70543-8007-46dc-b2a8-1151e9c82b57" />
+                <parameter Id="9d4cc256-77c6-4bcc-ba2d-794f784f0f46" name="component" direction="In" isUnique="false">
+                  <elementDefinition Id="ea7fa6a3-e5e9-40fd-8b5a-087217483bbb" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="aa0f7286-726e-4fe8-af56-40a0aeae3327" LastKnownName="Component" />
                   </type_NamedElement>
@@ -301,13 +276,8 @@
             <elementDefinition Id="43b77e1b-132f-407e-b959-fb11373e61b7" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="12f6d9cc-9dad-453e-82b6-a3d7bfbaa909" name="c" direction="In">
-                  <referencesInternal>
-                    <reference Id="a4225441-79d1-4f01-b927-c181e91a9459" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
-                      <elementDefinition Id="12b39fd2-b762-46c0-b705-8194dde72c64" />
-                    </reference>
-                  </referencesInternal>
-                  <elementDefinition Id="27a43ff9-f6a2-45c4-aa20-b9957b111c3e" />
+                <parameter Id="a9a1ad2a-77a2-429e-b438-c5cff2ea595e" name="component" direction="In" isUnique="false">
+                  <elementDefinition Id="57926f4a-2c97-4b84-80c3-1e7addc87b53" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="aa0f7286-726e-4fe8-af56-40a0aeae3327" LastKnownName="Component" />
                   </type_NamedElement>
@@ -880,5 +850,25 @@
   </packagedElements>
   <package Id="badf0f1e-36af-4a12-9db3-2aed739c06d7" name="UML">
     <elementDefinition Id="930c238e-7146-45db-83b6-3d82d781dc88" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1feccfae-8f9e-44ae-bbb0-4414b9d2c812">
+        <profileInstance Id="beefba29-2017-418f-9066-a4c9b7417944" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3d13d6cc-5a83-4056-8e6d-8a3f3a0cb745">
+        <profileInstance Id="149432cd-7c27-41b8-b855-fdd19cbb7d05" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="649383c2-50dd-4894-9c6b-13bd5ac60d72">
+        <profileInstance Id="24c1cc35-f6be-4674-99c6-951096eb6cc3" name="CSharpProfile">
+          <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
+        </profileInstance>
+        <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

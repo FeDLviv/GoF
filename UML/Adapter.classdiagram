@@ -65,21 +65,21 @@
           </interfaceRealization>
         </suppliersInternal>
         <targetEnds>
-          <association Id="8e75b3d7-671e-4302-a5c3-622d0ecb3122" isDerived="false" sourceEndRoleName="ATMAdapter" targetEndRoleName="CreditCard" isLeaf="false" isAbstract="false">
+          <association Id="9469675b-c7db-4eb9-9b05-eee676f7486f" isDerived="false" sourceEndRoleName="ATMAdapter" targetEndRoleName="CreditCard" isLeaf="false" isAbstract="false">
             <classMoniker Id="b5677b78-70db-459c-bc02-bfd2401bcd66" LastKnownName="CreditCard" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="bb3cd6bf-fde6-4c61-a804-18ce5aecb332" name="ATMAdapter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="df8980f5-8766-4407-a9d3-43b3f920e4d4" />
+                <memberEnd Id="548cc867-cb3f-4f00-b53d-298027f567c6" name="ATMAdapter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fa3f0805-f0a3-4a60-894f-39b02559cde6" />
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="76549fa0-d2b6-474d-86a5-6454446b9ab7" name="CreditCard" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
-                  <elementDefinition Id="62e0a04e-c72d-4167-a640-bb9512380e42" />
+                <memberEnd Id="8ccbc27c-1020-43b8-b9ca-049705702cff" name="CreditCard" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="610c0a04-6d0c-4ae2-9ba5-ef1c558e1288" />
                 </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
-            <elementDefinition Id="3075759d-7b69-46e3-a866-d0bed148cb8d" />
+            <elementDefinition Id="9e7a7f4f-5658-4436-b0fa-069790a8f653" />
           </association>
         </targetEnds>
         <ownedAttributesInternal>

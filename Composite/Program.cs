@@ -40,11 +40,11 @@ namespace Composite
             this.name = name;
         }
 
-        public virtual void Add(Component c)
+        public virtual void Add(Component componnt)
         {
         }
 
-        public virtual void Remove(Component c)
+        public virtual void Remove(Component component)
         {
         }
 

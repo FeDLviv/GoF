@@ -290,15 +290,10 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="c0d70543-8007-46dc-b2a8-1151e9c82b57"
-                  name="c"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="8b8d44d5-0d6b-4fc5-8e39-207db0a0fc2a"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent)]) ParameterIdentifier%3Dc"
-                      tag="ViewCode" />
-                  </referencesInternal>
+                  Id="ea7fa6a3-e5e9-40fd-8b5a-087217483bbb"
+                  name="component"
+                  direction="In"
+                  isUnique="false">
                   <type_NamedElement>
                     <classMoniker
                       Id="b0227767-15ea-4c6b-b6d6-6b02d945aaaf"
@@ -376,15 +371,10 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="27a43ff9-f6a2-45c4-aa20-b9957b111c3e"
-                  name="c"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="12b39fd2-b762-46c0-b705-8194dde72c64"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FComposite%2Fbin%2FRelease%2FComposite.exe Namespace%3DComposite Type%3DComponent)]) ParameterIdentifier%3Dc"
-                      tag="ViewCode" />
-                  </referencesInternal>
+                  Id="57926f4a-2c97-4b84-80c3-1e7addc87b53"
+                  name="component"
+                  direction="In"
+                  isUnique="false">
                   <type_NamedElement>
                     <classMoniker
                       Id="b0227767-15ea-4c6b-b6d6-6b02d945aaaf"

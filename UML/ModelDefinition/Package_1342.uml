@@ -1062,7 +1062,7 @@
         </appliedStereotypesInternal>
         <targetEnds>
           <association
-            Id="b8176509-d0a5-428a-88f8-0fbe67426eb3"
+            Id="5d22b269-564b-4a6c-b7dc-045fef5302a2"
             isDerived="false"
             sourceEndRoleName="PizzaDirector"
             targetEndRoleName="PizzaBuilder"
@@ -1075,20 +1075,20 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="1bb1aadc-e8d6-4b01-a22e-60ad490c6bb7"
+                  Id="fb427e64-05f4-4845-9e4f-3a10c6ac5b5a"
                   name="PizzaDirector"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
-                  aggregation="Composite"
+                  aggregation="Shared"
                   isComposite="false"
                   isNavigableOwned="false" />
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="2bcab74d-fd82-404a-9913-1fc5b92e5397"
+                  Id="fc33d953-cc1f-4033-9d0a-c8eef174792f"
                   name="PizzaBuilder"
                   isLeaf="false"
                   isStatic="false"
@@ -1096,7 +1096,7 @@
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="true" />
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>

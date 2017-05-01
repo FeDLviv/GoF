@@ -495,21 +495,21 @@
         </appliedStereotypesInternal>
         <elementDefinition Id="149612b5-2e20-446c-a963-c22816b89e89" />
         <targetEnds>
-          <association Id="9b129fbd-e458-4f0e-b0b7-29a90e144889" isDerived="false" sourceEndRoleName="PizzaDirector" targetEndRoleName="PizzaBuilder" isLeaf="false" isAbstract="false">
+          <association Id="1ea893ad-ae26-4411-89ed-1b562481c9c3" isDerived="false" sourceEndRoleName="PizzaDirector" targetEndRoleName="PizzaBuilder" isLeaf="false" isAbstract="false">
             <classMoniker Id="0f1c4723-5cb8-4e0c-899f-293fc74a5e16" LastKnownName="PizzaBuilder" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="05b8d163-4c79-446e-be7c-da37334c7572" name="PizzaDirector" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="1bb1aadc-e8d6-4b01-a22e-60ad490c6bb7" />
+                <memberEnd Id="00cb7954-2992-4358-80c2-132a8607bd3e" name="PizzaDirector" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb427e64-05f4-4845-9e4f-3a10c6ac5b5a" />
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="11799596-80a3-4c69-b55d-acae519ea607" name="PizzaBuilder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
-                  <elementDefinition Id="2bcab74d-fd82-404a-9913-1fc5b92e5397" />
+                <memberEnd Id="c617a8f9-cf90-4ef3-a558-f8d159248f53" name="PizzaBuilder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc33d953-cc1f-4033-9d0a-c8eef174792f" />
                 </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
-            <elementDefinition Id="b8176509-d0a5-428a-88f8-0fbe67426eb3" />
+            <elementDefinition Id="5d22b269-564b-4a6c-b7dc-045fef5302a2" />
           </association>
         </targetEnds>
         <ownedAttributesInternal>

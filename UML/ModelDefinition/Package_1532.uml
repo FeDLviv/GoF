@@ -78,7 +78,7 @@
         </suppliersInternal>
         <targetEnds>
           <association
-            Id="3075759d-7b69-46e3-a866-d0bed148cb8d"
+            Id="9e7a7f4f-5658-4436-b0fa-069790a8f653"
             isDerived="false"
             sourceEndRoleName="ATMAdapter"
             targetEndRoleName="CreditCard"
@@ -91,20 +91,20 @@
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="df8980f5-8766-4407-a9d3-43b3f920e4d4"
+                  Id="fa3f0805-f0a3-4a60-894f-39b02559cde6"
                   name="ATMAdapter"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
                   isDerived="false"
                   isDerivedUnion="false"
-                  aggregation="Composite"
+                  aggregation="Shared"
                   isComposite="false"
                   isNavigableOwned="false" />
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="62e0a04e-c72d-4167-a640-bb9512380e42"
+                  Id="610c0a04-6d0c-4ae2-9ba5-ef1c558e1288"
                   name="CreditCard"
                   isLeaf="false"
                   isStatic="false"
@@ -112,7 +112,7 @@
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="true" />
+                  isComposite="false" />
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
