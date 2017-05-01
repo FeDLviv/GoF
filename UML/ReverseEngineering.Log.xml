@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2017-05-01T16:35:27" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator&quot; -  (Package)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::ArmiiHumanDecorator&quot; -  (Class)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::ArmiiHumanDecorator::ArmiiHumanDecorator&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::ArmiiHumanDecorator::ArmiiHumanDecorator::human&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::ArmiiHumanDecorator::GetInfo&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Human&quot; -  (Class)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Human::GetInfo&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Human::Human&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Human::Name&quot; -  (Property)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::HumanDecorator&quot; -  (Class)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::HumanDecorator::GetInfo&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::HumanDecorator::Human&quot; -  (Property)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::HumanDecorator::HumanDecorator&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::HumanDecorator::HumanDecorator::human&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Ukrainian&quot; -  (Class)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Ukrainian::GetInfo&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Ukrainian::Ukrainian&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::Ukrainian::Ukrainian::name&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::WorkHumanDecorator&quot; -  (Class)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::WorkHumanDecorator::GetInfo&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::WorkHumanDecorator::WorkHumanDecorator&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Decorator::WorkHumanDecorator::WorkHumanDecorator::human&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Decorator::ArmiiHumanDecorator в UML::Decorator::HumanDecorator (Generalization)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Decorator::HumanDecorator в UML::Decorator::Human (Generalization)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Decorator::Ukrainian в UML::Decorator::Human (Generalization)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Decorator::WorkHumanDecorator в UML::Decorator::HumanDecorator (Generalization)" />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="High" Text="Полностью реконструировано (5) типов." />
+  <Message Timestamp="2017-05-01T16:35:29" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+</Log>

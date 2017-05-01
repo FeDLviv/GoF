@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8a041120-6921-4531-8d59-7169f3941f12"
+  name="Decorator"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d25f133b-c96d-493d-bd82-133d5ea34ee0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDecorator"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="cdeea51c-4f85-4180-b067-e3d94240b94b"
+        name="ArmiiHumanDecorator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a0cc09cb-3439-413a-84b2-5095264448de"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DArmiiHumanDecorator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e3780b57-35e4-4916-86f4-0e5e6721358a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37168590-f290-4178-8709-2d99aa363ac6">
+                <propertyInstance
+                  Id="8d37f0b6-ce53-4f70-ba2e-985d62601242"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eec6b7d3-1705-48bb-892d-d90f43c0bff3">
+                <propertyInstance
+                  Id="8444cb20-da92-473f-8180-62edaa410ba3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87ab935b-d324-463f-91ae-f9a5f0850d31">
+                <propertyInstance
+                  Id="3536db03-fa08-4c6c-b632-b19900c998a3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a3c1d37-f2d6-4c9f-9a05-9bc8e4e6527c">
+                <propertyInstance
+                  Id="23f29001-760d-47e3-bfdf-58d34602f391"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a92065fb-0ec3-4ee0-b240-33ddaefba36e">
+                <propertyInstance
+                  Id="f5e44196-87ac-499b-a622-b968a81ff44d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="8c4d0606-0f73-4194-ad90-1569d65e2c98"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a8a59d4d-758c-4167-9c0f-bd050cb5c69a"
+              LastKnownName="HumanDecorator"
+              LastKnownLocation="Package_1635.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6316b817-34ac-4bdf-bdb8-ca12d2d02225"
+            name="ArmiiHumanDecorator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="959774b3-bb09-4dec-8122-02945605bb43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DArmiiHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="98efa5ae-fb8a-471c-b646-c8d24ae94968"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="917be0c8-67b0-43b8-9d54-6d41e10a3e31">
+                    <propertyInstance
+                      Id="0e57f5a2-2af8-4585-bc4a-0287101623ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="855efc69-c2c8-4be5-b33a-4dead667728e">
+                    <propertyInstance
+                      Id="c0438bbc-8553-4728-922e-50170c3fd7f1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="940957a3-9a6a-4d18-98fc-1f4e8886e0aa">
+                    <propertyInstance
+                      Id="9dbe9b45-e807-4eaa-b500-a72796f7ef7f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94ad3212-9c59-4afd-8e0e-a82353f80758">
+                    <propertyInstance
+                      Id="e0ba374d-a896-4459-ae9b-2c972274c3e4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="380d413d-4a8c-482b-9fea-d71c14f2d8d0">
+                    <propertyInstance
+                      Id="d1acaa1c-8b73-46bf-8f4a-5d538cbf8e2c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2efdb60-0a94-4910-af09-fcd47a1bae3f">
+                    <propertyInstance
+                      Id="ee216cfb-c229-4c22-a7f6-325ab9dcc632"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="039806e3-412f-4b7c-9352-f14d4fb97a91"
+                  name="human"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="91b26265-c0f5-46a0-95e3-9cd6d0087515"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DArmiiHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)]) ParameterIdentifier%3Dhuman"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+                      LastKnownName="Human"
+                      LastKnownLocation="Package_1635.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="44e7bee3-d017-4802-a813-ebceb0512e5a"
+            name="GetInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ca283bd2-97db-4e46-ac11-06d30e0e4d23"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DArmiiHumanDecorator Member%3DGetInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="669f6028-3fe4-4347-be13-1c4e4f997213"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6736a9b-1fe6-4b62-8ad2-0370f886ad7c">
+                    <propertyInstance
+                      Id="2e279dab-31fd-46e5-8e75-2f1744bfd513"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0445baa5-2d7d-4dc9-ac2e-02a202cba32f">
+                    <propertyInstance
+                      Id="5c6064d6-eb11-4c2e-982e-8b9f493d324d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0861a94b-8830-4924-a1c4-6a1d8673cf98">
+                    <propertyInstance
+                      Id="cae19a5f-29e9-4917-9d9c-46ea2580d0bd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72f2df85-f450-436d-a1bb-774e85d0496c">
+                    <propertyInstance
+                      Id="c0f26d1a-5d00-4753-a369-e70408e385e0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43e06e64-a889-444f-b9fe-bab5187d3985">
+                    <propertyInstance
+                      Id="6be0ec40-0252-405f-addb-9ae6eef38c5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c932acfd-d863-4110-8735-52c86604be0d">
+                    <propertyInstance
+                      Id="a7cfb900-9c9d-40a5-bf55-9d1450fab052"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+        name="Human"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="551b02ff-68fe-42a7-85e2-00c4fc33b5f5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="622d1770-6971-41c1-833f-ee7d5d050dde"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f53043b-9635-469b-a8e0-f6681d6cee4b">
+                <propertyInstance
+                  Id="bee9e837-33ca-444d-b000-2b7ced053ceb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87561af9-251e-488d-b359-5ac0d5bb8b22">
+                <propertyInstance
+                  Id="9ad3dbce-e557-475d-9429-d1c660cf653e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8615e1b9-b6d7-40e2-8abc-9a868d68c63a">
+                <propertyInstance
+                  Id="ad5c2bde-30ae-44e3-9c94-123e7076f00c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c665923-7893-4b44-a31e-cf89c7c297b3">
+                <propertyInstance
+                  Id="fe398e82-35c6-4e18-a5b3-5be1badeb465"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf067350-b886-4e10-8b80-978bd4038fcf">
+                <propertyInstance
+                  Id="1996dc87-eb1f-4594-b6c3-64bba16f6065"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7f702345-b46a-4f8a-a98d-9dcd14ba3cff"
+            name="Name"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5bdc8b1b-2884-47de-b6a1-5b090784bffb"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="12bb6a8c-f514-4ac8-bd38-cbba1dcfc5c3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f6eaedb-4235-49d5-80c2-89866f63d4ab">
+                    <propertyInstance
+                      Id="3d840058-8d0d-4465-a3f7-246b220fa961"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71c2405a-bb21-404f-b832-d11f36936fed">
+                    <propertyInstance
+                      Id="104ad2bb-8470-4f74-8bae-4aeff42ce312"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e45f298-ecba-407d-85ad-3e06610110dd">
+                    <propertyInstance
+                      Id="da70f0d9-f4d7-44db-8d9e-55fa18d5bde8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7daa249f-cb5b-40d2-a3fa-126cd80282a5">
+                    <propertyInstance
+                      Id="aa5ded0f-ce2d-4190-9de8-757f0fd667b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66bfd312-41fc-454b-8288-78a4a5869e6a">
+                    <propertyInstance
+                      Id="f88d1278-039b-4ad2-b3bc-3a00b9443c44"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b41059e6-3f76-4543-9ef5-213fab47a529">
+                    <propertyInstance
+                      Id="8f9db7bc-9604-423a-b4ce-f5dbcc832f18"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a18cb44e-54f4-424f-bfe1-00945a7a2dfe">
+                    <propertyInstance
+                      Id="64df4ad6-9169-4ee6-85c1-e7640c443bb4"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="88d90070-876d-4518-b2dd-874982d5c926"
+            name="GetInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="56640111-3b95-4f58-9bdb-4f3bfb25762b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman Member%3DGetInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f7ae46e5-a890-4be9-8449-26ae03704cbc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f7d464f-1b4b-47f1-9918-7f2d732e6217">
+                    <propertyInstance
+                      Id="19f6c391-7583-42ec-adc9-8938849188c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c16b2952-f411-43b4-ab4d-c13e696fc3ce">
+                    <propertyInstance
+                      Id="23ab7889-de9d-4335-b394-f49e1db4e9d0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ff5e384-e0cd-40f9-9039-adbc15e827de">
+                    <propertyInstance
+                      Id="58a7e61a-800a-451b-b3b6-c06c1cd713c8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae693337-19f6-49c6-b6bd-6ad2de5eddde">
+                    <propertyInstance
+                      Id="8c16e759-040e-4edc-8656-6735982fb0ce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67c94013-fa38-4cbc-9726-7ffbe20f4e8b">
+                    <propertyInstance
+                      Id="b0d6ca0b-698e-4a2b-9074-7372747cb439"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e011fd01-8572-48ac-bd78-87aa6937a734">
+                    <propertyInstance
+                      Id="10c80f23-db62-4b5d-ab02-213c92f07d1e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="379dc3e3-cb27-47a1-b16d-1ff628e53ade"
+            name="Human"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f8c9b14-3f62-4784-81e0-80e2b66fb90d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0adc5594-bcd5-42f0-9df7-c956cdff669e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28870458-8738-4f63-ad9a-393b1dcf5106">
+                    <propertyInstance
+                      Id="a18126da-ee99-478e-89a2-475c5b2692bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23454d14-2fea-460c-a5b1-50a673371deb">
+                    <propertyInstance
+                      Id="72136383-c013-4d6e-b9ab-2f37c0157afd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab9fbf1-b58b-4751-9db8-178f97c73ac7">
+                    <propertyInstance
+                      Id="c56b7efd-e9a2-4bf7-9865-fccdc01c2784"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9095048a-b0ca-4fa6-a72c-9ae59208c6c0">
+                    <propertyInstance
+                      Id="7c1bc700-699a-4c07-a95f-8143dd1bf165"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1b2a474-41f7-44f9-b2f4-264e90e4206d">
+                    <propertyInstance
+                      Id="714254dc-68d8-42d2-8faf-9c735f91b470"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6730c399-6fd9-4876-bde8-24c755212fba">
+                    <propertyInstance
+                      Id="6a325a16-38cc-4dfd-ad0d-77235922b97a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a8a59d4d-758c-4167-9c0f-bd050cb5c69a"
+        name="HumanDecorator"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ae4007c7-1658-405a-93d2-55111ac87a10"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHumanDecorator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7cddb01f-6a6d-4e5f-b065-384300903691"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="730d8170-7175-40ba-9adf-34f8f0cb4e05">
+                <propertyInstance
+                  Id="7d878a2c-e257-454f-848e-8923f9cae7ca"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="521456ba-b284-4d4e-ae8f-306c28d00c3a">
+                <propertyInstance
+                  Id="c0f46e6d-f05f-45a1-bb47-dede371a7fa5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5ce77b6-3605-4f9c-8866-bf6f251d318e">
+                <propertyInstance
+                  Id="4e0c7a30-0452-4ad2-ae97-a89d1a5a96ce"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="733dbcfc-09f1-4458-a91a-84f3d8cd56dc">
+                <propertyInstance
+                  Id="5080c92b-30a7-4518-8afb-1e399f49c340"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="23eff44a-8224-4579-a05d-7a6636994f6d">
+                <propertyInstance
+                  Id="9d5473dc-a01e-4b9e-8356-9e2d6fd7f9be"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="2fbe8b9d-d571-4cf0-ba20-8d085f463f5c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+              LastKnownName="Human"
+              LastKnownLocation="Package_1635.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="5df827b8-b5fa-4497-a0cc-2c56e26fd185"
+            isDerived="false"
+            sourceEndRoleName="HumanDecorator"
+            targetEndRoleName="Human"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+              LastKnownName="Human"
+              LastKnownLocation="Package_1635.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7c58e5b5-fe97-48e2-b733-5acf7cbdbac8"
+                  name="HumanDecorator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b16a4b6-7d28-4b55-93f2-c58148fa19e4"
+                  name="Human"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2f236905-e433-455f-8963-dbf2b53c5704"
+            name="Human"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="55dc5b7b-37b7-411c-869a-e7664904810b"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHumanDecorator Member%3DHuman"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08591630-aafd-44ba-80e5-4b11a6e47b38"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07c156f8-ce19-4e7d-8d8f-5d34d71253e4">
+                    <propertyInstance
+                      Id="2c7a94c4-1b59-4a42-a9e9-a805f3df7852"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65f38214-0dae-40a1-9a35-c62cc2e8e569">
+                    <propertyInstance
+                      Id="5cd3be70-1127-4989-9dee-8a4069f58d3d"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="817cfef1-d343-4b55-8f83-4e1ff10660aa">
+                    <propertyInstance
+                      Id="45a2361e-88f3-4c14-9fc2-1a90b22da844"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="231586d9-13f9-488e-85a5-15e8a2550830">
+                    <propertyInstance
+                      Id="ece4a007-492b-4977-b51b-8dfff6312430"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d4687b6-dedc-4816-9e52-2f3163d860da">
+                    <propertyInstance
+                      Id="32c8a219-ae60-4e64-a33b-9899f8d809f4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62373f3b-7875-4f5c-b83f-f4de0177738c">
+                    <propertyInstance
+                      Id="78307e3f-9e98-4950-952a-7b08cd557557"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14f12910-cc5b-46ab-9d74-6e476c8564ce">
+                    <propertyInstance
+                      Id="2b20ff12-1fc3-45a2-b44a-10396b1d7729"
+                      name="Set"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+                LastKnownName="Human"
+                LastKnownLocation="Package_1635.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e9b2de3d-2896-482c-9633-e9d1615c2b8d"
+            name="HumanDecorator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="df731fcf-b336-4d39-b139-31d427c8f0cc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4b84824-6489-4938-8acc-cf1e305e5f33"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="391b9d46-8d68-4b89-88d9-6a08a7da82f0">
+                    <propertyInstance
+                      Id="c1cca757-8278-4503-96ef-f64773aea59d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db40d903-3aa2-4d00-9bcb-33f59739e55b">
+                    <propertyInstance
+                      Id="5c70007b-c8c6-4041-9db0-cbddd11b1dc6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccd45f61-e38f-43bb-baf4-312437d825dd">
+                    <propertyInstance
+                      Id="c42d56ef-daa7-46d1-8e24-1cd946cdf052"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a2effb-5d1c-4588-ba20-44488dbbe35e">
+                    <propertyInstance
+                      Id="a33a1f0d-827a-45f0-b53b-9d4ab94fa703"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64662b89-55b6-46ee-88c1-fbd7f8e8f4bb">
+                    <propertyInstance
+                      Id="3dc1727d-54ca-4491-abf9-a026ead54044"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="530a2053-2fce-42f6-a802-6dff127b09b6">
+                    <propertyInstance
+                      Id="38aa7f7c-9bb1-4109-ac1d-fb00b4aaaafa"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7af97451-aa7d-46d8-a455-354650a589eb"
+                  name="human"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d55364d1-e034-440d-a3f7-97c2c76ed2b9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)]) ParameterIdentifier%3Dhuman"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+                      LastKnownName="Human"
+                      LastKnownLocation="Package_1635.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a4113fd9-55f0-4693-98e2-277a9b76fbc0"
+            name="GetInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c8f2b782-e5bc-4f57-88d4-51bc075ee0f7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHumanDecorator Member%3DGetInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e1b8f574-d710-4370-babf-455e77c09a8f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2959d590-5f7d-4f5f-9a2f-f515d76f4e1b">
+                    <propertyInstance
+                      Id="efcb28df-45cb-4a63-b15e-e3f15ca0e125"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32267a9d-0022-48e4-835f-c87a844f5452">
+                    <propertyInstance
+                      Id="c6b68515-aa40-4231-815b-3d5571b18833"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f165f6c-125e-441f-adaa-6d60badf7ca6">
+                    <propertyInstance
+                      Id="5f9b1592-0a9a-46c8-b7aa-15601f5e635e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73065028-909b-4c54-8634-9399c8384851">
+                    <propertyInstance
+                      Id="b8f7bbe6-33bc-468c-b596-e04ce95ee9b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8572eb95-0e7e-435d-b769-1c0c10e06ca2">
+                    <propertyInstance
+                      Id="831c78f0-18d8-408f-9453-0573c9341835"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee524ba5-1615-4bba-83cb-03f2266eb607">
+                    <propertyInstance
+                      Id="a205075b-74cd-43a1-9825-62136e66d2d6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2d90a304-1ac5-4f57-b54d-c1a92f5e9245"
+        name="Ukrainian"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7d6c5c82-123b-4df9-8c62-0da3f6ffae86"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DUkrainian"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="200a621e-7f91-4240-9d63-567067cbd09a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f14681a-2522-461e-aa0d-1e53587fe243">
+                <propertyInstance
+                  Id="a4d7220c-f4a0-42bd-a671-efddcbf9a86b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3d99dcc-cf5c-4c16-9ebb-1e21b1d94783">
+                <propertyInstance
+                  Id="582752fe-e8f6-4792-8692-18ff3666bc42"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="005d5d00-e151-4b41-9306-98af66e4dfbc">
+                <propertyInstance
+                  Id="594d882f-a9f9-43fa-9774-2eb94ee9a464"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc59dd8c-9ea5-44b7-ab05-b0674699e97c">
+                <propertyInstance
+                  Id="21342a76-abd7-4ed2-84bc-9c0d5c629590"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6794c6f-fbfa-4b30-bc54-ac8b82e42b53">
+                <propertyInstance
+                  Id="0cebc42e-9847-443d-9ba8-7b540c6bb4ad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b6db8ed5-aada-47f3-b001-3578a025dc30"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+              LastKnownName="Human"
+              LastKnownLocation="Package_1635.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a229f360-75c9-4919-9b10-5f9605f84938"
+            name="Ukrainian"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6c01d925-f622-42e8-a0a3-7097cd684a2a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DUkrainian Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7dbe15e4-3d36-4f5e-8365-0815709bd7e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bb27427-edad-4907-8173-77a6bf6d4d25">
+                    <propertyInstance
+                      Id="2f57b2f6-022d-43b3-8984-89f3cd6ba3ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c7d9f25-58ee-48e9-a041-798298343f3f">
+                    <propertyInstance
+                      Id="305f5759-dfe3-4dc5-b85b-0afebf62a1fc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dcf9fdf-b5be-4558-98e4-2f2673242cdc">
+                    <propertyInstance
+                      Id="bd68296d-d135-4642-91d7-0a2424e56f77"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd9b7bcd-ae09-49f5-99cb-72aa6bf4d657">
+                    <propertyInstance
+                      Id="c36cbc21-dcf5-4e61-ba8e-ac8e35786fce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96983897-931a-4a7f-9054-e1706b91e4bc">
+                    <propertyInstance
+                      Id="bc2a5082-bed4-4d9c-a826-313fbd2134df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aace1371-4cf5-4fda-b11b-f21bb8718125">
+                    <propertyInstance
+                      Id="80b51a96-5f0a-44c1-bf96-2948f98e6497"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9040575b-f506-49ba-9600-97c08fca567a"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f191dae1-9c32-4dde-861b-eba3ec099921"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DUkrainian Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c5ac819e-9f2f-4ccb-9aaf-7794e063193e"
+            name="GetInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6f844e76-e759-4e73-b72b-2c092967c6bd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DUkrainian Member%3DGetInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a73f216-a6f0-4c1d-a457-7c93cd8ace9f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb719b2c-1081-42d9-a532-1edfcad649cc">
+                    <propertyInstance
+                      Id="3ce2b50b-64b9-4147-896a-a983197306c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="924ac6a5-e2be-442f-8530-e32e739f3b2d">
+                    <propertyInstance
+                      Id="32c9d43c-496c-41a6-8f9b-e77bd2b47fbc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="102ff16a-5d27-49ec-9587-a3e89ec68a97">
+                    <propertyInstance
+                      Id="1c942a58-680b-4c60-b96a-9f14cf1761af"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b949054e-52d0-437e-bd3e-cde4c4789e8c">
+                    <propertyInstance
+                      Id="6e91c20b-b0fc-4d82-bb41-e1ad1f77c951"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f1445af-2d0d-4cf9-9ae1-6fc1c093c512">
+                    <propertyInstance
+                      Id="fafa81bd-19ce-4ce5-bd21-5a796610fc5b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="572aa626-3411-4e2a-b35c-b66ae26b354c">
+                    <propertyInstance
+                      Id="5bead19d-2488-4e2f-a675-edcfd1346609"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e027db11-ad6e-47c2-a5df-3197f0862707"
+        name="WorkHumanDecorator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b15a4c68-cb12-4a6a-a6ca-6b33b7069649"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DWorkHumanDecorator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="31066d96-6098-45d4-bc24-0e9b1119ed40"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c9b1946-dd7e-48ee-9df2-f15fddbede16">
+                <propertyInstance
+                  Id="5eeba7fd-3ca2-4761-bad4-f92cf042d9af"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f94353f3-f607-4dc9-a06b-42242b811662">
+                <propertyInstance
+                  Id="473cd7ac-f767-448e-9404-cb49e120835c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="420d5918-4ecb-4cc9-8ae5-4269d6dd3c47">
+                <propertyInstance
+                  Id="d2ebfd59-103b-442e-b07f-2c86b926f985"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e255ba5e-eec5-4e1c-ae4b-ed153920ad23">
+                <propertyInstance
+                  Id="b8d281e5-8142-46c4-a5b6-31f2beb92cd6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb98fbfb-2823-4556-b498-222df31d9e0b">
+                <propertyInstance
+                  Id="97be8c68-d810-43ae-b059-cbebd7619d79"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="70ad2e8a-6d25-4ea7-9186-401560ebe9c2"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a8a59d4d-758c-4167-9c0f-bd050cb5c69a"
+              LastKnownName="HumanDecorator"
+              LastKnownLocation="Package_1635.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="cea6b3e2-d5cb-47a2-bc9d-e3f21c4a3f49"
+            name="WorkHumanDecorator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="746adfd1-8db7-4224-b467-772c3af7ba00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DWorkHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="98392501-2854-4441-b563-b9b43f2b9fe4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ae35fbd-a397-450a-afa2-f13cf8d92f29">
+                    <propertyInstance
+                      Id="1758f1d0-a8c0-4bb2-a057-bada1f79b63c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06c5118c-7c41-4490-a6fd-36005a62ceed">
+                    <propertyInstance
+                      Id="a32bf740-843c-4230-b743-7d162dcb484e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f497ba2f-f175-42b9-8e09-58b80dba5cee">
+                    <propertyInstance
+                      Id="65a46657-607f-4c1b-a3ea-493f47d0db62"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e5b5993-589f-473e-86ef-332dd1e2add5">
+                    <propertyInstance
+                      Id="66b0cf8b-3d27-4d81-aa41-c5327790ad9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c294c03-b9ff-440c-8f42-db3f418d095e">
+                    <propertyInstance
+                      Id="ab47defa-4b01-4422-ae0d-29800cb97f70"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f35576a-5b46-400f-864a-c93df17611d9">
+                    <propertyInstance
+                      Id="1f089ac7-352d-402c-81d5-28d14f5bd43e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bafc0a15-d27a-4b4c-a77f-50d85fae4dbc"
+                  name="human"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5f209ec3-c0f3-41fa-a74d-59dc4bafe7a9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DWorkHumanDecorator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DHuman)]) ParameterIdentifier%3Dhuman"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f0b34e10-ed0a-444e-ae23-747e5e5a2511"
+                      LastKnownName="Human"
+                      LastKnownLocation="Package_1635.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0da6254d-7380-4dbb-800b-b90763e67403"
+            name="GetInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="232f0b80-7927-441c-a70b-8d32b792ca88"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FDecorator%2Fbin%2FRelease%2FDecorator.exe Namespace%3DDecorator Type%3DWorkHumanDecorator Member%3DGetInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fdb0475d-fba2-487a-96c0-86ccc3fdb24a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="515985c4-661b-48c4-b367-fbfbe465ab23">
+                    <propertyInstance
+                      Id="dd2f2830-def2-4b6e-a2c6-ee927e21e307"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48551da0-8942-4e2e-bd05-1a1f3f9bb57f">
+                    <propertyInstance
+                      Id="6d6078cd-a835-4a00-b0a9-6eebe004c121"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f06711a-4370-4689-9127-1004374f286f">
+                    <propertyInstance
+                      Id="7fb10a66-f372-4ae4-9665-3b72cb2eac7b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8204b971-b898-4bb8-ac6d-708d3557e1b2">
+                    <propertyInstance
+                      Id="8a3a9774-82ec-4c50-87c6-12a38f078486"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2878d26-040b-415d-944d-72c2c9201128">
+                    <propertyInstance
+                      Id="c02dd5a0-cac6-47ea-bed6-7446efa5f7b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9668ca5a-ea9a-42d8-a049-0b458aa4f31b">
+                    <propertyInstance
+                      Id="54612886-853a-45f1-aeaa-52eb3ae15e00"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

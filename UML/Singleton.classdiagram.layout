@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Singleton">
+  <logicalClassDesignerModelMoniker Id="1dcc3e08-11e8-4d33-9f2a-d81114b6e9e8" />
+  <nestedChildShapes>
+    <classShape Id="91b5561a-887a-4523-b1f8-24cc2dd118c2" absoluteBounds="0.625, 0.875, 1.75, 1.6683043545484542" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="9e05affe-e058-4546-97de-e67e0247c344" LastKnownName="Singleton" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="115615e2-11a8-47fc-965e-c8f663747311" absoluteBounds="0.64, 1.3903356393178306, 1.7200000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="13978092-c7f0-475e-a189-d80857a97da0" absoluteBounds="0.64, 1.7616637519001961, 1.7200000000000002, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3c849aed-6482-48cd-9437-1774a0a935a8" absoluteBounds="6, 0.875, 2.625, 1.8284605995814007" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="f4c579d8-cc26-4dfd-8674-0a46023ac1a7" LastKnownName="ThreadSafeSingleton" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="23d21295-39c8-4d74-bdf2-74e4ea097068" absoluteBounds="6.015, 1.3903356393178306, 2.5949999999999998, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="84f54b0f-a681-4a0d-ba81-0a3e4e6c16bc" absoluteBounds="6.015, 1.9218199969331424, 2.5949999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

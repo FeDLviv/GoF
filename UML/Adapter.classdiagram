@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="6791e49f-4074-411c-9d17-d7315da6ca45" name="Adapter" linkedPackageId="d662760c-cf1b-439b-8495-e0805dd6e09c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="d0e89331-d676-4ddc-86a0-afc9c2ea813c">
+      <elementDefinition Id="e74f9184-ed47-42ea-aef0-b4c063ce258b" />
+      <body>public void GiveMoney()
+{
+   card.GiveCash();
+}</body>
+      <annotatedElements>
+        <classMoniker Id="7ec381d0-5556-48c7-acab-054845309a2b" LastKnownName="ATMAdapter" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7ec381d0-5556-48c7-acab-054845309a2b" name="ATMAdapter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="4f371d71-f8b1-4eef-98ed-78cc2e5880e0" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DATMAdapter" tag="ViewCode">
+            <elementDefinition Id="5055196f-9594-4ae3-9ca5-c5a3c98fc16c" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="aa61bc4e-77a9-453f-83b3-4b938bcea3bf" name="class" profile="CSharpProfile">
+            <elementDefinition Id="54cc2290-2caf-4313-9c2e-648f9beb4f89" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3751fcf7-7ab4-4946-b801-69f9e805e961">
+                <propertyInstance Id="cb3b9d57-a9cd-4359-80a0-818ed2216fcd" name="ClrAttributes">
+                  <elementDefinition Id="c97323e0-d0b5-4a8a-b0cb-44f42abba531" />
+                </propertyInstance>
+                <elementDefinition Id="8902e23c-f9ba-4d16-bc4b-22592e1c7102" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="73d2e49c-3ca3-46dd-ae74-3af611e0ceb4">
+                <propertyInstance Id="864cc0b5-1874-4082-ad7b-b0874c5bbe52" name="IsPartial" value="false">
+                  <elementDefinition Id="6abb0ca1-ae63-4094-864d-1a4b12ee045f" />
+                </propertyInstance>
+                <elementDefinition Id="6691457f-ae85-4160-b662-47eeb6e05aff" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="332b5ea1-c9ef-4d6a-bd10-319606e2dda3">
+                <propertyInstance Id="ff86be1c-4cb9-491b-8c51-74180982e90d" name="IsStatic" value="False">
+                  <elementDefinition Id="18346dbf-823e-49ad-ab10-881b3cad2a60" />
+                </propertyInstance>
+                <elementDefinition Id="90a4b3d0-c7aa-46c7-8f74-0cc17f5d9381" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9c92b003-9846-43f5-b754-a19cba12ac39">
+                <propertyInstance Id="ece27bc8-f25a-4c5a-9b88-462ccb016370" name="IsUnsafe" value="false">
+                  <elementDefinition Id="bb1d4dc6-1961-4b9a-9af9-30c26fe38e90" />
+                </propertyInstance>
+                <elementDefinition Id="a1fede91-fdf2-42e5-8f0b-19861b13559b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5c6fe091-ca78-445b-8ca4-9c82198f24c9">
+                <propertyInstance Id="401c2c7b-a3f3-4094-be37-8a7f946d2310" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="86b7cc51-1b07-4d67-af1d-0ac31d29eb6a" />
+                </propertyInstance>
+                <elementDefinition Id="dc5dfee1-a7b6-4143-83ae-80ebb216380f" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="252eb9c9-b738-4602-8a51-80e887f4b4c0" />
+        <suppliersInternal>
+          <interfaceRealization Id="7a32e1b7-ea69-4f8f-83a7-e6ab72076523">
+            <interfaceMoniker Id="5b1b2a32-3add-42ad-97c3-68edf5eb921c" LastKnownName="Money" />
+            <elementDefinition Id="b6fa36c9-79fb-41fc-83a9-596733328ba4" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="8e75b3d7-671e-4302-a5c3-622d0ecb3122" isDerived="false" sourceEndRoleName="ATMAdapter" targetEndRoleName="CreditCard" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b5677b78-70db-459c-bc02-bfd2401bcd66" LastKnownName="CreditCard" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bb3cd6bf-fde6-4c61-a804-18ce5aecb332" name="ATMAdapter" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="df8980f5-8766-4407-a9d3-43b3f920e4d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76549fa0-d2b6-474d-86a5-6454446b9ab7" name="CreditCard" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="62e0a04e-c72d-4167-a640-bb9512380e42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3075759d-7b69-46e3-a866-d0bed148cb8d" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="0033a099-8516-4d3d-af2c-f6534c44c09f" name="card" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="edb3874b-3b18-4d61-842f-0fffdd7bef8c" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DATMAdapter Member%3Dcard" tag="ViewCode">
+                <elementDefinition Id="6fbd0c25-e5f1-4581-a785-e41b6adf6858" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b7bd604e-252a-4c13-b758-c6872478900f" name="field" profile="CSharpProfile">
+                <elementDefinition Id="fa04e59a-d507-4302-add0-9f818a44954c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="14b5964d-0c74-4498-9693-3b75bdca38a5">
+                    <propertyInstance Id="910776e2-02b9-4ef4-9f0c-fc53bd5ccab0" name="ClrAttributes">
+                      <elementDefinition Id="a8ea7aa5-8e86-47a6-9171-e604bafec94f" />
+                    </propertyInstance>
+                    <elementDefinition Id="0fa501c0-7d61-4fd7-8556-a89ee0bbe173" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fa53b454-8474-47a6-aea2-c0f08438847f">
+                    <propertyInstance Id="09cc23f9-a14c-48a4-bdf2-576f332ce078" name="IsConst" value="false">
+                      <elementDefinition Id="44f67086-eaa9-4eb0-992f-09fa8266c70c" />
+                    </propertyInstance>
+                    <elementDefinition Id="fffd4b71-b942-41db-9efe-b544e8b58e08" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8c800828-3c0c-44c2-898e-31b2a5232690">
+                    <propertyInstance Id="7a74aa9c-405d-4648-a04c-f619ae4ca4f3" name="IsNullable" value="false">
+                      <elementDefinition Id="c4672d5d-bcd9-410b-b06d-3c7c99b315c9" />
+                    </propertyInstance>
+                    <elementDefinition Id="f78fb14a-65da-4d51-8a65-f9851f47836a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="41987097-dc22-44d7-bab7-690bc06f9894">
+                    <propertyInstance Id="f2ad47e1-aeda-469b-9a6e-e176ffb48e7d" name="IsVolatile" value="false">
+                      <elementDefinition Id="ae54aaba-9226-40a6-acec-9b5ff9f3c651" />
+                    </propertyInstance>
+                    <elementDefinition Id="569b41cc-dd30-47c1-8d8a-ae098a90fe53" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3c3a6fb8-9f2b-481c-9bae-6f02e34e0122">
+                    <propertyInstance Id="23b3cfc7-2741-4899-ae18-a7639ea1d008" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1b3bf469-c1c7-4f37-a03d-74a95550fefc" />
+                    </propertyInstance>
+                    <elementDefinition Id="97028ff7-aecd-4f17-83d6-2d2c5f37ac16" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a6227a0b-afab-45c4-81ec-829c8941b960" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6698b521-f250-4867-a5d5-976fb14c44b7" LastKnownName="CreditCard" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6b7803d6-70a4-4873-bc3d-e55623349033" name="ATMAdapter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fd4d937d-a37f-43bb-a7bb-1f82a6432737" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DATMAdapter Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DCreditCard)])" tag="ViewCode">
+                <elementDefinition Id="cd50b9b6-1159-4a05-aa70-077006ac5d50" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="74cae570-e624-43d8-a43d-febe86d0c6ac" name="method" profile="CSharpProfile">
+                <elementDefinition Id="14054d33-54e7-4311-a2f0-8bcd95d98ba2" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bebddb35-ce0d-4fdd-80d7-3d013cc1c8ef">
+                    <propertyInstance Id="228f96a4-4d06-4491-a74a-0b75ac71b5ff" name="ClrAttributes">
+                      <elementDefinition Id="7d72298f-e9bb-4441-ac32-e038ef491641" />
+                    </propertyInstance>
+                    <elementDefinition Id="1edcc2cd-1912-4cdf-ab0f-9661b879e418" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ba99cc9c-bf8e-4095-9239-33d77a01ebe3">
+                    <propertyInstance Id="7b0f78fb-b527-45f7-8825-0e10ac6c18c8" name="IsPartial" value="false">
+                      <elementDefinition Id="bd6afc00-2cb9-4a30-8045-f1d417583ea2" />
+                    </propertyInstance>
+                    <elementDefinition Id="57a8b16f-c9ca-4475-a589-e410eae28e69" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="70c9dd55-2ee1-471f-ae60-594d6a7e0338">
+                    <propertyInstance Id="9065765b-123b-405d-8371-6b19c5bd185b" name="IsUnsafe" value="false">
+                      <elementDefinition Id="36151555-29a1-4a90-bf65-960a6cfdcb37" />
+                    </propertyInstance>
+                    <elementDefinition Id="55e6bac0-d7b7-4baa-ba61-8ff1dec1bb1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="42270fa0-5802-4b35-8278-9155416685a6">
+                    <propertyInstance Id="46dc9a1e-a4e9-4f41-a774-8a7503778427" name="Inheritance" value="none">
+                      <elementDefinition Id="e3724a8f-5bab-465b-ab6a-3969e00f0a11" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ca6947f-b1c0-4aed-b099-dc096a4327fe" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="14a01252-d2c8-4375-8ddd-1182e3586e92">
+                    <propertyInstance Id="a4ca7b52-2093-4261-b2cc-9199e81cdcbb" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1163dd9b-8188-4eb3-8b12-73419fe65e5f" />
+                    </propertyInstance>
+                    <elementDefinition Id="a1efdfe9-93f6-47f4-ad5b-85abec19bbbc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="65d2a454-87d1-4611-85e1-3af9ca775602">
+                    <propertyInstance Id="80cde286-fa20-4d53-af00-c05de3eedaa2" name="params" value="false">
+                      <elementDefinition Id="e4df9cfb-6077-4b9e-ae5c-1bedfdde6bf1" />
+                    </propertyInstance>
+                    <elementDefinition Id="003b6de8-e9ee-46cf-b1d2-338cab45253d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="600434c2-fb2d-4210-b8f8-9d122ae6a656" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="310d111f-c3ac-4ec4-b5bf-e0e5c04ac35a" name="card" direction="In">
+                  <referencesInternal>
+                    <reference Id="108dfc5e-6f90-4c9b-a20b-aa047ba3906c" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DATMAdapter Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DCreditCard)]) ParameterIdentifier%3Dcard" tag="ViewCode">
+                      <elementDefinition Id="18b0cd5c-aa93-4b47-bd5a-384b8b82bb04" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ac90a58f-64d7-4560-ad6a-802aaabdad36" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6698b521-f250-4867-a5d5-976fb14c44b7" LastKnownName="CreditCard" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1eaabe0a-5b80-4111-869e-61c53b83ea40" name="GiveMoney" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3f4dd598-fa80-4bc0-9ea5-031c81a012a9" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DATMAdapter Member%3DGiveMoney" tag="ViewCode">
+                <elementDefinition Id="1382e29e-36e3-4564-87aa-2620b27d3b7b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="70105ea1-0853-4b80-bb13-cf89fc94717b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="e144896e-27d8-4cdb-972b-6bddb903353e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="07393318-7b12-4095-8043-80449006bf77">
+                    <propertyInstance Id="04ceedcd-dd58-4ceb-a640-1e421423b6b1" name="ClrAttributes">
+                      <elementDefinition Id="178da92a-e312-46b6-afd7-93f6b1c24022" />
+                    </propertyInstance>
+                    <elementDefinition Id="d72e9af1-5738-4e42-8d56-0cd093d2beaa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fcedc053-c20d-4fd3-95e6-63ebc7b102b0">
+                    <propertyInstance Id="c2783cb9-2382-417e-8922-c53a1a343ba0" name="IsPartial" value="false">
+                      <elementDefinition Id="62565a98-49cb-48d5-a954-9a3332344e23" />
+                    </propertyInstance>
+                    <elementDefinition Id="54e81e51-653a-47e4-ab07-8633202bcf27" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="87d47eb2-b947-4076-ac39-ca9301dd2459">
+                    <propertyInstance Id="a48179ca-eb4a-4c9c-928a-6ff653e643e3" name="IsUnsafe" value="false">
+                      <elementDefinition Id="fa77e9e1-6d9a-490d-9b59-61af6032dd3c" />
+                    </propertyInstance>
+                    <elementDefinition Id="ec2cd0eb-256f-459e-99dc-081868c608d3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9ccb210c-f246-4a5c-88a9-71914cae9de3">
+                    <propertyInstance Id="e0df2705-d9fe-4377-bd47-614e5d4392de" name="Inheritance" value="none">
+                      <elementDefinition Id="bca44b5e-dbee-486f-b0be-cd6ffb5f8571" />
+                    </propertyInstance>
+                    <elementDefinition Id="fe9e7438-b466-4614-a12e-fd6c2bcf7eca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22f1aafe-fb09-4487-ba71-a7236713f07d">
+                    <propertyInstance Id="0ebf3440-fa9b-4298-961d-fde830162493" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ff2c5bb1-a141-447e-b06f-4c0dc04c6e7f" />
+                    </propertyInstance>
+                    <elementDefinition Id="8409ae73-226e-48c1-9374-1c41dff0c7da" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="17d3f057-2a0a-4c25-8267-22572159df5f">
+                    <propertyInstance Id="e78ba6cb-ce1e-4fcd-b952-d73ab63c2878" name="params" value="false">
+                      <elementDefinition Id="988e0d78-101c-401f-b6e6-c9a2fb8ae6ee" />
+                    </propertyInstance>
+                    <elementDefinition Id="2f5c2f34-2031-4739-abab-ba3b12fd2810" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5b1667f7-bcb6-4718-9fa2-965b42779f80" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="6698b521-f250-4867-a5d5-976fb14c44b7" name="CreditCard" isAbstract="false" isLeaf="false" cachedFullName="UML::Adapter::CreditCard">
+        <elementDefinition Id="e12dedbf-dcab-4790-bdf5-556dce3ce4a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5677b78-70db-459c-bc02-bfd2401bcd66" name="CreditCard" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="fbfac2bb-d6e1-4944-a86f-f7861f8e4f6f" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DCreditCard" tag="ViewCode">
+            <elementDefinition Id="87e2ba59-aea9-4088-91e3-0082aec515d1" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="8b67ea4d-eed6-40b8-aefe-2ef2b2ee30cb" name="class" profile="CSharpProfile">
+            <elementDefinition Id="44890493-1620-4c87-a1cb-267e60212fd3" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a5984f4e-ddf2-4b64-a1e9-2f0e4730be16">
+                <propertyInstance Id="e8f04f3b-4e9d-4de7-b803-629402411f10" name="ClrAttributes">
+                  <elementDefinition Id="3d3d4156-af03-418f-b58d-edf9c0e1a416" />
+                </propertyInstance>
+                <elementDefinition Id="41e87286-1355-4bd1-bce1-0e650e00751f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d678bf96-8735-46e0-bd99-fa200af2d163">
+                <propertyInstance Id="cd946a60-22d7-4ec9-a376-18bb233025c6" name="IsPartial" value="false">
+                  <elementDefinition Id="02ecfa6b-775d-4180-9136-e9746b906054" />
+                </propertyInstance>
+                <elementDefinition Id="cb6377af-923a-4780-a4c7-47c47cf30e2b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e6cc1aad-ff70-4602-a751-956ea109f15e">
+                <propertyInstance Id="7778129c-bd90-4046-adeb-b192afffccd1" name="IsStatic" value="False">
+                  <elementDefinition Id="199075e6-2050-4f72-9b3e-2d2d81b2a084" />
+                </propertyInstance>
+                <elementDefinition Id="63772597-90f8-417a-b92d-a4d8794f3fd9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="599668ca-fdf8-4d9f-ac04-db71f1014cbd">
+                <propertyInstance Id="6c3c3aba-87d4-4e2a-a649-3c4abb0648ff" name="IsUnsafe" value="false">
+                  <elementDefinition Id="5c0eb93f-2bdf-48f4-80b5-c35a62f68e62" />
+                </propertyInstance>
+                <elementDefinition Id="911de435-7b0d-432a-8b25-8c2e161f4118" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="50ef7120-fc2a-4e8f-a5bd-92a1ac51c355">
+                <propertyInstance Id="8e7db60a-1630-49b7-acf8-bb4d47fcae00" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="f69708dd-35f9-4abe-b013-a0f80f906a1d" />
+                </propertyInstance>
+                <elementDefinition Id="1594f495-e244-40f5-8c98-e228d73031a4" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="e12dedbf-dcab-4790-bdf5-556dce3ce4a4" />
+        <ownedOperationsInternal>
+          <operation Id="9dbebb49-08d9-4b50-8f9f-f680d33ce224" name="GiveCash" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="d51393ca-59b6-4242-b948-7e77d7d3e928" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DCreditCard Member%3DGiveCash" tag="ViewCode">
+                <elementDefinition Id="350ec1b6-81b7-41a6-9e5c-5bf1aa439523" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="6fddc717-58d4-4cfb-b336-0e01a1158d6d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="83d89c77-585b-4b9e-b8e1-c51072a8eff4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cc4a9a11-da25-45e6-83bc-1dcb6d24e6b2">
+                    <propertyInstance Id="ba48862f-681a-47a5-b306-1c15cde71b79" name="ClrAttributes">
+                      <elementDefinition Id="c07bfc9c-95f5-47ff-8fbe-d8a342497ff3" />
+                    </propertyInstance>
+                    <elementDefinition Id="63d07073-4c85-479f-aeab-00466558bfca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b43cd3d7-b9b6-42af-bf72-1b7225a3beaf">
+                    <propertyInstance Id="8523ee1f-ed78-4627-90c5-4f2862405dee" name="IsPartial" value="false">
+                      <elementDefinition Id="4fbfba9c-c26e-475d-aa14-01aabf3d0abf" />
+                    </propertyInstance>
+                    <elementDefinition Id="f2350603-1cd5-4f8e-abd8-f9e0d6d3c1b2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68c0ce9b-b8fa-4727-84a0-4e7a78da9071">
+                    <propertyInstance Id="bed6e2cf-0341-407d-ad3b-5469d341e4d9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="85344849-b2a7-4aad-98e3-0e1646789e47" />
+                    </propertyInstance>
+                    <elementDefinition Id="3e4c3560-dd3a-44cf-8244-67dd2acedfbe" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a1687789-75c2-4e29-af88-cd9c68338827">
+                    <propertyInstance Id="80d7790c-2c62-4477-8de8-6e0741fbc9fb" name="Inheritance" value="none">
+                      <elementDefinition Id="2d677e00-831f-49a5-8879-36ed3d174b96" />
+                    </propertyInstance>
+                    <elementDefinition Id="fceee8c2-cc31-4088-bdc9-d82aeacf5cd0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="92cce720-b711-41fd-bb07-3ce12ba5a5ec">
+                    <propertyInstance Id="32cc741b-22db-4827-866b-374c987ef867" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7ee35a1b-f399-4531-bcbc-9cc622ae631f" />
+                    </propertyInstance>
+                    <elementDefinition Id="42dbc4ab-c84b-40fb-998c-a6991de220c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="71915d62-d49e-4144-9c38-af02230f9330">
+                    <propertyInstance Id="83e7654a-4d3c-4114-be9e-e23c524c0d76" name="params" value="false">
+                      <elementDefinition Id="89ff3385-3d40-4c64-b6b8-ed14a2b1dd28" />
+                    </propertyInstance>
+                    <elementDefinition Id="5f31dca4-fe79-4eb7-9bcd-966e8387af5b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5cbfda36-ec2c-4ab6-8282-47ddd546c329" />
+          </operation>
+          <operation Id="946ddaee-1b4b-4072-b80e-2a174ee3792d" name="CreditCard" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c6a4b2b7-e4eb-4ef2-b6f0-92e7a0c52953" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DCreditCard Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="3ffd03de-6819-4660-ab3a-ce022bae9282" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3abb7bd1-ee98-4b9e-ba28-48ceab4ad252" name="method" profile="CSharpProfile">
+                <elementDefinition Id="2b4ac6c8-9b77-4277-bf56-bcb16ae44245" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68b09e36-764e-496e-9e7b-3d13e21d22e8">
+                    <propertyInstance Id="724199f1-1ef4-45fe-b93e-0d6352161e2f" name="ClrAttributes">
+                      <elementDefinition Id="5dca7dd1-0801-4074-abb4-fbdbadf58714" />
+                    </propertyInstance>
+                    <elementDefinition Id="17e17e76-6d70-480f-994c-a2f378bf7f2f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="09a03577-ed16-4bf9-a867-027eda52935f">
+                    <propertyInstance Id="5b0cbe33-2b46-489f-b00f-f6c9d2c13339" name="IsPartial" value="false">
+                      <elementDefinition Id="bcd24d5a-5c2f-4123-b18b-6572b7ac271c" />
+                    </propertyInstance>
+                    <elementDefinition Id="93d0e890-ae93-42c9-b8c3-eca0795efc3a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="244c98e3-7de6-4db7-beae-e6a86396fcc9">
+                    <propertyInstance Id="46a7455e-a855-4aeb-a808-c42d604b1ab2" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b4de19e1-f40d-4783-91eb-ad0979260d03" />
+                    </propertyInstance>
+                    <elementDefinition Id="4d81a014-d24e-46af-81f5-c7439b709b72" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5e533f13-d987-46b8-a143-bf55dfa36ae3">
+                    <propertyInstance Id="54e6336e-101e-4b2f-9e29-dd7abd269fbd" name="Inheritance" value="none">
+                      <elementDefinition Id="d775d7a7-5600-460b-a375-d8ecf6386469" />
+                    </propertyInstance>
+                    <elementDefinition Id="f6acef76-9cd9-46d1-9f81-3a58f4007b2f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="91a85f69-7c90-47bc-9bb2-f23a7d54709a">
+                    <propertyInstance Id="d839eadd-02bb-423f-8ac8-417adca51dba" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="aecd19b9-0978-466b-bcc0-acf1049b6dae" />
+                    </propertyInstance>
+                    <elementDefinition Id="d357ad24-a003-4392-a1bb-21de2b5d9713" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="45e95dfa-0dc8-4ef3-8686-449ee3c4d087">
+                    <propertyInstance Id="f86a6a04-4745-41e6-afbc-052b0bba318d" name="params" value="false">
+                      <elementDefinition Id="a4ceeb27-0011-4453-9cb9-e39f0103c252" />
+                    </propertyInstance>
+                    <elementDefinition Id="523be7cb-ea15-4ca4-bc00-35060a30f537" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="7c2e0f69-2d95-4c81-a08c-3614276da614" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="5b1b2a32-3add-42ad-97c3-68edf5eb921c" name="Money" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="22a385e9-fb54-40b2-a15a-de0da565b7e8" handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DMoney" tag="ViewCode">
+            <elementDefinition Id="d8b21b63-9e19-497e-b078-fffeb756267d" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e5c3cf60-ee3c-4f7c-ac6c-3f546127424a" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="7175d746-8599-48d0-9a2a-2fb3477e2468" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a5f61f7d-2bf1-44d0-82cc-c4f0784a21e0">
+                <propertyInstance Id="5e242cd3-0284-4ebb-8323-042d58f40934" name="ClrAttributes">
+                  <elementDefinition Id="070f97a4-5ca5-4cc0-81ea-fbe506051a10" />
+                </propertyInstance>
+                <elementDefinition Id="6c99e641-f8f2-44aa-9fb7-ef2235ebb471" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="7c2af33a-f067-462f-8270-94383c4d3a70">
+                <propertyInstance Id="ffec66cf-99fe-4963-b68b-756dee41922a" name="IsPartial" value="false">
+                  <elementDefinition Id="0c95be66-8395-4bff-b814-68e3ca54d87a" />
+                </propertyInstance>
+                <elementDefinition Id="c0289b38-d1fb-44e0-8158-14d49c453753" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="29905806-6688-4d9d-a32c-67bb3483ee54">
+                <propertyInstance Id="f404fc13-cccd-4133-8fa1-c096e81683b7" name="IsUnsafe" value="false">
+                  <elementDefinition Id="4a0a1b08-82a8-467b-9fe0-bb3eb6222051" />
+                </propertyInstance>
+                <elementDefinition Id="f3c62ab8-3aab-43fc-9f6d-5a56c9a19ce0" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="26e695ab-ceda-4562-b267-e0f9d4e8e3fb">
+                <propertyInstance Id="f5366b3a-8d08-4511-be36-0b867cbf3bc5" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="3bb9c3c8-05b7-46ff-980b-bff086d27b12" />
+                </propertyInstance>
+                <elementDefinition Id="63e47aa8-7b4f-4e14-aa84-8270c2d1ee4d" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="97f4e281-dc74-4946-8c1c-3e7d4a910935" />
+        <ownedOperations>
+          <operation Id="6a08a017-1636-4077-965e-ab79aa8deee8" name="GiveMoney" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e007f6c7-7573-43c1-b00a-0e769fdaa9e4" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAdapter%2Fbin%2FRelease%2FAdapter.exe Namespace%3DAdapter Type%3DMoney Member%3DGiveMoney" tag="ViewCode">
+                <elementDefinition Id="e1725ad0-e308-4c09-86f4-0ad4e10d357b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b768a80d-38eb-4048-8a3c-5ac38d484fd0" name="method" profile="CSharpProfile">
+                <elementDefinition Id="930f84c0-bc59-49ec-992a-8ba310f16440" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="185e72cf-00a5-4786-92d7-82704a4e9b25">
+                    <propertyInstance Id="e74d40ee-bbe7-4907-aa7e-4a778c9dc57a" name="ClrAttributes">
+                      <elementDefinition Id="ba9e5aa1-819f-439e-8084-4fb7264b1631" />
+                    </propertyInstance>
+                    <elementDefinition Id="8075d106-7e64-4977-94fc-13b28f2345ea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="577e231c-4021-4650-9b1d-d02a3a5d0b96">
+                    <propertyInstance Id="7ef598d2-1506-4e0c-bce0-94ccd3b27fd9" name="IsPartial" value="false">
+                      <elementDefinition Id="36ba5d60-1b6b-41e5-9762-3e6badb2d5bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="bb013f26-fba2-4150-9ea8-8a85c490e9b3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b6cd8480-3acd-4815-960f-08f904682dae">
+                    <propertyInstance Id="822b7d16-b537-4a38-a737-e739233974b9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c7639137-d12d-4fec-b69f-82395a7f055c" />
+                    </propertyInstance>
+                    <elementDefinition Id="a1360c83-c3d2-4fc4-81a0-dab96f9c525c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c4ef475-ec1d-4110-9eb1-426ae9d05f88">
+                    <propertyInstance Id="e91b80d1-802d-4102-a114-c773b1abcfc5" name="Inheritance" value="none">
+                      <elementDefinition Id="824d9ad9-c251-4b36-aac9-99e693513a67" />
+                    </propertyInstance>
+                    <elementDefinition Id="76b7ae11-a6f6-4ccb-b8d0-5d182f9d83f0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ca46ce76-d32b-4683-b733-d2528f076332">
+                    <propertyInstance Id="8ca8cf41-79b0-4dd7-a9a8-a7a002f7d89f" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="9e3f9cc1-773d-4681-9f5e-2216ff0201fa" />
+                    </propertyInstance>
+                    <elementDefinition Id="4e9a52af-c4f7-4c71-abdc-28fdfd3bd0c5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="54439e44-682d-4f63-a5df-b137d5b343af">
+                    <propertyInstance Id="22e2cafe-9236-45ef-b1b0-5f1a2e81f57f" name="params" value="false">
+                      <elementDefinition Id="89de4fd7-40ad-4259-b4c2-efcc353db63a" />
+                    </propertyInstance>
+                    <elementDefinition Id="00131770-4521-4247-a354-09bf73f025c0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="44a346ec-20bb-49d0-9732-d15261308a6d" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="d662760c-cf1b-439b-8495-e0805dd6e09c" name="UML">
+    <elementDefinition Id="930c238e-7146-45db-83b6-3d82d781dc88" />
+    <profileInstances>
+      <packageHasProfileInstances Id="867d71b0-3d9f-40f7-b647-c4499f798b57">
+        <profileInstance Id="1ca59f60-a781-4547-b653-135bc379ccb5" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="23bdf598-93b5-450f-a1bf-1307f5887b78">
+        <profileInstance Id="4b1c5ac3-095a-427d-98ac-71b48c31d224" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b43c755f-1365-412e-b0a9-132ce2100565">
+        <profileInstance Id="c411d1c2-224b-4f4d-a86e-9cb7b13786a4" name="CSharpProfile">
+          <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
+        </profileInstance>
+        <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

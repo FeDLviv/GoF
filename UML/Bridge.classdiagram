@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="96792f19-4744-4fbf-8dd7-d77548df5df1" name="Bridge" linkedPackageId="971a10da-ee94-4613-9b75-3bcf5973f76b" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6e8e0854-f995-45ea-ba5a-2a74c60b7b2b">
+      <profileInstance Id="ff75d08d-2960-4223-b6dc-a1062b403ece" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="81bfc350-3797-4eed-b6e2-d1881efe4483">
+      <profileInstance Id="cf0e268e-005a-4e00-b68c-3d0d4a70bd8c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="99db8373-3f2c-412e-914a-4d69c2a4b218">
+      <profileInstance Id="de62cc2f-2599-4a07-83fb-505dd442c46b" name="CSharpProfile">
+        <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
+      </profileInstance>
+      <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="76d3c315-65f2-4c68-b072-4a28d45b216e" name="AircraftGun" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="500d9422-906b-450e-bdfa-2987927b49a0" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DAircraftGun" tag="ViewCode">
+            <elementDefinition Id="0776e5fc-099b-48f8-b4ca-88f583eaabe1" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e522e04e-8a86-4091-947b-2d1c68615ba6" name="class" profile="CSharpProfile">
+            <elementDefinition Id="0440c776-9232-414f-8f23-572e1fad794c" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="803b1a86-fc20-4a57-a6f3-5b65074e9e5e">
+                <propertyInstance Id="bef81493-319f-434b-b5ec-5b5db8f241ad" name="ClrAttributes">
+                  <elementDefinition Id="e538c104-587b-4e7a-a042-fb432d09b80e" />
+                </propertyInstance>
+                <elementDefinition Id="f33afa40-1db9-4bf6-9bb4-5ceab6be7df2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="695b54d4-3346-407c-9e88-7428cad4f9a8">
+                <propertyInstance Id="1c9dcc98-3e32-47df-b655-f39000ad10af" name="IsPartial" value="false">
+                  <elementDefinition Id="96fa0e55-5f73-447d-906a-508edd4f1037" />
+                </propertyInstance>
+                <elementDefinition Id="7af997a5-f6f4-4dcf-8f41-339557cb4a76" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="be516feb-fd29-400f-a6fe-329a09fd7303">
+                <propertyInstance Id="3c2f2e63-049e-4613-8a19-671a270ccad1" name="IsStatic" value="False">
+                  <elementDefinition Id="fe10aa35-e7a2-4a66-961e-900e2dba2c57" />
+                </propertyInstance>
+                <elementDefinition Id="e577a671-cdd5-4831-9862-5f2a9ec0369f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4b6206f9-7b6b-43fc-9cad-0310c310da65">
+                <propertyInstance Id="61f78d2b-8f43-413e-bcdf-9254512b9fca" name="IsUnsafe" value="false">
+                  <elementDefinition Id="b851cad5-9cdf-43d7-82be-108d0b3c2b0e" />
+                </propertyInstance>
+                <elementDefinition Id="6e25c327-d103-4d24-98ce-852bc5fe04f0" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="64bb99d7-c8e8-4a23-bf17-0b34aa43e5e0">
+                <propertyInstance Id="77eba5cd-a838-4c0c-9676-622cc5bb51a4" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="797174ad-c621-4db2-b55e-36e8128455ef" />
+                </propertyInstance>
+                <elementDefinition Id="e13b7440-16b5-49b3-aa84-f839decfb7e9" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="a81e6620-869a-4a58-9639-99fd0e277df3" />
+        <suppliersInternal>
+          <interfaceRealization Id="675e1125-d44a-47ac-bcaa-8d0aad7f5472">
+            <interfaceMoniker Id="9f057892-7968-4f48-8e0d-41aa1b76adfa" LastKnownName="GunImplementor" />
+            <elementDefinition Id="0e10aa0f-a584-4347-b08e-86162198ae65" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="15aebb10-41d2-4e59-b407-9a6a6433cf19" name="Info" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="d5b4ab36-fc81-40e8-8922-559daec03f98" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DAircraftGun Member%3DInfo" tag="ViewCode">
+                <elementDefinition Id="62262b2f-0649-49af-be66-700520fb495c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="00dd07eb-9441-4239-9bd7-8868771b52c1" name="method" profile="CSharpProfile">
+                <elementDefinition Id="d890f65f-eb8e-43d2-9f6e-87089e82df4c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c778eabd-5893-4f11-97ca-a14fcc62c065">
+                    <propertyInstance Id="d03a57da-9547-4ec5-bccc-e0f73a1a85bf" name="ClrAttributes">
+                      <elementDefinition Id="211bfb73-6262-468f-973b-59dca523b96f" />
+                    </propertyInstance>
+                    <elementDefinition Id="57d6a505-7ccc-4109-9a8d-ac09de3027b0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="462d75ef-102e-473a-94fc-b6f49858a7da">
+                    <propertyInstance Id="a6ad7391-c026-47f8-9d28-99b3d915d8a7" name="IsPartial" value="false">
+                      <elementDefinition Id="273d5bab-cdb1-47b3-9e47-749853fd4cc0" />
+                    </propertyInstance>
+                    <elementDefinition Id="cd3258d3-6634-4b08-bcbc-8e821a37c9d2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7d6ba51b-01e3-49e9-8751-61fac4f4e7f6">
+                    <propertyInstance Id="753ae804-9af6-4b11-bf9a-a68f8f46bd0c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ba70825e-51e1-4b3f-bbb8-521cff50954c" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e1b1db5-9a77-4d29-8ee9-c6bde28e9408" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="afe1f025-1b25-4b51-a376-9053dbe453e6">
+                    <propertyInstance Id="bb670d7b-710a-450e-acd0-0d0d4f8f00ec" name="Inheritance" value="none">
+                      <elementDefinition Id="773a9bfa-d671-4dd1-b772-396a1596d087" />
+                    </propertyInstance>
+                    <elementDefinition Id="1d2feb09-21d0-4753-9427-ea94d6f70e3e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9c3c6210-d627-4acc-8d23-e994dedd52b3">
+                    <propertyInstance Id="34eeef40-b8b4-4882-a8fb-e934b324b09a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e2c1d06a-5000-47fb-950f-2a0f5ba45ce8" />
+                    </propertyInstance>
+                    <elementDefinition Id="30804603-14e8-42bc-8dc6-0230e4003193" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7861d25e-d907-4618-bf86-fbad4933bf30">
+                    <propertyInstance Id="a0244dc7-cb21-44e0-a06e-23c126255490" name="params" value="false">
+                      <elementDefinition Id="5c2688d3-48e9-4a6e-96e4-0487c517f667" />
+                    </propertyInstance>
+                    <elementDefinition Id="d922c2aa-4434-48c8-8051-25a61a51f081" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b618f3c1-ef6a-4045-991a-7d85f45a96ed" />
+          </operation>
+          <operation Id="1895dbea-ab01-4467-9c69-bb018e83adc8" name="AircraftGun" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="0e0f9f46-d4b5-4ec6-8719-4d85317cc253" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DAircraftGun Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="eb114d3e-e67b-4f19-bbc4-2b93d65a7e0e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1ab5314e-74d5-4340-b4a3-cbec5b06a2b9" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b07231be-ad46-46e8-bbdf-9d133db2b4d6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="001f199c-324f-4706-9eab-8a385646aabe">
+                    <propertyInstance Id="84d91a62-4639-4ff5-bf04-ed47bf6476ff" name="ClrAttributes">
+                      <elementDefinition Id="fcaacc89-da29-4243-908c-2342ac6b1a69" />
+                    </propertyInstance>
+                    <elementDefinition Id="b67f8a50-f286-4cb9-9c41-188eb279696c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c28ae824-c2f5-4da2-a9a6-b624befab1c4">
+                    <propertyInstance Id="7da59c6b-ba4c-4c18-9f9e-d3fdaeaa4ced" name="IsPartial" value="false">
+                      <elementDefinition Id="cf4c6dea-9156-4b44-acef-f7f377ccce84" />
+                    </propertyInstance>
+                    <elementDefinition Id="6d11018d-539c-4dda-93f9-bc4ef862e015" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="854b3935-894c-4fe0-93f5-822bc66cda1b">
+                    <propertyInstance Id="5aacd659-7fe9-4ab3-b07d-9f45eea9a17b" name="IsUnsafe" value="false">
+                      <elementDefinition Id="84b30d7e-42dd-4270-809d-5be815ff4c71" />
+                    </propertyInstance>
+                    <elementDefinition Id="1a5cf74d-7814-42bf-9bfa-3e9b5d2b2671" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c1a3e420-c89f-4d04-bcd4-2a29f891f3b6">
+                    <propertyInstance Id="dd7abd53-7ec9-42c0-90bf-588f5a2b3b89" name="Inheritance" value="none">
+                      <elementDefinition Id="2675100d-b6cf-4829-a042-ed0ebede0912" />
+                    </propertyInstance>
+                    <elementDefinition Id="e18d0aee-db3c-4392-af20-76f599c482fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7bfa0570-f0b4-4f59-9633-04c354f3b234">
+                    <propertyInstance Id="be97bbeb-7e18-49c9-8aac-f25153ee013a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d5559211-5480-4365-bbdc-b0cd0164c9d2" />
+                    </propertyInstance>
+                    <elementDefinition Id="01c6b00a-6d30-4c87-941d-e10dbaa93f97" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8fc28458-c04c-405a-8494-677b4e7a4851">
+                    <propertyInstance Id="7e7fb781-da77-4af5-bec7-d82fce3df0a3" name="params" value="false">
+                      <elementDefinition Id="87a0fc4e-2790-48e9-bb92-123fc5c334c7" />
+                    </propertyInstance>
+                    <elementDefinition Id="38b9498f-3bc7-4c11-86b8-bbc60c6ae08c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="842fdd61-880c-4b75-a11b-32583eba34c9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b5b13fcd-7b1d-466e-a2db-8ad159e58e77" name="BestGun" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="31178d42-7614-4f40-a64b-19f580396c32" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DBestGun" tag="ViewCode">
+            <elementDefinition Id="5b87fd05-f3b7-4897-87f0-507878fbc8bc" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="6b16d2b8-8120-4487-b783-0c9465738522" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c3f110cc-5b72-4076-a0e9-135cdb090508" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3aa2285c-2c15-47ee-9b61-38560ecc775c">
+                <propertyInstance Id="c21f1334-81f3-4ca9-8707-8957533b9fc6" name="ClrAttributes">
+                  <elementDefinition Id="7e50a468-6ff1-4ee1-8eae-f4b611322ddb" />
+                </propertyInstance>
+                <elementDefinition Id="37a51619-ee63-4c7a-8cc3-1bae311b3108" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0badcfb9-2027-4afa-b8d8-0dce09034333">
+                <propertyInstance Id="18be2361-bff1-4838-b9bf-68c4be2c55ca" name="IsPartial" value="false">
+                  <elementDefinition Id="743fd18d-8f9b-4877-9d40-5dc376a90a9e" />
+                </propertyInstance>
+                <elementDefinition Id="4bbece5f-6410-48b6-991d-3a211f3149e2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="30b29268-b092-44b6-a0d4-27943a3971ee">
+                <propertyInstance Id="f778ff0b-3eff-4936-b8bd-a15f9b4e907a" name="IsStatic" value="False">
+                  <elementDefinition Id="f54c7d95-0b6a-4e64-810d-9099e2d18e1e" />
+                </propertyInstance>
+                <elementDefinition Id="44fa9b35-5220-4ae2-b5a6-5bd51843d0ed" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="20e026af-4b00-4237-97af-a0bb06fadc04">
+                <propertyInstance Id="ccc3f522-19fe-4120-a781-ca700eb99eeb" name="IsUnsafe" value="false">
+                  <elementDefinition Id="b0f87ace-bcf2-4207-891a-bd4dc2157f6c" />
+                </propertyInstance>
+                <elementDefinition Id="356a0533-e503-4f66-af28-a38b35458d2c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="eb2feb96-2cfa-4245-b1ed-ae3b748585b5">
+                <propertyInstance Id="9f7286b8-3b33-42d2-aef8-3bc32a765cd4" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="3c41b696-c3e3-4309-8fce-daead46f8c6e" />
+                </propertyInstance>
+                <elementDefinition Id="aa273f37-98cd-4fec-b9b9-9c7b0036d52c" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="b40ae0e8-2bde-44e1-b828-e2628d3b28b4" />
+        <suppliersInternal>
+          <interfaceRealization Id="98036d3e-806e-44f6-8614-a87855269c1e">
+            <interfaceMoniker Id="9f057892-7968-4f48-8e0d-41aa1b76adfa" LastKnownName="GunImplementor" />
+            <elementDefinition Id="cc54bccb-3b89-4ac7-8080-b1cf203e73d8" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="13bf98b6-4596-4207-ac86-97c404736b85" name="Info" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c87bb074-cf4a-476f-804c-983c798389f3" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DBestGun Member%3DInfo" tag="ViewCode">
+                <elementDefinition Id="35c49560-cad8-4846-9fe3-7d9a419c21dc" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4524a8f7-9821-4e32-879c-ad8a2bfffaed" name="method" profile="CSharpProfile">
+                <elementDefinition Id="93415b95-62eb-4338-9444-e43f5b1f4488" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5ae36d76-a0ae-4252-8091-b176e948b1ec">
+                    <propertyInstance Id="92fe948f-9d6e-467d-9ded-e932d2e4993e" name="ClrAttributes">
+                      <elementDefinition Id="1a594f7b-81c1-4594-9374-15f1c6453047" />
+                    </propertyInstance>
+                    <elementDefinition Id="36c022b2-76ed-4b8d-adec-e32918a38057" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bc0b91a2-6b50-4c0d-b5b4-b47dd9c9c89b">
+                    <propertyInstance Id="be7a9681-5b6e-40aa-b5c9-43f3380357d4" name="IsPartial" value="false">
+                      <elementDefinition Id="8f291359-d513-40c9-98c4-1cfa27fa05c8" />
+                    </propertyInstance>
+                    <elementDefinition Id="19ab2c50-21e8-4317-8205-963778fbe1ce" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c469d13f-32df-4ac8-9f99-02505fba153a">
+                    <propertyInstance Id="303b2da0-42f6-4f8e-ab8e-2be093e3cab3" name="IsUnsafe" value="false">
+                      <elementDefinition Id="639eee84-1dfd-4f9e-b3d3-6398a253705d" />
+                    </propertyInstance>
+                    <elementDefinition Id="a0dea930-0a73-4a10-97e5-002cf24450d1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e1c499d2-c872-474a-b144-157301684268">
+                    <propertyInstance Id="d7cb855d-a6f6-4c37-a329-627171a03864" name="Inheritance" value="none">
+                      <elementDefinition Id="e671435d-b04d-494d-ba03-02ba3266e488" />
+                    </propertyInstance>
+                    <elementDefinition Id="7faff378-7f24-4d42-bf5f-43dc15f42d1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e22ae4c9-d171-485b-a28a-a6c775f10816">
+                    <propertyInstance Id="7c1fba24-e0a7-4565-a5d4-f8c49e34f3fb" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="09acb1fc-913f-416c-bc9a-562dbbbc8f1a" />
+                    </propertyInstance>
+                    <elementDefinition Id="8eefad2f-7e6b-4817-bc58-535af762f33d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6639e4ee-3675-4d82-9f62-9568b7d7a6f8">
+                    <propertyInstance Id="57c74a8f-2ae5-4f4d-aefe-a17d6b56921c" name="params" value="false">
+                      <elementDefinition Id="acafe405-0a8a-49a3-a232-f0cb2d6af83c" />
+                    </propertyInstance>
+                    <elementDefinition Id="b1fd1c89-9975-4610-8fad-74e6542499f5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="abff4026-8dee-4d0c-b09c-d55a0517b052" />
+          </operation>
+          <operation Id="4919d838-e0f8-4042-8850-ff941a730e03" name="BestGun" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="97a5d9aa-8b33-4887-afb6-112a5b9bf361" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DBestGun Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="f8fe45c8-220b-4c94-b279-5cd49509b443" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a87766a6-1e0a-46d0-8ba5-0f5d35ec5b54" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b7a341a8-52fe-430f-a387-a971027bb721" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a520ee40-6e85-4ea0-b05e-59d370142c11">
+                    <propertyInstance Id="67faa02e-6cd2-4a1f-83f1-b2b141ddaa09" name="ClrAttributes">
+                      <elementDefinition Id="5121eaab-dd41-4030-a057-6a1b7c57eb81" />
+                    </propertyInstance>
+                    <elementDefinition Id="01f2a167-63b3-4f03-bbff-b1f7f77cd118" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="209b140e-bb53-4656-8e2c-a00f428e531d">
+                    <propertyInstance Id="f9ae5bfb-f804-4d52-a9fb-9806979d6601" name="IsPartial" value="false">
+                      <elementDefinition Id="7f91daa5-e275-4165-93e4-20d91e31dad5" />
+                    </propertyInstance>
+                    <elementDefinition Id="b29a0096-fb28-4bcf-8244-4a9d82303d75" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8c26e8df-d7fc-42a1-854d-c1a631d369e4">
+                    <propertyInstance Id="c8886252-8388-406c-aa00-e135403a99f8" name="IsUnsafe" value="false">
+                      <elementDefinition Id="1e3fb4c2-5cc4-4823-9b34-15b13b792b66" />
+                    </propertyInstance>
+                    <elementDefinition Id="f34299bd-e1cf-42fd-8e58-583929a7e0ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e9663ed3-797a-4eb2-a764-b99b80153f14">
+                    <propertyInstance Id="b9784591-2558-4a55-9ee1-bcf7b7ba85fe" name="Inheritance" value="none">
+                      <elementDefinition Id="e3de1275-3966-4a1c-977e-58f2e5c18869" />
+                    </propertyInstance>
+                    <elementDefinition Id="c3e6eb9d-2543-4664-a492-a882e7626366" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fc106694-d135-4d2d-96c9-684ce254f441">
+                    <propertyInstance Id="da4b7090-dfe4-4c17-b67b-44fc75ee93e0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ddb6c4e5-26c6-4a91-9fb7-d4f70dabc291" />
+                    </propertyInstance>
+                    <elementDefinition Id="93d63fe9-3c1f-43db-921a-cdecb71c0106" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e16212be-9371-4dcf-9e84-a7f82307fa4b">
+                    <propertyInstance Id="741f8f8c-a8e3-4aa0-85a6-527a110dbd0a" name="params" value="false">
+                      <elementDefinition Id="c8cdf440-6c92-43cb-ad4a-e00121fe543c" />
+                    </propertyInstance>
+                    <elementDefinition Id="1cba4166-bc03-4f7d-b9ef-87367b76802f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="79a83deb-fd36-4ba3-b9c0-7511ed8aa2d1" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="9f057892-7968-4f48-8e0d-41aa1b76adfa" name="GunImplementor" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="03325d7e-de82-44a1-801b-95c09557eb67" handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DGunImplementor" tag="ViewCode">
+            <elementDefinition Id="7ee26461-f5a2-4fa8-9f80-ceff8b845251" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="adc58e45-cb12-4f9d-98e7-07ccd98474bb" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="2c86ee94-6b3b-4c30-9073-ee573917f26e" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="4372d52e-a09c-469e-abb3-201820e2ab88">
+                <propertyInstance Id="cbd487ca-457e-4204-ab82-10cbfab69f14" name="ClrAttributes">
+                  <elementDefinition Id="11039c2d-5c6e-4f40-b30c-d759e9a58ce9" />
+                </propertyInstance>
+                <elementDefinition Id="cbab8b12-c7dc-4ac8-8a19-22c152c16ca1" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e2123690-541a-4e3a-8a0d-42a382794b9d">
+                <propertyInstance Id="9da99c8c-c00e-414b-aa69-281403c1e736" name="IsPartial" value="false">
+                  <elementDefinition Id="beb1089d-49e9-40b6-a422-2fd74c2a86f2" />
+                </propertyInstance>
+                <elementDefinition Id="279f58eb-3a3e-4f0f-8f0b-64059805a8fa" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6cd86fe3-836f-4476-93a4-e56398cf2cb4">
+                <propertyInstance Id="7a141f5c-2db2-492f-8deb-82e1dae8eb45" name="IsUnsafe" value="false">
+                  <elementDefinition Id="1b1fb48e-2e11-4dac-840a-aa4589f295bd" />
+                </propertyInstance>
+                <elementDefinition Id="0770c9fd-014f-430e-b6eb-eb0378af6414" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9bbb9293-d63c-483c-80ac-e9bf25b91f0d">
+                <propertyInstance Id="ce6b76b8-e157-49b1-8b46-ea128815cf43" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="7e68eced-99de-47b3-a8d3-9012f341f4d6" />
+                </propertyInstance>
+                <elementDefinition Id="e3987941-db58-4afd-a85c-b0de958487e0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="1e7cdb64-481f-485e-a8be-10ed5d8b11fd" />
+        <ownedOperations>
+          <operation Id="f8e52542-7951-444d-bedf-73ccc97a4cae" name="Info" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="863d8d33-f41b-404d-ab08-2d9a2d9518a7" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DGunImplementor Member%3DInfo" tag="ViewCode">
+                <elementDefinition Id="6fec5002-c3b4-43ed-9d02-6117ce9487ce" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="1178f445-8033-4b3c-b71e-1c9ed7deba8b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="a9dcec4c-3623-431f-b6b5-368d8f48b9c7" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="48d533e5-81f7-4352-8a50-91f168a16d6c">
+                    <propertyInstance Id="39d16a21-0ed4-482b-ab84-d5160509c16b" name="ClrAttributes">
+                      <elementDefinition Id="31e37f6b-2c5b-4d3d-aa13-efbf8697fd8f" />
+                    </propertyInstance>
+                    <elementDefinition Id="3168bfe8-c7ca-4619-bb30-69a2683b8d24" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6bd01d7e-03a3-43fc-a627-04bbbb522230">
+                    <propertyInstance Id="145a9da8-ecae-485c-94b7-f9ae1e0599f7" name="IsPartial" value="false">
+                      <elementDefinition Id="71b7abb5-add3-4630-b656-d13d96553c78" />
+                    </propertyInstance>
+                    <elementDefinition Id="b7026cd5-fdc6-4beb-bb68-801c453833b8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a88fbdd-bd38-4dab-8f28-32f4c13f3b03">
+                    <propertyInstance Id="62e3c3f1-e51e-4351-9c66-39bb2fcd9c0f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a1d1f000-bfbb-41cc-8c7c-5f91964f7df8" />
+                    </propertyInstance>
+                    <elementDefinition Id="8994b69b-5ece-4da3-b50e-68385649b9c4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b0eff12e-bfb7-4cd4-9591-bafb319b5e6f">
+                    <propertyInstance Id="114254c5-0b48-4fbb-b197-31d3dad363cf" name="Inheritance" value="none">
+                      <elementDefinition Id="a4a2e9aa-a526-4b85-aea4-dce12abdce58" />
+                    </propertyInstance>
+                    <elementDefinition Id="d0457a89-5677-464b-bf79-2008e01c64c8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="445d160e-ef11-4092-9241-ba07ce775097">
+                    <propertyInstance Id="dc455bcb-a952-4ce6-b667-8875695176e1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="eb89a830-a10f-4522-946a-67c9eba2dc51" />
+                    </propertyInstance>
+                    <elementDefinition Id="7eb874a2-491b-4344-aeca-7491557cbe58" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a5ba14c1-e95f-4f86-b026-c5978304a0b1">
+                    <propertyInstance Id="717b4077-98e4-44ce-99f1-6b5c4eba0979" name="params" value="false">
+                      <elementDefinition Id="c15d47cb-9735-49cd-a99c-58e80a0498ba" />
+                    </propertyInstance>
+                    <elementDefinition Id="3a5146c6-e929-415a-8fec-e94e65d55cdf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d5fc01de-e700-4595-b190-bbcf7b57dca2" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="48cacadb-3b42-4143-9b8c-d653ef6de26a" name="PanzerAbstraction" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="89a2caeb-27bd-4a8c-98d4-cb23158ef9b7" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DPanzerAbstraction" tag="ViewCode">
+            <elementDefinition Id="a24f866f-b519-400a-b0f6-2f3790280b9a" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="72b2ac57-926c-469b-acaf-f2c9324b4722" name="class" profile="CSharpProfile">
+            <elementDefinition Id="4662c26a-f78d-469f-8be9-081973812f7d" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="29e6909f-54a2-4f8a-a238-8ee6b1b06389">
+                <propertyInstance Id="2b963f72-ab12-4ae0-a8e6-9b4410f51977" name="ClrAttributes">
+                  <elementDefinition Id="16cc5bd7-edb7-4811-9341-28621343c00a" />
+                </propertyInstance>
+                <elementDefinition Id="0fa45d7e-af23-417b-9d03-37148ed3f821" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="95148eed-8400-41ed-a220-8476cd408b4a">
+                <propertyInstance Id="7167ddae-c7bc-410a-98c3-9b4eb04f6d6f" name="IsPartial" value="false">
+                  <elementDefinition Id="7a29806d-1198-40f3-ac5a-2237a96cd9c8" />
+                </propertyInstance>
+                <elementDefinition Id="01567cd9-b155-41a5-a201-4dbb5ec1b7b3" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bad6f635-14f1-4cf0-b57b-abef2a43189f">
+                <propertyInstance Id="c0feb904-7aa4-477f-8541-f25c5bdbb979" name="IsStatic" value="False">
+                  <elementDefinition Id="0ac48d42-8b97-42ed-abb3-0a72c08a1692" />
+                </propertyInstance>
+                <elementDefinition Id="35bff7d8-eac6-4ffc-aa3a-470a96f36972" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="78b412aa-676b-482c-9c4b-56e761b00037">
+                <propertyInstance Id="83c75fc7-76cb-484a-ba18-3d82bbc31d8b" name="IsUnsafe" value="false">
+                  <elementDefinition Id="75438de3-e956-4677-a9f7-10329f35294c" />
+                </propertyInstance>
+                <elementDefinition Id="488e1e47-a95f-4a29-aea7-70e725d8b493" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1a6281c9-3598-486d-9383-5a991593a909">
+                <propertyInstance Id="185df721-3ac3-4d70-ae47-74f4e76cbbd3" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="3dcce021-6859-4abe-810f-5c052a3ff3c8" />
+                </propertyInstance>
+                <elementDefinition Id="b952d265-7b2e-433e-b069-98571eae443a" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="ebdfab0e-7e45-46fd-be68-77a77c55e34f" />
+        <targetEnds>
+          <association Id="a43f181c-ec4f-4d59-ad99-a2bbeb4631a2" isDerived="false" sourceEndRoleName="PanzerAbstraction" targetEndRoleName="GunImplementor" isLeaf="false" isAbstract="false">
+            <interfaceMoniker Id="9f057892-7968-4f48-8e0d-41aa1b76adfa" LastKnownName="GunImplementor" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="76c0b463-6874-4dcc-9135-99f9f45014ae" name="PanzerAbstraction" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a0ad46d2-df35-46dc-bc78-0469adcec979" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19c52be6-f0f0-460a-8fa5-5d6bc6cdef54" name="GunImplementor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f9ad8f8e-6ae6-47ac-804c-388b44f7c227" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc8f68e3-f95c-4fab-93e0-c8e17160e5bc" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="61488800-b1f0-4639-9e85-476713aa2bb8" name="MainGun" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="a6558a0a-a316-4105-be75-e42dc417f424" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DPanzerAbstraction Member%3DMainGun" tag="ViewCode">
+                <elementDefinition Id="ccf16285-2f00-42c2-98ff-65418deae5bb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a51cabba-0e23-4e55-8b06-bf94d691a142" name="property" profile="CSharpProfile">
+                <elementDefinition Id="1c81e96f-eec6-475c-82ea-ebde572197fd" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="14275535-0cc3-43b5-8fcf-80a67f7bdacc">
+                    <propertyInstance Id="0b4d78ba-c283-4d5a-888f-5d5167c0f8e0" name="ClrAttributes">
+                      <elementDefinition Id="229a21f3-78a0-4d9e-9f87-6a0f836b96dd" />
+                    </propertyInstance>
+                    <elementDefinition Id="34ccdf3d-41e7-4b36-bcbb-9dcd0c6352e0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8e9d256f-04c4-4e31-bb25-b476f858e47f">
+                    <propertyInstance Id="de0e2f55-7b46-491e-bb57-da9b2fed9791" name="Get" value="public">
+                      <elementDefinition Id="04b95452-1967-4bac-8382-fcdad76ccbe5" />
+                    </propertyInstance>
+                    <elementDefinition Id="de7d32cd-08d0-494c-a992-e019eb887ce6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2c10e327-465b-4c4c-b238-db8bf46335c2">
+                    <propertyInstance Id="402430ea-6ee5-4b98-b829-243836c83ad0" name="HasBody" value="false">
+                      <elementDefinition Id="31f119aa-4fb9-405a-a7d2-24a27df937de" />
+                    </propertyInstance>
+                    <elementDefinition Id="becf5dd1-dcdd-4dd8-aff0-23c42311e5e6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="566dbf0b-3f80-401e-bde1-8f0efab5b47f">
+                    <propertyInstance Id="7f1fa9dc-b359-431c-a3d1-6b2fe4071b20" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c594cf9a-4059-4588-947e-840b9d7747f7" />
+                    </propertyInstance>
+                    <elementDefinition Id="889a8810-5cdb-4f9c-b225-a008525bd65b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0ed17470-0e12-429e-8aa2-a9d6c78c97ca">
+                    <propertyInstance Id="ec036f47-5b68-4e3c-946b-4620aad74d18" name="Inheritance" value="none">
+                      <elementDefinition Id="4fdb69b8-8373-4afe-a6b6-f4b586970f29" />
+                    </propertyInstance>
+                    <elementDefinition Id="8b3108b3-202d-4745-aba8-4313a63afff4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="33a3711e-cbf6-49a6-b349-a9b70c975edf">
+                    <propertyInstance Id="e71be850-adb5-4469-b264-65f65bd8f55f" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="10a3bec5-ea12-48a9-ac20-443148ebb973" />
+                    </propertyInstance>
+                    <elementDefinition Id="11ee506b-b31e-4de5-9e42-730f73356541" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c77403bb-fa24-4de8-81b9-81e3f07ef17c">
+                    <propertyInstance Id="03f9d4ee-7032-4594-bc6d-98cdc4aec15f" name="Set" value="public">
+                      <elementDefinition Id="5d0f3359-1834-4177-89ab-8a9a35697952" />
+                    </propertyInstance>
+                    <elementDefinition Id="24cf9c7e-403e-4513-943b-99ada6190e67" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5f3c5576-e16b-4a44-9e1a-ca750929c165" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3dcda6c1-6b08-4ba9-9d82-72bd4f93277b" LastKnownName="GunImplementor" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f4f01dd8-dd53-441a-b4c1-0648da69d8ea" name="Shoot" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="6a0d55fa-c0d3-43bd-bc0a-970b2b256a1e" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DPanzerAbstraction Member%3DShoot" tag="ViewCode">
+                <elementDefinition Id="274ae916-93a9-425a-a763-d8a40586d9fc" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9bbf5e74-cd16-404e-bf2d-c64e3c77eca5" name="method" profile="CSharpProfile">
+                <elementDefinition Id="3f5d0b65-f788-4e82-9f9f-9977df6c62d9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3a2bcbff-836e-4989-903c-34f436ae449c">
+                    <propertyInstance Id="e49811c4-b2ec-4c0f-afdb-27e1eb8631f9" name="ClrAttributes">
+                      <elementDefinition Id="ada22342-390a-4af4-bddd-3c2cb65e35ff" />
+                    </propertyInstance>
+                    <elementDefinition Id="06a8be22-0d6c-4c6c-b32d-754a914de4b5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9570b9e4-b003-4775-a53b-0a5eceff43bf">
+                    <propertyInstance Id="b00637c5-81ac-48fe-aa2a-c5638fd2bd67" name="IsPartial" value="false">
+                      <elementDefinition Id="2684c3bb-65b6-4c94-aaec-fee4bcd32892" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2ac3447-1413-4da0-97d4-0c913687470c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="340b6778-e630-4c0e-8d90-912c395b4883">
+                    <propertyInstance Id="c49ea310-4084-4184-b09e-939958272d5f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="6f3c5ea3-6246-4503-adc9-ea9f657b5ec9" />
+                    </propertyInstance>
+                    <elementDefinition Id="5e94c0b8-9b69-4b75-ab1f-21acf06b1b2e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0427dbf0-0101-4f78-b18c-a8b5ab7cc4c2">
+                    <propertyInstance Id="ba3dcfca-c9e8-447d-9c4d-4b5f66067f3a" name="Inheritance" value="none">
+                      <elementDefinition Id="759bbb4f-89fc-4b1f-bcb3-b68e4b3ef59f" />
+                    </propertyInstance>
+                    <elementDefinition Id="14aa53cc-cebb-41aa-8ed6-501b471ba65c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8d69905c-4c1f-4769-a8b9-304c241d39f9">
+                    <propertyInstance Id="2677c65b-8c5b-493c-899e-67ccc770b30b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="665285f8-dba2-4caa-8e13-60876966f1a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="503afd86-dbaf-48a9-9234-433ba360f162" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c0a0f5a8-b79c-49be-b6eb-cd96b6e2c02d">
+                    <propertyInstance Id="eb08903c-c1c0-4093-85d6-42e5c9c20665" name="params" value="false">
+                      <elementDefinition Id="ebe3bcff-3eb5-4e1e-9142-5c5331408025" />
+                    </propertyInstance>
+                    <elementDefinition Id="54388ec5-2ddd-4b88-abc2-da5b8e5bf259" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="571b713b-712e-4c64-b0d4-4c6d2ca349b0" />
+          </operation>
+          <operation Id="ce884a8b-71b4-4cec-a770-b7ea2448d4cd" name="Move" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b463a5d1-0c83-4c72-9df4-05b806f013b8" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DPanzerAbstraction Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="5e7dcc7f-70e2-4375-b1e7-d3613619125d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0a0aa04e-fdca-4852-9a21-4af599b46ecb" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4ed9d1a6-963e-4e97-ad6b-b972553c6273" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f1dd96cc-2c9a-49e4-8cfa-86270f85221f">
+                    <propertyInstance Id="a14a92c4-e29d-4c60-b0e8-525f89939a55" name="ClrAttributes">
+                      <elementDefinition Id="334eabdc-fcdf-4e69-bff5-37ec8c9a5f5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="a0af057d-859d-4800-870c-1d75a588a5f7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="71fec925-f450-4254-9348-815a57fc2231">
+                    <propertyInstance Id="014dce71-b5d1-4c1a-8106-4108718576d4" name="IsPartial" value="false">
+                      <elementDefinition Id="2dc7bb8b-3986-4efb-a62c-fa38afb6e1b2" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3d602bc-6308-41af-a66c-597f4a028306" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e8e24638-3adc-4867-87a0-6e0ecd9702d6">
+                    <propertyInstance Id="b346256a-3a37-4a9d-bc02-46f10a9f187e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="db853828-c888-4098-90e9-d10166c8c21e" />
+                    </propertyInstance>
+                    <elementDefinition Id="6cfcb001-6f02-4e6b-994b-030eea94c202" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4fae4e37-37c5-4c9a-948c-80ac474d48f4">
+                    <propertyInstance Id="7fdd7cc8-bb36-45c0-b586-00593a3b681a" name="Inheritance" value="none">
+                      <elementDefinition Id="cb5effa1-360a-4c17-b9d9-6c74a1bf54d4" />
+                    </propertyInstance>
+                    <elementDefinition Id="3fc7f160-bf8d-432b-94a5-1937f031f76b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6c01f8bd-1c57-43ac-89f5-1933c4e4178e">
+                    <propertyInstance Id="6c205303-9b76-4de3-a658-cd4aeb8d83b5" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="b48d7d7a-119e-497e-8f21-069b9be5d8ee" />
+                    </propertyInstance>
+                    <elementDefinition Id="e61e8a84-c9af-4d89-9535-6cc26af31e75" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="28449da0-9098-4f45-adb1-f52616ebf0dd">
+                    <propertyInstance Id="b8a89c01-cd3a-47fe-afb1-90724e78543d" name="params" value="false">
+                      <elementDefinition Id="68ae8ce8-808e-4527-8565-f0263a8a64be" />
+                    </propertyInstance>
+                    <elementDefinition Id="b6057df2-987d-4ff1-8bde-08e604564f3c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="84a1220b-14eb-4add-aa4e-e2c9ae5be24b" />
+          </operation>
+          <operation Id="a67fc198-45bc-4b36-b013-63e5cb3c8511" name="PanzerAbstraction" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3534e547-d8b0-4cb7-9d99-123f77ca7c66" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DPanzerAbstraction Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="552096f9-98db-4494-998b-630f2e239665" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="88b9def5-4b21-4a58-84e4-190f3a76cb08" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4e503ca4-18cc-4795-8653-a08985beb38f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2144a228-2ea1-4c2c-9525-2cc6cc8be27c">
+                    <propertyInstance Id="ac26c289-c553-44fe-89f3-30cc26608854" name="ClrAttributes">
+                      <elementDefinition Id="baf4c2db-5fe3-4ed2-9ed3-79ae4e8c236a" />
+                    </propertyInstance>
+                    <elementDefinition Id="4746e950-7bd6-49a2-b101-4dcd0941c18b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cdb27a2c-3314-4c08-9586-b02c757cbc72">
+                    <propertyInstance Id="7ac07009-c722-4c9f-a082-9f74d36e0e6b" name="IsPartial" value="false">
+                      <elementDefinition Id="72afe778-13c4-4d58-9b30-2a4d3b3aa561" />
+                    </propertyInstance>
+                    <elementDefinition Id="e0ed6df7-84ae-4f9d-af6c-7f8296113cd7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b9755920-63dd-4240-b5d7-689617e43b80">
+                    <propertyInstance Id="8884a773-30fa-4f0f-a91e-c3f7dbca7eb9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e371e97a-8574-4f19-ad47-d649ffc9f8ec" />
+                    </propertyInstance>
+                    <elementDefinition Id="bcce63cb-49fe-46f1-8136-ed665798aeca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b2a892b9-79c5-4e2a-9fb6-d3a1d1c3984b">
+                    <propertyInstance Id="369f7026-11aa-4644-910c-e13f31e0e6a2" name="Inheritance" value="none">
+                      <elementDefinition Id="5fbf87f6-60c6-4f88-9e7d-5cb8de6c2e7e" />
+                    </propertyInstance>
+                    <elementDefinition Id="e4bde614-b04c-4804-b511-56f9a0e84248" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1493efac-c774-49dd-8ff0-6d89d93206a6">
+                    <propertyInstance Id="b5bb03a7-c4d0-46b6-bbb9-fd3546e8146e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="58decb19-dd22-4339-95dc-3627a88b1acb" />
+                    </propertyInstance>
+                    <elementDefinition Id="43d2c5f7-7d84-4d80-be19-d5efca98430d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="db51c777-92eb-41a8-8a4e-ed9c93fdfb3f">
+                    <propertyInstance Id="8a5b424e-5e41-43bd-b1f5-e643d25b1ddb" name="params" value="false">
+                      <elementDefinition Id="d1b7b7ab-5723-4fec-92e0-5e4a2e182163" />
+                    </propertyInstance>
+                    <elementDefinition Id="05b09738-5cb8-45cd-9224-2703e6bce992" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="87dda432-0ef3-4399-8244-fcbfd06ee893" />
+          </operation>
+          <operation Id="ac0f08e5-3441-4010-9f92-34edec4b6ac7" name="Info" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1aa89d25-a8f1-486a-bdea-b3f67db66182" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3dcda6c1-6b08-4ba9-9d82-72bd4f93277b" name="GunImplementor" isAbstract="false" isLeaf="false" cachedFullName="UML::Bridge::GunImplementor">
+        <elementDefinition Id="1e7cdb64-481f-485e-a8be-10ed5d8b11fd" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="76d4647f-4d9d-4048-85d0-7bd6f9732873" name="TigerPanzer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="e743142d-9764-499d-b9c5-3df2704dd93b" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DTigerPanzer" tag="ViewCode">
+            <elementDefinition Id="85c40ca0-9e75-4323-ba2b-6ce0b8d9206d" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e5be8b16-9471-4e85-91c7-6c23b27a15b2" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c3d3c049-10b6-4800-80dd-2f4dc83bfc61" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="8d6d7fb3-fe62-43a5-bc27-0b13e16d8f5e">
+                <propertyInstance Id="4cf6a408-729e-42d3-92e7-6d54d769c044" name="ClrAttributes">
+                  <elementDefinition Id="d7ec3a3c-eedd-4eaf-a5ae-e83eb08b1ec4" />
+                </propertyInstance>
+                <elementDefinition Id="50cf9ce4-ccab-4ff0-8870-e638c8ac49ba" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="81acf683-98fc-4625-98c0-d61b512bb49e">
+                <propertyInstance Id="b519a015-3ffe-4160-8dae-554b14776654" name="IsPartial" value="false">
+                  <elementDefinition Id="2d039248-0e0a-4bb7-8a84-edc1020f5ce9" />
+                </propertyInstance>
+                <elementDefinition Id="e68262fa-6592-49f5-8179-abeee674d1dc" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="17e284c3-95da-44f3-a03f-204aab72184e">
+                <propertyInstance Id="9b7da072-733e-4f85-bd9e-156df5d671af" name="IsStatic" value="False">
+                  <elementDefinition Id="aade1998-7862-4962-80ef-d1851aafbf5c" />
+                </propertyInstance>
+                <elementDefinition Id="bdc61f8e-b79f-434a-97a0-43aa37bb4852" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a0f1981a-21b5-4dee-bcee-02fb2431ee1d">
+                <propertyInstance Id="d3022c9d-f89d-4daf-8759-21c860c5f586" name="IsUnsafe" value="false">
+                  <elementDefinition Id="8f1c1006-11a5-4595-afbc-fc60662f6eb6" />
+                </propertyInstance>
+                <elementDefinition Id="15a55eef-5b03-4b7a-b606-cafaa242e60d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="461ff9a0-07de-461e-8d92-592708718610">
+                <propertyInstance Id="92b7febe-6d72-46b7-bd23-b351fa4b05c0" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="6136a7d0-0085-4803-91e6-4c159645a6ee" />
+                </propertyInstance>
+                <elementDefinition Id="7363e111-726d-4579-9db6-2e99f55f7478" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="e865cbdf-59e4-431a-80ef-489bb703183d" />
+        <generalsInternal>
+          <generalization Id="ecfab47b-0bf6-4e89-bd44-a11dd68e9903" isSubstitutable="false">
+            <classMoniker Id="48cacadb-3b42-4143-9b8c-d653ef6de26a" LastKnownName="PanzerAbstraction" />
+            <elementDefinition Id="7b0bcdca-25dd-49c3-9b9c-7235aabb6a6f" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="57b88e30-be8a-43fb-bed6-4ae53b2df53d" name="Move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="377529e9-640a-41ad-8979-c3795f09f153" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DTigerPanzer Member%3DMove" tag="ViewCode">
+                <elementDefinition Id="98903b19-626c-4444-869d-c9ed1a52d513" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="9ff94b90-7ac7-4cd6-beaf-95676615ddd7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="9e58911e-ee75-49eb-8b2b-6b73ffd87c05" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="55082af3-f64c-41e5-ab0f-68cbf31426c2">
+                    <propertyInstance Id="87983343-74f0-4c92-adfc-f70eb450e9de" name="ClrAttributes">
+                      <elementDefinition Id="b92578c2-bd2b-4520-be82-0c64ebba5e9f" />
+                    </propertyInstance>
+                    <elementDefinition Id="cd6b401e-b714-4863-8bba-07fcece1d0f6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6d9d6c4d-5780-4037-a395-89014feb2157">
+                    <propertyInstance Id="b562d484-2b8b-4485-b455-5b728ba19426" name="IsPartial" value="false">
+                      <elementDefinition Id="1da98542-df7e-4ebb-b7e6-3f26d1469692" />
+                    </propertyInstance>
+                    <elementDefinition Id="f5c6c2de-917a-4437-9530-4f692a3d0a8f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="558a88e9-4437-4880-9a88-f8e768800c77">
+                    <propertyInstance Id="9c822ed9-dc32-4796-bfd9-94c9c46cbcd0" name="IsUnsafe" value="false">
+                      <elementDefinition Id="862f9992-eaba-4e5c-a6f3-379bd52978cf" />
+                    </propertyInstance>
+                    <elementDefinition Id="b77401e6-1a31-4a76-ae25-a20cff23aa07" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b1e14025-0978-4244-b902-33119bbbd061">
+                    <propertyInstance Id="344b385c-b7a9-460c-927a-a39673b5b570" name="Inheritance" value="none">
+                      <elementDefinition Id="364623dd-2939-4f0f-83a3-e6467d48044a" />
+                    </propertyInstance>
+                    <elementDefinition Id="a1a6b8b8-93d5-49a5-ab84-54f6f2ce6b64" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="77c3149d-0988-44c1-9c9e-19f4a7b8bc5f">
+                    <propertyInstance Id="01a7ed89-7561-40b7-8158-757a1abba9c3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="6691b2a5-156f-4a80-9ac3-d8aaedd2d9e6" />
+                    </propertyInstance>
+                    <elementDefinition Id="f20ab85c-abaa-471b-9d93-8e0a9f423dbd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f539a26c-fa99-471a-b308-8a8d55be2d49">
+                    <propertyInstance Id="a12dc754-f31a-47e7-a9b4-f2038e8b44b6" name="params" value="false">
+                      <elementDefinition Id="be43f961-61ac-4e40-87bc-333a6642ca1f" />
+                    </propertyInstance>
+                    <elementDefinition Id="32c38c0a-ffd4-42e1-bd49-fa4e2e8181d7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="7c1662ef-2120-4bb5-916a-20bc35aa0f33" />
+          </operation>
+          <operation Id="126bb1e4-b092-4fc3-98b7-24b29b158219" name="TigerPanzer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="71f83243-8d22-4d7c-89e7-99b33b3dd2e5" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FBridge%2Fbin%2FRelease%2FBridge.exe Namespace%3DBridge Type%3DTigerPanzer Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="1f389ac7-43d0-4a91-b3ee-353ae4b22e7f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="ddaed0c1-4d03-4c77-8a78-bc39c27b33b0" name="method" profile="CSharpProfile">
+                <elementDefinition Id="75845a12-2110-4236-ad13-8795749c4a22" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="86be79e1-fb6a-4575-b233-e371934ff559">
+                    <propertyInstance Id="52e8a073-f9a1-4e51-81eb-384b075ac9e3" name="ClrAttributes">
+                      <elementDefinition Id="c27af0a7-0819-4d5b-ae21-c2bc15e0aa58" />
+                    </propertyInstance>
+                    <elementDefinition Id="9e190673-1670-4295-9eb2-75c64b046624" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="faa230f4-a099-42df-af52-66d844d3179c">
+                    <propertyInstance Id="6ff36e7b-2860-4265-b50a-fb0f714fda4c" name="IsPartial" value="false">
+                      <elementDefinition Id="f500448c-f9ca-47ff-9165-c8e81312c66f" />
+                    </propertyInstance>
+                    <elementDefinition Id="18e02bd9-04a4-46a9-aeb4-4773c8f06dd9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5578ddf5-a5b0-4f19-b752-b95f7a2d0169">
+                    <propertyInstance Id="fef63edd-cb6a-46f2-b049-08932b11c769" name="IsUnsafe" value="false">
+                      <elementDefinition Id="26f50e6a-c68b-47d2-946d-efaf6053f9d1" />
+                    </propertyInstance>
+                    <elementDefinition Id="a4d3d39e-7a30-4f87-86ef-01fe3eab0be4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e543d16b-2dab-47a3-a4c8-b668af019d49">
+                    <propertyInstance Id="56a254b6-16a7-4534-9558-611f73b1d563" name="Inheritance" value="none">
+                      <elementDefinition Id="b1d67eb8-475d-4277-a338-58eeb7e58c74" />
+                    </propertyInstance>
+                    <elementDefinition Id="44dc206f-a63b-4bc6-badb-1997b777013b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f21c3624-1d70-40a5-b124-13da1aa4d43c">
+                    <propertyInstance Id="79e4a0b6-3484-42b9-ac04-a56b69db81e0" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="9fceeba6-14be-4f37-94ef-d2ad9852540a" />
+                    </propertyInstance>
+                    <elementDefinition Id="78a37b8b-ada6-4c7e-8846-62e9cb129326" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f4e79d82-91f5-4d3c-a14f-150223f1fd93">
+                    <propertyInstance Id="47ba8d8f-7524-4913-81a7-f3cf5107ec10" name="params" value="false">
+                      <elementDefinition Id="245ba6de-431f-49dc-aa83-46dfeb0541a9" />
+                    </propertyInstance>
+                    <elementDefinition Id="dff20585-299a-44d4-a03e-cb3dbae25981" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="1ae595fc-3041-4331-80c7-abc69dcf7744" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="971a10da-ee94-4613-9b75-3bcf5973f76b" name="UML">
+    <elementDefinition Id="930c238e-7146-45db-83b6-3d82d781dc88" />
+  </package>
+</logicalClassDesignerModel>

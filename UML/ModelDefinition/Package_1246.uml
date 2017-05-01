@@ -1,0 +1,1867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="249f519e-0721-4f9b-aeae-550e0f7ebb63"
+  name="AbstractFactory"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e70098e6-b584-48c0-8b79-779fa02a83e4"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAbstractFactory"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="a3d86dd5-33e3-4e15-be10-2fbce064fbad"
+        name="IAbstractFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6a55e12c-88f6-416d-9e21-6ca8e2416349"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIAbstractFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b7a8f6f4-d968-4e90-8ddd-8712fedb0a9c"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a5b4d2f-ed33-4e53-b4c0-e8a389e65a8e">
+                <propertyInstance
+                  Id="5c3e36db-69e3-418f-89e5-e7289c9cd23e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad524239-3e57-4791-8990-69e203677e21">
+                <propertyInstance
+                  Id="25785184-69f5-49ac-b6b7-2f07b4ba5c15"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40c6768d-2a55-4863-8e4c-98a6a8f7e9d7">
+                <propertyInstance
+                  Id="dc6110d3-df3a-474a-9b1c-c958d508ac20"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da705be1-9f68-4015-ad3e-d71de530b70e">
+                <propertyInstance
+                  Id="bbb000e7-139d-4c05-b68f-718922e95ca1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="3bcdefa0-21d3-442b-9257-7fbf9f427d6f"
+            name="CreatBeer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b7453cdc-873d-401b-af08-4b034f09e775"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIAbstractFactory Member%3DCreatBeer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8b43378-2627-4c81-9f9e-6d9bc49f6798"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e57d51da-a848-4df1-97a0-27f76fd004da">
+                    <propertyInstance
+                      Id="fb30f707-18bf-4e99-a299-3d07e11c82ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa31829b-986a-41e0-bfc8-4f05db437cd9">
+                    <propertyInstance
+                      Id="29778045-f854-4f53-81df-cd0e300707db"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d18985fe-96a3-4f25-be13-394f7e9eb6f3">
+                    <propertyInstance
+                      Id="32ced99c-d714-42bb-9bf0-33c1c943d86a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84b4eb41-ed43-4aba-8564-01cdaba5b358">
+                    <propertyInstance
+                      Id="9e7db23b-6f65-4cc6-af31-c976a0b33b2e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="451a8e59-a6fa-455a-bc4f-33e76bb03aca">
+                    <propertyInstance
+                      Id="9794f5c9-9ab8-450c-95d3-f3bd8396529b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f46d00a-57bc-4ec9-a1fe-2976b57d97c7">
+                    <propertyInstance
+                      Id="b7d31b64-cc59-4e5f-b259-80aa826aa5bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5be2f96c-3ec5-4416-ab48-cb0d8cffa64a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+                      LastKnownName="IBeer"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="31c728f9-5d33-4296-b7e5-0ec331280876"
+            name="CreatVodka"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3a09c79e-c6e9-4b79-9c7c-88f1296beaad"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIAbstractFactory Member%3DCreatVodka"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ddb8e359-1528-45ef-9717-2b0db6e23acf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89470872-ab61-47e7-8d92-a86eb608ca77">
+                    <propertyInstance
+                      Id="91133c8e-4a32-48a6-a15d-8ad55c1225ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f697837-5681-44fc-bb22-ba50904a6bf9">
+                    <propertyInstance
+                      Id="98ad0b2a-4f12-4752-a77a-61bbb7e35403"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6d2ad7e-825c-4450-b2b4-800a8c7602bc">
+                    <propertyInstance
+                      Id="a1581b3b-506b-42a5-a980-939e19215923"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f715b285-253f-49be-824a-fa6211eead54">
+                    <propertyInstance
+                      Id="4a86f2bc-e923-4ada-a82c-a03c7680f647"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aac3cd2-4a33-4987-8796-bffad778646f">
+                    <propertyInstance
+                      Id="6a878721-71db-4128-92c9-3ed56e5b0525"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e656110-6084-40f5-baec-de19fce467d9">
+                    <propertyInstance
+                      Id="8520e523-1c36-4e5b-a2a0-19b796653472"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7da9339c-7ef8-4855-b41d-cc710b964947"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="83314347-c1df-44e7-951a-321aa1537168"
+                      LastKnownName="IVodka"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+        name="IBeer"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="148edde5-084d-4a4b-98a3-8f51715131a9"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIBeer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9cdf459a-68c1-47c9-ac58-5a17998bb889"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4141ee1d-141f-44cf-96d5-477fed7e1e6c">
+                <propertyInstance
+                  Id="1c40dbad-1ddb-4872-af78-4e08792423dc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9019242a-5209-458d-83f2-5b7b5cdae35d">
+                <propertyInstance
+                  Id="a4fc5a71-5dee-421e-bc9b-a98db83e65f3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="23b10dde-add3-43ed-82d9-0e8262b2b4dc">
+                <propertyInstance
+                  Id="942d329e-d875-4de7-9cf8-c95b00375506"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa191387-2adf-42b3-9767-18202b8e0406">
+                <propertyInstance
+                  Id="544bb7ab-6313-45e6-8f90-f82a2b83769f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="19625ac9-c8c8-4418-a5f5-889e4a222c00"
+            name="PrintInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="098ba313-0d2f-4b81-9f62-c41deadfa02a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIBeer Member%3DPrintInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d30fbd1f-b483-47f8-a77d-62ce6ae72f47"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc3534fc-fef2-47c8-b776-5bcfce073ad7">
+                    <propertyInstance
+                      Id="1c17e5ab-4097-4b32-b8a3-3a3784268c15"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72e39a00-8cf1-4135-98f9-42ead0ff23c9">
+                    <propertyInstance
+                      Id="0ceea86b-744c-47ac-afae-d63f4d539574"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c29ecedf-eb01-4604-b25b-06620fcb82f2">
+                    <propertyInstance
+                      Id="ce57fa66-eb13-4dc7-86a9-689c98209b37"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ba98366-21b3-46eb-b352-4ad00a2a5a8d">
+                    <propertyInstance
+                      Id="995ed3a7-d31f-46a4-ab28-d2c605292b53"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5135c541-8186-4dc3-ad8b-9e28763bec82">
+                    <propertyInstance
+                      Id="95385ee5-8290-41fd-b02f-103267890d9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dffc0a4c-fa04-42d8-b37f-2417dc29b588">
+                    <propertyInstance
+                      Id="2a515280-3f77-4b71-aa87-6129ce4df37f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="83314347-c1df-44e7-951a-321aa1537168"
+        name="IVodka"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="180e877e-49fa-401e-b3b9-e387e7a1f978"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIVodka"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a2260d4e-3835-409a-a209-4df0f3bdfdbd"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9c54433-6b21-4adc-8baf-c51a9cee9111">
+                <propertyInstance
+                  Id="9a76407d-c771-40e7-bbdd-bb3c0430082c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63bce14a-257b-43bc-915f-1179fddd70a3">
+                <propertyInstance
+                  Id="00f6663b-bcd3-4e12-925d-5cb0cc84157c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f251019d-2ec2-493c-987e-d77cfa28b533">
+                <propertyInstance
+                  Id="a4a36c4b-85a9-46de-8969-8f37e3e6644d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="348ef941-76a9-48bf-bdc7-efdd11659929">
+                <propertyInstance
+                  Id="353b8b37-7f71-49c0-8523-ef6ee7d365dd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="62c24b8f-e9c7-4868-b045-d08bcbf12ba7"
+            name="PrintInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7ac176be-9fb5-4ccd-b336-53b63298c94f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DIVodka Member%3DPrintInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="994e72bd-bf5a-4bcc-b53c-315feaaea69e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="678f93cf-9184-43f6-af8f-7f09054320a2">
+                    <propertyInstance
+                      Id="c7ccccd2-0e46-4b36-b0d0-6c0a4bacd06d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7555d7cf-4eef-4a9d-8b1f-9eb52813ccfc">
+                    <propertyInstance
+                      Id="95f306a9-8e4a-4653-8a9e-3ad1ec8e71cc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edf60cd4-1fa2-46f6-8186-aa5c278b81c8">
+                    <propertyInstance
+                      Id="112fe33b-f3b2-4c18-a163-498a0a404d95"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee68fc01-55f5-451d-8486-d25ab7dbd6a7">
+                    <propertyInstance
+                      Id="d4b83ee7-2ffb-4868-85fd-200ef21195be"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a6d1827-257d-4095-9479-3cc5e3fc8d6e">
+                    <propertyInstance
+                      Id="4d1f733e-d125-49d8-9251-edaa58e04cd8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11d5f03c-169a-4349-9792-34cead888c3c">
+                    <propertyInstance
+                      Id="312781ba-af77-436a-9d54-2edd00edd04f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e4ed4081-176f-4b74-bc81-0c741d4b2afb"
+        name="Lvivske"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5d501f0c-793b-4464-b069-b1d571ec1084"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DLvivske"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9042adfa-49a3-4df2-95cb-e4390d71593f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f6be6c6d-0ea7-459c-8bb2-45cf1bb71b74">
+                <propertyInstance
+                  Id="6b3b9aa8-1a6d-416a-bc68-fbe43ef7e935"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fae9cd1f-b875-4012-9142-7f67da0bcddb">
+                <propertyInstance
+                  Id="57f6096f-8606-4a8d-a467-5a819ddf20a4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d970595-d228-40fe-b0cd-1064896bbc0b">
+                <propertyInstance
+                  Id="58982a3a-1c24-4d58-8658-cab84bf4ee93"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa758bc4-3195-493f-b3b8-2e714566e7ac">
+                <propertyInstance
+                  Id="05750b10-3192-415d-bf1d-81ca277aa9c5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9704616e-b99d-471d-9fdc-e12ec7f86f37">
+                <propertyInstance
+                  Id="c9fdcced-9eec-4523-ae40-544d627e39bd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c949cd30-1582-4ed9-b621-5f2873cd68f3">
+            <interfaceMoniker
+              Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+              LastKnownName="IBeer"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b7fa4b69-da68-4a01-9823-cbe80a111f4b"
+            name="PrintInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5b9a60a-6bcb-4555-aae3-992fe292d859"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DLvivske Member%3DPrintInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe1d3c9f-0861-40f3-8f4a-811838ff2c14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd57b23e-36a2-47eb-85be-4e6a1df1e7b9">
+                    <propertyInstance
+                      Id="1d8a206a-f0fb-466a-a485-d125c0998540"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f7c526e-5059-423a-8358-fa873bfc480c">
+                    <propertyInstance
+                      Id="9e85f068-2c39-4707-9f2d-055c9cee322b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="230ef6ff-2e11-49d2-8ae9-0a33b5b6d911">
+                    <propertyInstance
+                      Id="abab8040-31d9-4a16-b1eb-bf0341c60e5e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eab86aa9-1557-4554-8222-5a2b44848a95">
+                    <propertyInstance
+                      Id="26b524f1-d856-4b29-8b89-282991ebc74c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b4e2b49-8508-42a7-9da0-d05441e2140c">
+                    <propertyInstance
+                      Id="7156f405-9521-4fdd-be36-1e067d648ebd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19059df5-c6d6-436d-806c-1f18a469918d">
+                    <propertyInstance
+                      Id="30c002cb-36fb-42cb-b6f6-751a624b2aa8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="afa6cdc9-a944-4e3a-9245-1925955a6ee5"
+            name="Lvivske"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0651d37e-2616-4e0c-85e9-14af68c10873"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DLvivske Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec6a328b-3c3c-4249-bfe8-94cb711797ab"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b012bc2b-a5b0-48b8-8414-b4cb5929f065">
+                    <propertyInstance
+                      Id="de044479-1450-4392-89df-b845ed25d635"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5db0e55f-2371-4521-be56-8af87d7e7ae9">
+                    <propertyInstance
+                      Id="4ddd17f7-3a6a-45d1-b318-54763c89194e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecf4f2c0-9b87-49ac-8202-32d8e6605fde">
+                    <propertyInstance
+                      Id="02fdc1e1-049e-4680-9e53-64bbb80c487c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a08caaf9-3cf9-40f9-b30b-430128f59871">
+                    <propertyInstance
+                      Id="ff6e72bc-aea1-4b85-9d56-6d78fa2debbb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91ee1cdd-38c7-4c86-9092-be26a33ddfd8">
+                    <propertyInstance
+                      Id="33fd622c-0fe5-4bc6-ad80-97ecfa743b15"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20f7146c-54b6-417d-b919-7e7f2eb6541a">
+                    <propertyInstance
+                      Id="1f634937-7f36-4d4b-9ca8-a0e3f7ad672c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="64a1f7ff-6159-41aa-9ad7-5f54854cf560"
+        name="Pervak"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aceb6f9a-e502-464b-995a-da277f80436e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DPervak"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="accd2ea0-ad28-488f-aa95-173327973b32"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="53bc7b58-a5c5-4fe5-b257-b3be13ea60a1">
+                <propertyInstance
+                  Id="85a3a15d-46e8-4c91-b14c-f0f755925393"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="838a4c39-cb96-4fa4-8da1-6cf057f70d4b">
+                <propertyInstance
+                  Id="0271964b-10d3-47ba-b4cc-367323933d12"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c6c3832c-effb-4ae1-9fe9-bc6a11d014b4">
+                <propertyInstance
+                  Id="b1621d56-0d70-49ff-91ec-e2759a875f6e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bff07ec5-d97c-4b57-9b6a-2ca758dde427">
+                <propertyInstance
+                  Id="86508e07-239f-41db-a35e-384407c36c49"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="072e14e2-5301-4977-ae5c-928a1eddbb4d">
+                <propertyInstance
+                  Id="1f2b2904-efb1-4522-81f5-25549e4a1661"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a732997d-a0f4-4a58-8144-3affd90a2d07">
+            <interfaceMoniker
+              Id="83314347-c1df-44e7-951a-321aa1537168"
+              LastKnownName="IVodka"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="64154974-c514-4185-80c8-516a17e0099d"
+            name="PrintInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f59b9f57-2ca5-4a49-aee3-96bd541a4314"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DPervak Member%3DPrintInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c7571e3-6351-4c33-bcf3-ccad5dc6dffe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0667ae2-0b6b-45b6-bd1c-f1ac8dced71d">
+                    <propertyInstance
+                      Id="2baaef37-d36c-482f-847b-6429448f8e6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93a79b37-a6f3-4565-a5fd-d44806b4c64e">
+                    <propertyInstance
+                      Id="d0c00c15-4add-477d-8275-92e381af8e18"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1ebd34c-bfd0-4d7b-81d5-553ac5b3b066">
+                    <propertyInstance
+                      Id="0dba4a7e-6bcf-4e86-8c79-75ef30fd721a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b699ed4-f274-4566-99fc-07997a5fbeef">
+                    <propertyInstance
+                      Id="13630fcf-2a3f-45cc-950a-ea39565181bf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a10d0a9-9b6a-4cc0-bded-27e744b590f7">
+                    <propertyInstance
+                      Id="32e59ab0-6bdd-4905-91d9-2c3134dd5487"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1310ec2c-7a0b-42de-a0b1-1b5ed8080097">
+                    <propertyInstance
+                      Id="06c732c8-2834-42f8-8ee2-6cf9be4032f4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="1e6d1bd8-93b6-4eda-983b-df6c8753b6f0"
+            name="Pervak"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f3f56fd5-fd16-468b-ab65-ed7816980401"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DPervak Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a3da648-31db-4997-aded-d9307e4d88a7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3a0e581-f125-425c-9733-550a4d53d7d2">
+                    <propertyInstance
+                      Id="fcdcc8d8-6658-444e-b556-35a8a18e6957"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88ac0547-e96c-4b5e-9028-972966e035d7">
+                    <propertyInstance
+                      Id="f1b95f64-7cca-42b1-8888-d4803fa715cf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70e7d498-5239-4e00-b58c-aa1f360f741e">
+                    <propertyInstance
+                      Id="7a5c8257-8c76-449f-8b90-a899646c624c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9070b9df-f7a7-419c-bac2-687f5859b9a5">
+                    <propertyInstance
+                      Id="beb31ea5-9c61-46de-b367-ea387b1f9a32"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468c931c-8e6c-4b96-909c-fd4176c5f59f">
+                    <propertyInstance
+                      Id="2d404885-2c8b-48b9-80bc-5ed7da6b1ff2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c52df16-55a2-4c71-b8c0-618b7ece139d">
+                    <propertyInstance
+                      Id="2caec710-ba5a-4800-8eb1-3f7d582d86a1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="53380a66-aacc-4d47-909d-89b924d64735"
+        name="RussianFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c1c567ba-3d3e-4b43-a7df-6b2c7b1362c5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DRussianFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9b886f7d-8b26-4620-8b6c-c32785fb94ea"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="235ceda7-0ebd-4b3e-9f17-97a2949008f4">
+                <propertyInstance
+                  Id="0bffc220-042b-4d35-aa2f-35392b4fb94c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2569afc-8412-4f0d-bc9b-b652947fe339">
+                <propertyInstance
+                  Id="db1f2822-9e77-4a3e-8f5c-1bbaed7611a3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5468676-7706-4ca7-ba5e-57581652e006">
+                <propertyInstance
+                  Id="bbe7d1c6-fe30-4918-b558-9010883b6165"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4dcd1716-57d7-4282-97f4-6b238d712396">
+                <propertyInstance
+                  Id="12e00958-72fe-4dcc-9d85-5398b0f63f23"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74d5179e-4482-4865-91b8-ec67d6a232a4">
+                <propertyInstance
+                  Id="ee650f48-38f7-459a-935a-ee78e4d46a0d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="052b4410-35f4-42db-a369-ee954baa74db">
+            <interfaceMoniker
+              Id="a3d86dd5-33e3-4e15-be10-2fbce064fbad"
+              LastKnownName="IAbstractFactory"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="d009470c-5b0d-4341-8889-d8324d2837cf">
+            <classMoniker
+              Id="90368f44-4acc-4549-abc2-c450a7dea15b"
+              LastKnownName="Stolichna"
+              LastKnownLocation="Package_1246.uml" />
+          </dependency>
+          <dependency
+            Id="5a5c99a1-fe2e-4e0e-9a4a-88c86e27b3ec">
+            <classMoniker
+              Id="eb7d9be8-2f2e-46c3-ad67-520bcf887972"
+              LastKnownName="Zhigulevskoe"
+              LastKnownLocation="Package_1246.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="da27f03f-35dc-47c8-a116-2c0cdc4ee36e"
+            name="CreatBeer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f0169daa-bcb5-4778-b3b7-c08e49475851"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DRussianFactory Member%3DCreatBeer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0ec310a-66eb-4bc4-86bd-2338ad0d4a10"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58e128c1-214f-49a3-bc4c-b09a361d5268">
+                    <propertyInstance
+                      Id="1d7fe191-2828-46d2-8301-1220594535d8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7146287c-e152-4333-95a8-205fdfc63d22">
+                    <propertyInstance
+                      Id="9188557c-9e23-437f-8c5b-8d41644e2220"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba270537-910a-48b5-89dd-e709ce7ef7f1">
+                    <propertyInstance
+                      Id="0edf084c-d9ac-406c-b853-22fa814b5c8f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce138fde-5172-43b6-903e-336a55c3b262">
+                    <propertyInstance
+                      Id="5db18569-4bee-44e9-9093-b71eab41e745"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc9e8bdb-4dc2-4d11-9de6-32b37ac2c8c7">
+                    <propertyInstance
+                      Id="4073f191-a8b5-42ea-b736-4bbc5ebd9c11"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8a3a36a-ac27-4ef1-8de1-fccf4bf6f69d">
+                    <propertyInstance
+                      Id="56bec866-39a2-47ca-9c9d-2f164fa129e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ee139f02-8349-4a83-827f-e7f7769d0b27"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+                      LastKnownName="IBeer"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c0c6302c-8f0f-4e0c-988e-627f896da29f"
+            name="CreatVodka"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e024e53a-15c7-46be-86bc-b43691087957"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DRussianFactory Member%3DCreatVodka"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6612c2bb-7705-4806-aca3-7401d34080be"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1195a69-9462-4255-a60e-b3391fa52ec2">
+                    <propertyInstance
+                      Id="c7ee7847-5ca8-47bd-b25c-9d8a7afff675"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d2e657f-1423-4db5-aae8-75a07e8ca954">
+                    <propertyInstance
+                      Id="438cea35-053a-4419-8c6d-cbefee306465"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b11e3b0-b292-4a22-8eac-bd36b4be14ca">
+                    <propertyInstance
+                      Id="f247646e-a0d2-4c87-837a-4001bfeaeba5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c3791d6-a867-43fd-9d10-4cfe7efa1e2f">
+                    <propertyInstance
+                      Id="0814a3fd-97a9-4b7a-a26c-3b08af8bddb4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2466b0a-77de-4423-a1c8-27531b14a06a">
+                    <propertyInstance
+                      Id="c30a2527-9f30-45a5-a3ac-0db8e5f73921"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3555b47-bdb7-4d4a-aafe-582fc528f926">
+                    <propertyInstance
+                      Id="3e607608-6ad7-4505-a37f-7d14e82fe3ff"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="150c2d89-d805-4515-8484-a62183675371"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="83314347-c1df-44e7-951a-321aa1537168"
+                      LastKnownName="IVodka"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9ecf3b93-85a8-4182-a1b0-79a8b5133321"
+            name="RussianFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="433fdafc-fa1a-4b53-b91a-8edc3b18bc2a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DRussianFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cde8c195-16fa-4fba-81ef-7c86e47a387d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d542c2a-9146-48af-83f0-e47b81a889f9">
+                    <propertyInstance
+                      Id="a760807a-f4c4-4b6a-a6ed-ec4dcc999772"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f98218-aa9c-4858-95a5-7b6b56bd0256">
+                    <propertyInstance
+                      Id="e708efef-9ac5-490a-9050-7329a67058ad"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356ddca9-ee8d-4beb-bc9f-23a3475c11b0">
+                    <propertyInstance
+                      Id="62620d3f-ae5d-4d69-ad6c-26a9445a97d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="777a910e-f461-4c6b-9da5-e9f0fba802ec">
+                    <propertyInstance
+                      Id="3a27bf02-39c9-4759-9ffa-551a89a6b298"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1aaf18f9-2c46-4160-b3ba-fedcd31e3398">
+                    <propertyInstance
+                      Id="ce524488-5fcc-4756-95c2-b03319fb1a35"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c7632a2-70d1-4cd6-b3c1-805013fa9ea8">
+                    <propertyInstance
+                      Id="cb02cb23-d1f7-45df-85cd-17b3042dfc92"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="90368f44-4acc-4549-abc2-c450a7dea15b"
+        name="Stolichna"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b446d154-e46e-4aff-b2f3-562cd29a12d1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DStolichna"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b48f8f1a-7a7c-48f0-bd51-fb81d61f9bba"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c0c5e3d-0bfe-4622-b144-87bf07f39cbf">
+                <propertyInstance
+                  Id="455c91ad-b1c1-4e89-8f5c-2ac8e2532a50"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7918391-e106-4a53-be6b-6de8cfb3ef96">
+                <propertyInstance
+                  Id="c0da1aa6-555a-4b9d-999e-efaac5b241d0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8274fbb5-84af-4a21-8321-112befa53084">
+                <propertyInstance
+                  Id="10dd6e59-b4bb-4ed4-b956-9bccf89d6cea"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa45928d-fdc0-4ed9-8306-76df005bd183">
+                <propertyInstance
+                  Id="bca9e20f-1bfa-4b5c-a34c-8cd155f48e06"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b593b24-2505-4d33-86d8-44f224fc9302">
+                <propertyInstance
+                  Id="bab00124-f5d1-449f-b6e2-fb6ed808aa5d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5bddf31b-2aab-4b4d-9811-d480e096fba1">
+            <interfaceMoniker
+              Id="83314347-c1df-44e7-951a-321aa1537168"
+              LastKnownName="IVodka"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="db28821e-31a7-4c9c-bd2d-8f0c62deebbc"
+            name="Stolichna"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="af7fed70-f072-4a5b-88af-d91a76954203"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DStolichna Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="34a84c3f-530a-4b60-a848-889ebbdfe917"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49f1c7c0-a60a-4c4e-b135-408021ec143d">
+                    <propertyInstance
+                      Id="7607f863-2a53-4d8c-b798-b5a37be30d3c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="996af44c-c408-4ae7-8ace-879c0947cd3e">
+                    <propertyInstance
+                      Id="fb6dcf96-bc32-4544-bad5-4d20644772d2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a0aacf3-c0a8-4dba-b49d-0f55dc1fa4b8">
+                    <propertyInstance
+                      Id="7e9157a0-3edf-4e7c-ba09-ac83f1a28047"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9b92510-e380-4a8d-9b53-822d25cb7872">
+                    <propertyInstance
+                      Id="8e18d8b1-8eff-4a19-b8b6-a17441b1144b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6661d8bb-abe2-46a8-b9af-2c2e7df645be">
+                    <propertyInstance
+                      Id="aca2a6fb-bed2-4d82-8844-0ed784586fb0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3db3b0ed-a349-4468-9722-ff983839e10b">
+                    <propertyInstance
+                      Id="e9dec942-8970-4e5c-8cc6-6a181aeda735"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="213a28e8-e944-4a1f-ba20-23a3f366dfe4"
+            name="PrintInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd8cbf94-4c76-4847-983f-ab1b3025a911"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DStolichna Member%3DPrintInfo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c31a248f-c2ec-46dc-bc75-20bc1515817f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c7f0a12-0569-439a-a638-e74b5b08c258">
+                    <propertyInstance
+                      Id="c44b23b4-dee9-4bf3-bdbd-8c9f9c01a483"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25874f64-1d7c-40eb-abfa-2a37d8204559">
+                    <propertyInstance
+                      Id="dd1e8fe7-0d42-458f-ad69-b36c886cb351"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7441f6cd-7c14-4288-9c3e-26ab2485b34c">
+                    <propertyInstance
+                      Id="c925a49f-d438-48a8-bd27-ca6f8e1a6366"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53730fb6-c6e6-4262-a0fe-ce5ea73133cb">
+                    <propertyInstance
+                      Id="560b4692-fa54-4f12-b7ae-507590cd7ef9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e848833c-1d9d-41f2-86e1-353bbc5a7502">
+                    <propertyInstance
+                      Id="313274c1-8bcd-4a4e-9715-60e5b0529c99"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eee1ae2e-2497-4b70-a0de-e4a762e06e5c">
+                    <propertyInstance
+                      Id="f52af027-6604-4d88-937f-ec6c2bcee7de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e845a53-2de3-4f39-bd91-04ece2e318f2"
+        name="UkraineFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="75cf9036-cb74-4a5e-8a51-6ee489421025"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DUkraineFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33ed61c5-120f-43d5-bc84-13d85903425b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="33cbed3b-8ef2-4a1a-815f-82771de0ba91">
+                <propertyInstance
+                  Id="7129d85b-e8f7-41ee-b481-65bb777f67d3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5c8b884-2fd3-423c-b2b2-2f29280c9302">
+                <propertyInstance
+                  Id="f5fec597-9d1d-4a4e-a680-1a465ff265f3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b74f790c-02a4-41e8-9357-54454ce8910e">
+                <propertyInstance
+                  Id="1ee09afd-bed1-4121-b229-37569c9cba5f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a348e9e4-0615-41f3-9213-08fed6722713">
+                <propertyInstance
+                  Id="338c529f-fea8-48b9-a06e-b55031024c5d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dfc2427-9923-46e0-a355-e0483ec44bb7">
+                <propertyInstance
+                  Id="09a1d5bb-5bcc-44e0-9dd8-78e69d7a506c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="9cbb4f32-ce42-4d2c-9f32-07d3f305a1ec">
+            <interfaceMoniker
+              Id="a3d86dd5-33e3-4e15-be10-2fbce064fbad"
+              LastKnownName="IAbstractFactory"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="20f1bbfb-f705-4860-9d9d-f90f77eb120d">
+            <classMoniker
+              Id="64a1f7ff-6159-41aa-9ad7-5f54854cf560"
+              LastKnownName="Pervak"
+              LastKnownLocation="Package_1246.uml" />
+          </dependency>
+          <dependency
+            Id="9afed115-110c-4d04-8781-75459733f96a">
+            <classMoniker
+              Id="e4ed4081-176f-4b74-bc81-0c741d4b2afb"
+              LastKnownName="Lvivske"
+              LastKnownLocation="Package_1246.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9c06f8c5-1e17-43c9-80e0-a9673c82774e"
+            name="CreatBeer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a3678305-6d49-48f1-a9b7-a297a2c40f93"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DUkraineFactory Member%3DCreatBeer"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2546245-1c9c-4943-8d6f-4f7220d78757"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffb904b7-3d27-4774-b848-4ddc444d273a">
+                    <propertyInstance
+                      Id="cc0407c2-e021-4c1a-8bb4-bcc3bc8c2a80"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36b1c43c-f5a9-47ad-8749-4bbddf2a8706">
+                    <propertyInstance
+                      Id="e3af3ccf-31a1-406b-9a44-8a84f55fc01c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0ddd4ec-55b1-4ca8-8c98-a3308aa5ca02">
+                    <propertyInstance
+                      Id="a2f12aa8-d468-4d4b-a8d6-99ac17d73fd8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="025fad4d-dbd2-468a-adf4-c0af30389f5e">
+                    <propertyInstance
+                      Id="98a78c94-7294-455b-b631-994ab737b546"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72f89c57-bead-41f2-8bac-4de20c7ba45d">
+                    <propertyInstance
+                      Id="257f43a7-ce03-4329-8025-9ca99be61d09"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baf389cf-9614-4997-8c4e-fbb29aaca37c">
+                    <propertyInstance
+                      Id="e1756352-714a-4322-999c-7e1dbc25cc29"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a24490f-ceb4-4635-9efb-677d54eff4cf"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+                      LastKnownName="IBeer"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d0b24168-9e0b-4a39-b6fc-468fda279880"
+            name="CreatVodka"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a31b8a29-4c9d-4594-b02d-1922c1fe6f2d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DUkraineFactory Member%3DCreatVodka"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="391517b4-7436-47a1-9495-59ba80c03e2c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90ff47f2-bf78-4ee5-b5e3-2bd78b937991">
+                    <propertyInstance
+                      Id="03a8f753-8d03-4e3a-98bb-505fcf07e213"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ece7a6c-6028-4ebd-aad0-309a925ad095">
+                    <propertyInstance
+                      Id="bd649bd3-5eb2-4da8-bbbc-d4a7b9e4278e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6118a46-5426-44df-9a7c-a34d5f247e59">
+                    <propertyInstance
+                      Id="6cf4155b-fb21-40a1-a6f4-c23d1b467515"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b3611c9-a7c4-4188-8874-5270f597065d">
+                    <propertyInstance
+                      Id="83104ced-c079-43ea-be73-de2fed6b001c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0744b237-5b94-4f9e-a445-cd5d5913dbb1">
+                    <propertyInstance
+                      Id="0412da44-9ca2-4b73-8569-b7746c629596"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a05a325-35f0-4102-9a32-61e8772563dd">
+                    <propertyInstance
+                      Id="f28b57b3-2ebe-446b-845b-465e059f03fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="430d14c4-a01c-4f05-9796-3c4de08bad6b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="83314347-c1df-44e7-951a-321aa1537168"
+                      LastKnownName="IVodka"
+                      LastKnownLocation="Package_1246.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ddee3572-0695-4b77-8980-34ba3754b034"
+            name="UkraineFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fa8334f6-dfbe-4946-8cee-8229a499d7a7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DUkraineFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ba3c4593-de3c-4a50-9771-7d18479cd48c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdf06b55-4cc1-48a0-bbd5-1508789906ac">
+                    <propertyInstance
+                      Id="33e20635-a07f-4163-8e36-0a82dd0f4b0c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="125d134c-49bd-4a7e-9b98-1404d2b43ba6">
+                    <propertyInstance
+                      Id="0abb565b-8038-4a9c-8ee0-0cde57baa368"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18ecb241-6301-46d1-9d8c-c5517b710454">
+                    <propertyInstance
+                      Id="7f9cd171-e299-4fb2-a8e6-eb3a9217abf3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="672be84c-4d0b-4122-9260-315ddf622fa5">
+                    <propertyInstance
+                      Id="956fa421-e68e-48eb-bb8d-be1fdf14c0f0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6494f6ca-4a3a-4ed0-9570-14d1d1a1f6c6">
+                    <propertyInstance
+                      Id="1a693f3d-397f-468d-8c62-8c4b33941a17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1d6d19-6a5e-4339-8ca6-c04823a5a4a7">
+                    <propertyInstance
+                      Id="45e51a30-4ba6-4589-8760-a37086030586"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="eb7d9be8-2f2e-46c3-ad67-520bcf887972"
+        name="Zhigulevskoe"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7d122455-df72-403e-b700-8995e79cc6a8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DZhigulevskoe"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="470e3d79-3f2f-48d5-86b1-65e1266d83e3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="13cb1fac-ca63-4813-9bb4-f1ca146fa680">
+                <propertyInstance
+                  Id="0966d695-7ce2-41f6-b777-e01c079dd990"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0326a1be-e69f-41da-ba21-bee81f02458c">
+                <propertyInstance
+                  Id="62ba3f4c-a1d9-4520-9b92-b29fbb1247e0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f37e691a-dab1-45a7-bd38-fe5d6b40f20b">
+                <propertyInstance
+                  Id="3cef779d-91c4-4899-8ffd-e45f33d56861"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a247ec43-4255-4714-bada-c0ed73e8d046">
+                <propertyInstance
+                  Id="08648943-8cc9-4030-bc63-68a5b221c40c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5e7019a-2b7b-45a3-9f0c-771586e01879">
+                <propertyInstance
+                  Id="39f831c1-cabd-45bb-8ab7-cc6224a0c753"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="cfc41515-ff5c-48e6-83df-bb9600e3104d">
+            <interfaceMoniker
+              Id="1ca1ec36-6074-4411-88c4-803c23685e94"
+              LastKnownName="IBeer"
+              LastKnownLocation="Package_1246.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="06eb4a68-840e-4dbe-8d7b-56862264e48f"
+            name="Zhigulevskoe"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="db2f37dd-e8a7-4bd4-a26b-f24b67f0b988"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DZhigulevskoe Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5e3378b-c6fc-43bc-8037-80b9dbd5fb5d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4147c5b6-89d5-4790-924f-6af4f5c26ef1">
+                    <propertyInstance
+                      Id="0aff8fb8-254b-40d7-a0a7-e1a90b6c4d87"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdeefc70-3979-4f5d-acf9-d7feba3c8ecf">
+                    <propertyInstance
+                      Id="3e9f1263-258d-4743-bf9d-1ea5596b326f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc34e21d-59bc-4a4f-9ae5-f80afe5abf41">
+                    <propertyInstance
+                      Id="6d1350ac-34ad-4f95-b57f-66d36f5ea34d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7af1af1b-d8d2-48f1-bcd0-0155198439bb">
+                    <propertyInstance
+                      Id="487a585b-1b12-4c41-bf8c-27056bcc052b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b54a441-40c0-470e-824f-59f865e3f813">
+                    <propertyInstance
+                      Id="a044f992-5089-4851-bce7-f8363ceefd8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="661d2c62-c563-464c-8a91-64ed143ea2a7">
+                    <propertyInstance
+                      Id="eba49ec3-6394-49c0-9023-95c20326be5f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="261a8c2e-3c82-4a04-ac40-3b97f7deb9b0"
+            name="PrintInformation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8547dd52-8333-4b34-a78c-1ae54119e9b3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FAbstractFactory%2Fbin%2FRelease%2FAbstractFactory.exe Namespace%3DAbstractFactory Type%3DZhigulevskoe Member%3DPrintInformation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a57d922-65c6-4565-b0d8-64324e8169d8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0e1b8c6-79ad-4cc1-88d7-83b25b962e66">
+                    <propertyInstance
+                      Id="93067145-e6cf-4463-ad18-0b1651adeea5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c68b00f-6723-4ed2-ba95-4a6a64abe7c8">
+                    <propertyInstance
+                      Id="601cd039-c873-4f22-8a1b-1ae5f3016a9f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb45e3bd-1546-4d45-b776-0232cea5d3d0">
+                    <propertyInstance
+                      Id="84ae8f42-b082-4d91-8989-46d912651efb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b2c321f-9e32-4a12-a39e-b8359bfa7f68">
+                    <propertyInstance
+                      Id="bdcb77c8-b73c-40cc-bab5-8ab9b688764b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54e01919-979f-47f5-9ac7-3b485057b995">
+                    <propertyInstance
+                      Id="14c55876-17ca-4924-8994-53fbc7554ada"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aefeec4-4c09-427f-b098-a50195a3a0d0">
+                    <propertyInstance
+                      Id="580ce9be-853f-4b83-8e27-2cabd096be81"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
