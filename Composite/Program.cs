@@ -40,7 +40,7 @@ namespace Composite
             this.name = name;
         }
 
-        public virtual void Add(Component componnt)
+        public virtual void Add(Component component)
         {
         }
 
