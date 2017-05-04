@@ -23,6 +23,8 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML", "UML\UML.modelproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{D9B22B92-866B-4B45-AA47-17E118CD070A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{F3F361D4-F43C-45F6-8085-2D51F4691011}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,16 @@ Global
 		{D9B22B92-866B-4B45-AA47-17E118CD070A}.Release|Mixed Platforms.Build.0 = Release|x86
 		{D9B22B92-866B-4B45-AA47-17E118CD070A}.Release|x86.ActiveCfg = Release|x86
 		{D9B22B92-866B-4B45-AA47-17E118CD070A}.Release|x86.Build.0 = Release|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Debug|x86.ActiveCfg = Debug|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Debug|x86.Build.0 = Debug|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Release|Any CPU.ActiveCfg = Release|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Release|x86.ActiveCfg = Release|x86
+		{F3F361D4-F43C-45F6-8085-2D51F4691011}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
