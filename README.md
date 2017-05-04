@@ -10,3 +10,6 @@
 	Міст (Bridge)
 	Компонувальник (Composite)
 	Декоратор (Decorator)
+	Фасад (Facade)
+	Проксі (Proxy)
+	Легковаговик (Flyweight)
