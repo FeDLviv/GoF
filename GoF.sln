@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{5471C8EC-A463-40E4-B587-51AB6D64B629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,16 @@ Global
 		{5471C8EC-A463-40E4-B587-51AB6D64B629}.Release|Mixed Platforms.Build.0 = Release|x86
 		{5471C8EC-A463-40E4-B587-51AB6D64B629}.Release|x86.ActiveCfg = Release|x86
 		{5471C8EC-A463-40E4-B587-51AB6D64B629}.Release|x86.Build.0 = Release|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Debug|x86.ActiveCfg = Debug|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Debug|x86.Build.0 = Debug|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Release|Any CPU.ActiveCfg = Release|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Release|x86.ActiveCfg = Release|x86
+		{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
