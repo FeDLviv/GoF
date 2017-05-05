@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{48663ED5-46BD-437C-A5C5-472A7D132B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C46BB569-0E5A-40AE-A734-8BE1A9457D42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,16 @@ Global
 		{48663ED5-46BD-437C-A5C5-472A7D132B63}.Release|Mixed Platforms.Build.0 = Release|x86
 		{48663ED5-46BD-437C-A5C5-472A7D132B63}.Release|x86.ActiveCfg = Release|x86
 		{48663ED5-46BD-437C-A5C5-472A7D132B63}.Release|x86.Build.0 = Release|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Debug|x86.ActiveCfg = Debug|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Debug|x86.Build.0 = Debug|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Release|Any CPU.ActiveCfg = Release|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Release|x86.ActiveCfg = Release|x86
+		{C46BB569-0E5A-40AE-A734-8BE1A9457D42}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
