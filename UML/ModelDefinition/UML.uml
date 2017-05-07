@@ -61,6 +61,23 @@
           LastKnownLocation="Package_1239.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="655aa9df-e921-4357-9b75-04ab2cd1fa67">
+      <body>public string GetData()
+{
+    if (client == null)
+    {
+       client = new DBConnect();
+    }
+    return client.GetData();
+}</body>
+      <annotatedElements>
+        <classMoniker
+          Id="bbb2ef46-84cc-4836-aa34-0e8f02c3e8e5"
+          LastKnownName="ProxyDBConnect"
+          LastKnownLocation="Package_1340.uml" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
@@ -148,6 +165,12 @@
         Id="724cea69-24a6-4a16-a868-438688f3b93a"
         LastKnownName="Facade"
         LastKnownLocation="Package_1239.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="85e1852a-0570-4253-8af2-de843dda663a"
+        LastKnownName="Proxy"
+        LastKnownLocation="Package_1340.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

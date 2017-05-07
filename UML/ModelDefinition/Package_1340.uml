@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="85e1852a-0570-4253-8af2-de843dda663a"
+  name="Proxy"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="33199163-5c9e-4906-86ff-f70d5b2725fb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DProxy"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="21a95fd9-c8c3-40ad-84a5-069c9e3bc8c0"
+        name="DBConnect"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d5809b9c-479d-4f0f-bd0f-2dd9f975d8df"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DDBConnect"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d2a2b1fa-b615-40a6-8bef-dbdff30d0465"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9934d62-8887-45ba-a0dd-adcd589b538f">
+                <propertyInstance
+                  Id="4abb3611-7a61-4f14-9a2e-fa7a8269ecad"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ff20ed5-efdc-4f0e-b2c1-8e63974af147">
+                <propertyInstance
+                  Id="c8ce4cb6-699d-4d33-ac4e-6d395a0967f7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb24b5e9-1324-458f-a3d0-4a19218a69bf">
+                <propertyInstance
+                  Id="ec747c12-2234-487b-837b-3a41ecbbd8d1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5332f59a-5722-4100-8358-e84c7e1a7c5a">
+                <propertyInstance
+                  Id="5a0fdc02-3362-4646-bb1b-dcb3ae97d65b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="483ee81b-19ac-4a67-95df-021d000efa5f">
+                <propertyInstance
+                  Id="a20ecc4e-8741-4a67-8e3f-1318a846a4f7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="723ab178-e02d-4531-aa7b-af128c4e7c54">
+            <interfaceMoniker
+              Id="2828125f-5dd8-48bd-856f-81302ccc998a"
+              LastKnownName="IDBConnect"
+              LastKnownLocation="Package_1340.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ea244e16-615b-4520-9e9a-bd2d19299826"
+            name="DBConnect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="36cab55e-aa30-4492-9236-a48c81e2b5a2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DDBConnect Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="87b2db82-7202-409f-b892-05655f68362a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be37de50-aea5-4233-b90e-73a5ff4eef86">
+                    <propertyInstance
+                      Id="be994abb-1316-49ec-8c52-0dab743f7007"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a335046-430b-4448-b40d-23b893ceb452">
+                    <propertyInstance
+                      Id="ce294bab-f663-481c-a5fd-d421df19efc1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="906d2413-3557-4b22-ae73-7d63cff967ce">
+                    <propertyInstance
+                      Id="967e0ba5-3678-4113-8c4a-228568297994"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29ef9dee-c0d6-400c-80df-64a61511b577">
+                    <propertyInstance
+                      Id="b39cc6d3-31b8-40bc-a654-1e5351f7d3c6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3c63d5e-f54a-4d2e-adb4-f3417b0b3f0c">
+                    <propertyInstance
+                      Id="4da1d983-c226-4c07-bc03-208cd3b8797f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5216dd43-e329-4855-9ae9-7d61c5065f7f">
+                    <propertyInstance
+                      Id="0d5ee7e7-5797-4bb1-9530-9d2b904d4398"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="59c029bb-cac8-4d88-8e78-92e2e20a7556"
+            name="GetData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="89bdb9dc-6d02-4a93-8e1f-a40d39085ac0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DDBConnect Member%3DGetData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2f06249-2851-4039-81d7-4e902b9e56e8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b3c648c-dd75-4f32-bed1-af42a723b4bf">
+                    <propertyInstance
+                      Id="41884f8b-08c1-4c61-b2cb-f78b655726b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0d10105-a34d-460b-8288-04f79fbc012c">
+                    <propertyInstance
+                      Id="8fc7f436-6df6-406d-9c7b-ade86d7579aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f766546a-68da-4a66-ab9b-53fa86a9a95c">
+                    <propertyInstance
+                      Id="d4196f3c-179d-420f-b561-4f992826f4d5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4c52804-430d-498f-804a-7d6a8a9f9039">
+                    <propertyInstance
+                      Id="f909a13d-be22-4421-91dc-3a7747051686"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29ae0433-cbdf-4a7a-848e-c9af21fc086d">
+                    <propertyInstance
+                      Id="617a2957-9d09-462f-b7b7-44ff70f949fa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23b0b293-7ffa-46f3-82a2-2133eb59fed6">
+                    <propertyInstance
+                      Id="787ff1bf-edc8-4a6b-aed8-079ed084f460"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e0169663-8f34-4442-bb2a-620686568260"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c4a3530a-ef4a-4531-be48-316af903947c"
+            name="Close"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="010752ea-5c1b-45db-b6ba-90c4908fda6f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DDBConnect Member%3DClose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d66fa724-70a2-4669-8947-f2458d64eb9c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ad64f93-ae28-4f07-9ca4-4c05ebf044ba">
+                    <propertyInstance
+                      Id="fcd6c248-6786-4064-bbfc-ce85ba973ebc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e3374dc-5773-4720-8893-68f0ecd3a335">
+                    <propertyInstance
+                      Id="e9207f5a-1d11-4835-9002-43c8b142202b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ce7fa91-13a1-4ad5-a212-350c75699161">
+                    <propertyInstance
+                      Id="958c1b72-688c-490b-a9fe-f9eceffd594e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe54e982-9c9a-4a6d-a243-5862027dec2f">
+                    <propertyInstance
+                      Id="cdcad72d-e56a-4ec3-bf60-ebf20d1b15b2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa46ac3b-cc68-4449-befa-02a251d14729">
+                    <propertyInstance
+                      Id="a3c66ee3-160c-4e77-922b-d1055e094890"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e5f5fd9-b7f2-46b5-abbf-da15054add32">
+                    <propertyInstance
+                      Id="ae1a4cae-cedc-46e1-9e2d-fbde53b3bb5d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2828125f-5dd8-48bd-856f-81302ccc998a"
+        name="IDBConnect"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6e1f07e5-ac27-4777-9e2f-3c68748611fc"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DIDBConnect"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c1577d3d-1173-4961-b123-b0eb8578a594"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50e6c6d8-0506-4179-b601-974aa8bc3003">
+                <propertyInstance
+                  Id="99afd853-eade-4d19-8c70-53f8106bbf40"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9bf0497-f38f-4495-91b6-6c9e179a3952">
+                <propertyInstance
+                  Id="eb9fb818-ce39-48ee-8707-7cabb3d74e41"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d9bcb607-765a-43ae-8bbe-cf73d1b53f1f">
+                <propertyInstance
+                  Id="2ae59e32-64b0-477f-842d-84af022150ab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f45a0885-ee4e-4063-8e57-05755cf2de66">
+                <propertyInstance
+                  Id="9dc25a95-2319-4f9f-9a4d-6cf3db167306"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="5f6cf77b-6f7f-45c9-a118-a85f4541fb99"
+            name="GetData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="87e50678-31f1-43bd-a918-64a9c01dd9a4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DIDBConnect Member%3DGetData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c15ff2c1-1d22-4cbc-b533-59761fcb3ba0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61619c4b-004f-414b-bedd-a993200f5f70">
+                    <propertyInstance
+                      Id="ed4d44fd-3d76-4aa1-853f-a7c4c03addc9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cc72696-79e6-4994-a690-0285a874942e">
+                    <propertyInstance
+                      Id="3f08a517-748c-4011-9d88-f00f36a8f2b7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c93d1969-8dd0-4aae-b489-34d934d6328b">
+                    <propertyInstance
+                      Id="1959e20f-5de2-48f8-ac60-7cab6d1417ee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d8a00a8-6bf0-4142-b88d-4c193a5d747f">
+                    <propertyInstance
+                      Id="ff9ac0f6-10bb-4a70-9e5e-25d0f850d929"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f9188a6-d5c8-4154-b19f-85bb243708b6">
+                    <propertyInstance
+                      Id="091ee7be-36a3-4ee1-95c4-7b2ed3b18d5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3f897dd-49ea-450c-a32d-0a991cfc80be">
+                    <propertyInstance
+                      Id="424bc9fe-b643-44b1-8841-f6421ebc8c52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="248b669a-a2c8-4108-9765-e33f35daebe8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="22ce61aa-0713-443c-a2df-29c5c639b0a2"
+            name="Close"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="056acefe-d5de-4e65-b680-3709d88ba5f4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DIDBConnect Member%3DClose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="672ca748-5c8c-49fc-b011-3ca2fe648e04"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2869a42-4d88-4d9a-8667-d4573590d39d">
+                    <propertyInstance
+                      Id="6676f110-352e-454d-a5c4-ffe18ec9e034"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="122ebc17-d237-4d8b-8765-1bd9090be2b1">
+                    <propertyInstance
+                      Id="bfd79a90-cb30-4d14-948d-71bffd2fff5f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad510f48-83b2-406e-a108-9cb7b54315a8">
+                    <propertyInstance
+                      Id="906c96ba-17ed-4111-8882-73e20775dcf4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e757525-7f23-450b-a4e8-15c7ecf828e4">
+                    <propertyInstance
+                      Id="d654d818-1109-46e8-b17f-47b187ecc9e2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c0725ec-9937-4894-be5b-8ffe1885638e">
+                    <propertyInstance
+                      Id="3b402bc5-6ee2-484d-ab78-8d406fefdc44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3bd698d-0901-42fd-85b9-cf8cc846a309">
+                    <propertyInstance
+                      Id="5d408b12-7552-4c9a-b227-a6092bc2cd3e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bbb2ef46-84cc-4836-aa34-0e8f02c3e8e5"
+        name="ProxyDBConnect"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="68adef0b-c65b-4aef-afb8-7ce62da566c6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DProxyDBConnect"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="61ca5ff0-dfc6-41c3-ab7e-178248df31cc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="91632869-64e8-4165-9774-0b0bcd9d2757">
+                <propertyInstance
+                  Id="c62e5cc7-0449-41ed-9834-0d661b7299c6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acb131e5-1713-4f2d-9d28-318e69fa0c67">
+                <propertyInstance
+                  Id="fe844344-cc61-45fb-ba03-20c3564caaf8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="961bb2c1-8454-4029-a0f3-31c2b43d433d">
+                <propertyInstance
+                  Id="11cb853b-f2ce-4424-b450-7c9b3e5d2775"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1c75c3f-b9b6-4455-8705-d699a9f9c7d9">
+                <propertyInstance
+                  Id="b1711664-add0-434a-8aec-d5d143077c44"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b35f8789-0cda-4b17-bebf-2acbd8b88b91">
+                <propertyInstance
+                  Id="942fa65f-13d0-4c3c-b63c-a68454d6c83a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="51ed490c-8bfe-4f20-9b79-1e2790fc4067">
+            <interfaceMoniker
+              Id="2828125f-5dd8-48bd-856f-81302ccc998a"
+              LastKnownName="IDBConnect"
+              LastKnownLocation="Package_1340.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="50ec7c28-5b85-42ad-be05-55e3fd29d890"
+            isDerived="false"
+            sourceEndRoleName="ProxyDBConnect"
+            targetEndRoleName="DBConnect"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="21a95fd9-c8c3-40ad-84a5-069c9e3bc8c0"
+              LastKnownName="DBConnect"
+              LastKnownLocation="Package_1340.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="84d99961-6e21-4d22-8125-8ba4dca08162"
+                  name="ProxyDBConnect"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f4436c32-1940-41d9-aeca-3bfd75767317"
+                  name="DBConnect"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="44c77995-12f6-4b4f-ba1f-048527e4aa99"
+            name="client"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8e1e6199-f333-4164-bb86-3760280102b0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DProxyDBConnect Member%3Dclient"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="24be4754-17fd-4649-b7b9-354046eba3d8"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53cb0a29-a3a9-4a5f-b3b6-d7f9142947dd">
+                    <propertyInstance
+                      Id="5333a2f3-319e-4bba-a44b-201ea4487df3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97a9898b-98e1-45d1-ba2d-3ba96406f38c">
+                    <propertyInstance
+                      Id="06352694-4781-450e-8ff5-0ba77d1f7197"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d054d44-023a-4a29-ac28-f5a4aa0d2456">
+                    <propertyInstance
+                      Id="460af64c-ccbb-4ace-a98c-7a01cdd49ae1"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="375adbf6-52fa-4df1-bc73-80df205be6d2">
+                    <propertyInstance
+                      Id="84981c93-27ce-4b28-9995-6786c66a65d7"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be9a6d72-0071-424f-9c95-59a8e5fcdd4e">
+                    <propertyInstance
+                      Id="bd049f4b-3aff-439a-8c88-90a62f764981"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="21a95fd9-c8c3-40ad-84a5-069c9e3bc8c0"
+                LastKnownName="DBConnect"
+                LastKnownLocation="Package_1340.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b30da392-9586-414e-9d95-7d5eeb6a7d04"
+            name="GetData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a2d3495d-9daf-4c7b-a38a-a2daf8fe5669"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DProxyDBConnect Member%3DGetData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="52ba1a8d-a61c-40ef-bb5f-24cddcfe7d26"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9812a0ff-6504-45d4-88ae-6db72ba841a7">
+                    <propertyInstance
+                      Id="2b262555-0fb1-46b4-82fe-28b009719ba6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e685cd86-27f8-4195-bf55-b1b9be90858a">
+                    <propertyInstance
+                      Id="79cf82dc-c4ee-453e-9b19-7f32d71e35fa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0e9c16-f919-4758-9be1-4d30c5da87b5">
+                    <propertyInstance
+                      Id="9eac86ff-ce11-4a3e-a788-e990bc2b4988"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7aeb1190-adb8-40f4-ad5e-58c5fdee678b">
+                    <propertyInstance
+                      Id="21aea696-044d-4847-bacc-1c609bc0ce2c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d94b2b2-8657-4422-809d-60133d260a26">
+                    <propertyInstance
+                      Id="46afe1e9-4b9a-4e68-bc42-c020f7746d16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d3d8c96-20ad-4379-bdfa-82ccefe3f1f7">
+                    <propertyInstance
+                      Id="19b56085-c085-475a-b123-11690c7373cd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e5e69b02-0981-4dd3-b525-ba47ded52b07"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="23d7d6fc-c81e-475c-88de-b583ddd7095c"
+            name="Close"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f8795ca1-988a-4eb4-a8e4-5137f8b7fa13"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DProxyDBConnect Member%3DClose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b2eb8b7e-d272-42d9-bd8d-9dc7482440ef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de9f5f79-2ebc-4f96-9172-42de84950b54">
+                    <propertyInstance
+                      Id="1a252a34-0aee-4c49-b13e-30ed292f2144"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd7d2d44-b7c3-4474-8455-de1567106fc8">
+                    <propertyInstance
+                      Id="d3e9b4e9-e240-4548-b217-347305856905"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9450bbc4-752a-4aa1-96bb-df949a904f2b">
+                    <propertyInstance
+                      Id="6b4afd30-c544-4de9-a391-2455ef3805ec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d4c6f1e-c8b6-41d1-a6b8-7a490c353183">
+                    <propertyInstance
+                      Id="a16c5fef-4d43-4426-b1eb-5f16801cf9dd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b12a0b3-7068-4461-8f46-b1c3566373a5">
+                    <propertyInstance
+                      Id="ca252546-f33f-43ab-a390-d00892629d6c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f265a2f-8cc1-4a1e-ad44-67428c6fc2b6">
+                    <propertyInstance
+                      Id="d614dc64-2c4c-4d32-8c5c-ef3acd20a29f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c6dce1b6-629a-4111-a24f-21adffad10a9"
+            name="ProxyDBConnect"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="63f42205-34bd-4d17-a8d9-781f8834ecb8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FProxy%2Fbin%2FRelease%2FProxy.exe Namespace%3DProxy Type%3DProxyDBConnect Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dba44080-7327-4ae4-8def-e8c55d26b33f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4653b007-ae7e-451d-b322-15574e0f16a5">
+                    <propertyInstance
+                      Id="0abba4fb-4a43-4f1b-afed-f6f2de79de9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e72c2578-06e1-435a-b999-a4499b11faa6">
+                    <propertyInstance
+                      Id="f8ff2b4b-1065-4afa-92bb-1623c5dd682f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb18b547-269c-43e4-a54d-133866c0eb5e">
+                    <propertyInstance
+                      Id="40eeb26d-3395-43e6-aea5-9ac2ac704d4c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27191a43-17a2-4948-ad7b-37f84f2f02ce">
+                    <propertyInstance
+                      Id="f1af85b2-0209-4d69-b45a-954e8e293a7b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f83f4c84-0c95-4b30-ab4d-2a01739be619">
+                    <propertyInstance
+                      Id="c76b1da4-aa07-483a-81ff-f3cd6b56a4de"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1557d280-c70d-4e1d-93c8-2e44ed4a6d1e">
+                    <propertyInstance
+                      Id="c6d7631b-6479-491f-9e03-4a53db720928"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

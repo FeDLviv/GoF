@@ -6,31 +6,23 @@
   <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
   <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
   <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
-  <Message Timestamp="2017-05-07T12:39:52" Importance="High" Text="Реконструирование запущено." />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Boolean&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Foundation&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Foundation::DestroyFoundation&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Foundation::FillFoundation&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Foundation::Foundation&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Foundation::IsStiffened&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Frame&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Frame::CreateFrame&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Frame::CreateFrame::foundation&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Frame::DismantleFrame&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Frame::Frame&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::Build&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::Destroy&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::foundation&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::frame&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::HouseFacade&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::HouseFacade::roof&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Roof&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Roof::CreateRoof&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Roof::DestroyRoof&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Roof::PaintRoof&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Facade::Roof::Roof&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="High" Text="Полностью реконструировано (4) типов." />
-  <Message Timestamp="2017-05-07T12:39:57" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+  <Message Timestamp="2017-05-07T13:40:41" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy&quot; -  (Package)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::DBConnect&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::DBConnect::Close&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::DBConnect::DBConnect&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::DBConnect::GetData&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::IDBConnect&quot; -  (Interface)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::IDBConnect::Close&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::IDBConnect::GetData&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::ProxyDBConnect&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::ProxyDBConnect::client&quot; -  (Property)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::ProxyDBConnect::Close&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::ProxyDBConnect::GetData&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Proxy::ProxyDBConnect::ProxyDBConnect&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Proxy::DBConnect в UML::Proxy::IDBConnect (InterfaceRealization)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Proxy::ProxyDBConnect в UML::Proxy::IDBConnect (InterfaceRealization)" />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="High" Text="Полностью реконструировано (3) типов." />
+  <Message Timestamp="2017-05-07T13:40:42" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
 </Log>
