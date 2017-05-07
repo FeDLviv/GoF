@@ -78,6 +78,26 @@
           LastKnownLocation="Package_1340.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="127654de-a7e9-42ae-aa6a-707798feb0d4">
+      <body>Picture = CarPictureFactory.CreateFreightCarImage();</body>
+      <annotatedElements>
+        <classMoniker
+          Id="b55ccfe2-9e38-4306-ab93-79fb09d0f585"
+          LastKnownName="FreightCar"
+          LastKnownLocation="Package_1510.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="32577241-71be-420e-937e-961f05cede66">
+      <body> Picture = CarPictureFactory.CreatePassengerCarImage();</body>
+      <annotatedElements>
+        <classMoniker
+          Id="f92e0709-aaaf-4cfd-b3e4-a2c1c7000c87"
+          LastKnownName="PassengerCar"
+          LastKnownLocation="Package_1510.uml" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
@@ -171,6 +191,12 @@
         Id="85e1852a-0570-4253-8af2-de843dda663a"
         LastKnownName="Proxy"
         LastKnownLocation="Package_1340.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f26e6162-a8c5-41e8-9f36-9d7afab6ec86"
+        LastKnownName="Flyweight"
+        LastKnownLocation="Package_1510.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

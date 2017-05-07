@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e2a80a86-76f5-4fb1-9896-c6bf252275b6" name="Flyweight" linkedPackageId="d6503f9b-d4cc-479c-8910-d2fc62067720" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="711c0298-9012-4fb3-8a75-8c6bd66faea4">
+      <elementDefinition Id="127654de-a7e9-42ae-aa6a-707798feb0d4" />
+      <body>Picture = CarPictureFactory.CreateFreightCarImage();</body>
+      <annotatedElements>
+        <classMoniker Id="39c40561-c717-4472-9218-fb2d29e3f196" LastKnownName="FreightCar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="30fede1e-f0b1-4208-8646-77c30e55d85d">
+      <elementDefinition Id="32577241-71be-420e-937e-961f05cede66" />
+      <body> Picture = CarPictureFactory.CreatePassengerCarImage();</body>
+      <annotatedElements>
+        <classMoniker Id="17c127b8-2dcc-4e40-a8f2-b252eb4fc55a" LastKnownName="PassengerCar" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="fe847d93-6fe0-468b-84fb-299376914b66">
+      <profileInstance Id="871174ff-4193-4688-8fac-4acaa82a8f9c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="510fc1cb-2380-49bf-934b-6d4815a4c368">
+      <profileInstance Id="afba069e-2349-4bac-827e-2cf79a69c976" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6f6c0e5f-071f-4c2e-ad45-18a11803cdda">
+      <profileInstance Id="33ca8fa1-e7a4-4423-adf1-f5ed5edfcabb" name="CSharpProfile">
+        <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
+      </profileInstance>
+      <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cab424de-0d7e-4d76-a09a-df141602d9e3" name="Car" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="16973e9b-ed19-4ad5-962e-f514005d68ed" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCar" tag="ViewCode">
+            <elementDefinition Id="92216ab6-03e6-4e06-ab0d-0b317066fbdc" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="77857589-6269-44f4-91e4-6c2993fbcc70" name="class" profile="CSharpProfile">
+            <elementDefinition Id="dfb024dc-f8d9-41e2-9bb2-dfd7ecb5a184" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="069991fc-2ee2-4643-8f54-4737fca0fb20">
+                <propertyInstance Id="15fbfc38-ebb0-4425-b2c3-81896767ed35" name="ClrAttributes">
+                  <elementDefinition Id="6175f005-427f-42b0-a39e-2c4cf1cd9e18" />
+                </propertyInstance>
+                <elementDefinition Id="fa1d2e77-ca8a-41dc-9015-cb2924b48bdb" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="86e899ee-fece-408a-bd26-cf13e89236b6">
+                <propertyInstance Id="5e11785b-463d-4b6f-beab-f285e3747651" name="IsPartial" value="false">
+                  <elementDefinition Id="6048f405-b8f9-40d8-9c44-4abe59eaa9c1" />
+                </propertyInstance>
+                <elementDefinition Id="52f22c9d-64bd-4843-a793-34f06c3304c8" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5289aa49-010e-4c62-adfd-a7940f71863c">
+                <propertyInstance Id="90be5ebf-846b-4ff5-9151-72bfa0921775" name="IsStatic" value="False">
+                  <elementDefinition Id="1b6ef3d8-fe7b-4293-ad90-4354eb5c0877" />
+                </propertyInstance>
+                <elementDefinition Id="3f05abc5-73f0-417b-8adc-859245a2925a" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a7f09528-8d15-4200-b832-304f9360d04d">
+                <propertyInstance Id="c2659a16-46ce-4b0b-8fd0-6b6a8510d92f" name="IsUnsafe" value="false">
+                  <elementDefinition Id="e517a4b2-0438-44fd-bfca-cf0288f33bfa" />
+                </propertyInstance>
+                <elementDefinition Id="04c98a36-8e15-441f-9c8f-bd4f3076ed0f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="30107f1e-cc79-4659-b1a4-cbf9be29c5d6">
+                <propertyInstance Id="2e0935c0-61e1-4f27-b075-8e06e268f167" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="f2a2de2f-fb4c-4211-a854-6e99eab621a8" />
+                </propertyInstance>
+                <elementDefinition Id="c01951f6-03a1-4d50-ba64-79f5509fd76e" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="11dc3090-6752-4517-a1ed-fc61b6598489" />
+        <ownedAttributesInternal>
+          <property Id="b8d7db0d-2c34-4776-b49c-46ade432010a" name="Model" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="7458d63e-c7f6-4afd-b573-f1d0bb7435d9" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCar Member%3DModel" tag="ViewCode">
+                <elementDefinition Id="2abac9ca-6b7d-4bf0-a9d7-a26079dd8c5b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f209518a-a563-4ca5-8a9e-5fd15f046877" name="property" profile="CSharpProfile">
+                <elementDefinition Id="8b391453-1d42-44e9-85a5-67734dc81cbf" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aa489556-940a-484d-8162-2b328d6380ed">
+                    <propertyInstance Id="29ebdcba-8e3a-4402-939e-abb9542a4c68" name="ClrAttributes">
+                      <elementDefinition Id="f18578a8-c8bb-4212-a127-2d0f63fa4511" />
+                    </propertyInstance>
+                    <elementDefinition Id="49c473d5-b910-45fa-804e-ed0510ab6bd5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ebb776a3-0f1a-4b57-8884-c1493385c6e1">
+                    <propertyInstance Id="e09bfb78-e8ec-480f-abc2-5664dae93a07" name="Get" value="public">
+                      <elementDefinition Id="d7ddb1eb-1fdb-4c2f-9c17-5c44b50c34f5" />
+                    </propertyInstance>
+                    <elementDefinition Id="0786615a-77a4-45bc-8edf-df9fb7e80435" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3c79dd58-7c13-4223-a5df-d9903a1c0d30">
+                    <propertyInstance Id="23fdb8c5-979f-4714-909f-8c677f4fa0e8" name="HasBody" value="false">
+                      <elementDefinition Id="baa87c13-77ed-461e-9114-695a14665cba" />
+                    </propertyInstance>
+                    <elementDefinition Id="85188ec7-53be-4e4f-beb6-2471ee9fe398" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="09528a6e-2674-4e36-9dfc-064bdab64672">
+                    <propertyInstance Id="b5e0f927-5e76-40aa-8b9d-f3267d9888f8" name="IsUnsafe" value="false">
+                      <elementDefinition Id="f811dfad-fefd-48ad-b0b7-0b8e27d012ca" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ca28690-5c92-41fc-afba-166192798e2a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ab7b5844-21d0-4ceb-b88c-bee20824130d">
+                    <propertyInstance Id="1e8ee648-a7bd-4425-96f7-2d8f40f01a78" name="Inheritance" value="none">
+                      <elementDefinition Id="c5b572d2-e72d-4ff4-9dfe-d7baaa52033b" />
+                    </propertyInstance>
+                    <elementDefinition Id="be3dc192-5e11-42ec-b9d9-c1a0d6057422" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a3a5262c-aa4a-4129-91d6-b2cf9f5fd56d">
+                    <propertyInstance Id="bfdf5873-6c29-406c-ad36-499547fb7dbc" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="b15a762f-181e-4cb4-aa01-db65e9d56d9f" />
+                    </propertyInstance>
+                    <elementDefinition Id="5e537145-1c88-4d20-ae7f-635fcbe4cadf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="09ce4f99-ea28-4904-bb28-0c87161a34c9">
+                    <propertyInstance Id="2c3cbd10-3a4e-470d-b5f9-1eb3c4a2e1c3" name="Set" value="public">
+                      <elementDefinition Id="bb42b251-8a69-42f6-8e7c-d5eb1cca16be" />
+                    </propertyInstance>
+                    <elementDefinition Id="4e72c045-84fd-4ad7-bf28-d29b36a98b04" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e5b677e3-6e32-48dc-b464-3db333225a5e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1ba8c7cd-1d0e-4751-953f-18531cd83029" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="a63e5b91-3a95-4349-a2ec-9c10c6cebff4" name="MaxSpeed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="9e0b5bbe-94a1-483b-85d7-794819aa8252" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCar Member%3DMaxSpeed" tag="ViewCode">
+                <elementDefinition Id="8d767c8e-9e7c-47a1-8c5a-194ead1f2419" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="8b6d4c7e-da33-427c-8fd1-0131fa03bf06" name="property" profile="CSharpProfile">
+                <elementDefinition Id="ac56718f-ca3d-4e80-a695-3f21e829b3c0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="665a6b9e-6b28-4809-9b73-f084a33e51a7">
+                    <propertyInstance Id="5d1ca7ac-4041-4226-93dd-4323fa481c49" name="ClrAttributes">
+                      <elementDefinition Id="4bc69d80-ca13-45c6-8c8f-b20f72cbaa98" />
+                    </propertyInstance>
+                    <elementDefinition Id="7ede9a2f-396a-47d8-a651-fa64d9214de5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ffc5d5cd-32f7-4c8b-a16d-8e903d030646">
+                    <propertyInstance Id="860a2387-948c-49e5-90cc-0faa74dd3e0d" name="Get" value="public">
+                      <elementDefinition Id="c6f73712-3294-4ed4-bdd5-bf17ad84f90d" />
+                    </propertyInstance>
+                    <elementDefinition Id="03c2f00a-f0b5-4510-8388-61e991b9c154" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3d730f6f-e08d-4ce2-9197-eeb04201dd27">
+                    <propertyInstance Id="ddedd233-386d-4562-afce-1618710422a8" name="HasBody" value="false">
+                      <elementDefinition Id="ff349fda-dcf3-49ed-a83f-611d6d005cf7" />
+                    </propertyInstance>
+                    <elementDefinition Id="fda51088-0240-4d87-b375-4439a2f4b55d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="062920ac-7d0c-443f-97bc-27a72277036e">
+                    <propertyInstance Id="9755cf3b-0e84-4e75-9fdb-020cffab767b" name="IsUnsafe" value="false">
+                      <elementDefinition Id="1ec50b76-2156-4bac-9a06-fa6969501e81" />
+                    </propertyInstance>
+                    <elementDefinition Id="a0f5b9e4-41ce-41cd-8f71-2e42abee3e26" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3586be32-4c96-4fe3-8312-c3fe2e941960">
+                    <propertyInstance Id="79161dc2-8b2b-41af-b16f-5e18fdb6f4a5" name="Inheritance" value="none">
+                      <elementDefinition Id="f2b393d3-7269-443f-970c-a5af08827ec5" />
+                    </propertyInstance>
+                    <elementDefinition Id="dce54d9e-b9f4-4df3-be95-735149a49701" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8cef1386-06b5-4de1-aa4b-48ea14317be4">
+                    <propertyInstance Id="04d4fd50-d157-4e32-bb95-7a38dc3034c3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7da31e5c-f2b7-42d8-b823-57639497e1e9" />
+                    </propertyInstance>
+                    <elementDefinition Id="ac1557e0-1996-4dea-9955-00b21acb100d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eede252e-67ac-4a8b-9e8b-b7a3b74a36d8">
+                    <propertyInstance Id="961a63d7-9f45-4791-8145-a9776a16715a" name="Set" value="public">
+                      <elementDefinition Id="9a21c481-28ae-4e93-adf2-bf65a90a5c41" />
+                    </propertyInstance>
+                    <elementDefinition Id="c1b4d0ab-5f75-41da-a106-5b95e9c6afd6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b1a3bdf6-0f1a-455f-a549-8d47ffb01545" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cc8c013e-5de5-490e-b22e-b9fd0ed762df" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="e4c88fc8-6a11-4d60-9f5b-4bb2f0618c38" name="Picture" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="402f7b0b-369f-48be-9154-c23e27ccb75c" handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCar Member%3DPicture" tag="ViewCode">
+                <elementDefinition Id="b87da7d8-760e-41bf-838d-faddc6aef98b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="766b618b-9635-4a3e-92a2-5a88e05670c9" name="property" profile="CSharpProfile">
+                <elementDefinition Id="8403dde5-d6d5-444c-a580-86bcd102a8f4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f517de52-cad1-464d-a4cd-b83f1ed8ab82">
+                    <propertyInstance Id="3e2bbcd1-7ec5-4049-9e07-36a0a728e104" name="ClrAttributes">
+                      <elementDefinition Id="8611512b-0631-44cd-acf9-c7e674c91204" />
+                    </propertyInstance>
+                    <elementDefinition Id="56683443-e718-4570-a5dd-3c9bc54ae954" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fdb2d68b-64dd-4aac-bb6c-c9b255eb3fff">
+                    <propertyInstance Id="8de341f6-a864-4ee7-b3c8-eb36769bbbd7" name="Get" value="public">
+                      <elementDefinition Id="f92768a3-fdde-43f8-ac8c-102ee6b6f06f" />
+                    </propertyInstance>
+                    <elementDefinition Id="ae64e672-5089-4226-80f5-ee495f542546" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="edee336f-e740-47f1-9b9e-6a48b08c810f">
+                    <propertyInstance Id="7ef5acd0-37ff-413b-ac68-f1aff630d7e6" name="HasBody" value="false">
+                      <elementDefinition Id="72df9c97-9ac8-466b-861a-d35eb7212eae" />
+                    </propertyInstance>
+                    <elementDefinition Id="633e41cc-912b-424b-b05e-6f154321d74b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="306f55ea-7645-4eda-ad2f-fe08d0f86e72">
+                    <propertyInstance Id="e1e6e985-9904-4bf8-bcd1-5381aca8ae62" name="IsUnsafe" value="false">
+                      <elementDefinition Id="eff7eb81-5c75-44e7-80ed-93bce8916e34" />
+                    </propertyInstance>
+                    <elementDefinition Id="04b14a4f-c68e-4f03-9c55-663a3fa6ebc8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c27f7447-a602-448f-b7a0-afe3b3166301">
+                    <propertyInstance Id="6477b214-51f5-4976-bce0-071360f360af" name="Inheritance" value="none">
+                      <elementDefinition Id="c99853e4-b672-4ad1-8c76-ec8e0a532e63" />
+                    </propertyInstance>
+                    <elementDefinition Id="c39f090b-64ab-459a-9a39-0d283951bb42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ac033b9b-7da8-4a24-91cf-cac0ab0859d3">
+                    <propertyInstance Id="82dfb6e2-ca62-4b15-b23e-0ee046d0b6cf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f3d27420-2f92-4ecd-b703-bdd987b398d0" />
+                    </propertyInstance>
+                    <elementDefinition Id="30d471af-b44e-4f5b-8cd6-eabc5ad8dbe7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b9641f45-7004-41f7-9d33-573a00bd2d5a">
+                    <propertyInstance Id="d4d06096-4e32-4a63-9f7e-e0710786e359" name="Set" value="public">
+                      <elementDefinition Id="615ae2c7-3cb9-46ed-82fe-c35573019ccf" />
+                    </propertyInstance>
+                    <elementDefinition Id="d902afbf-66ab-45f5-8d2a-8e9505c377fb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a9eb5297-9b5c-417d-988d-d55187d6b80f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="670b56ec-cfe1-4ffd-aa2b-ece128ff1769" LastKnownName="Image" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="9363fb4f-ec44-4eae-b00c-65085f0760e8" name="Car" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="831b1f72-8840-45c8-aa43-fdc41f325753" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCar Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="484e5376-9e0a-4812-b004-a727343de6d1" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f11bf592-3533-4dea-84ac-b23a7d1c7aee" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c4c3cd1d-fae0-4969-b8e2-aaec8a2fc513" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e7042466-62bc-428b-853a-48e8259c6019">
+                    <propertyInstance Id="c4c81a44-e3cf-4ce2-a5cd-1c5b64383b2f" name="ClrAttributes">
+                      <elementDefinition Id="1fcd4138-3555-4158-a469-062180f17571" />
+                    </propertyInstance>
+                    <elementDefinition Id="52328142-4516-44df-8e6b-305f0c02c2b3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3bef785e-49e7-4256-a2a9-cd0a04863c90">
+                    <propertyInstance Id="e5d5c4e2-1c6a-4024-b14b-47b50a8800a5" name="IsPartial" value="false">
+                      <elementDefinition Id="4b44c82c-96dc-4348-85d9-b33cfaeada70" />
+                    </propertyInstance>
+                    <elementDefinition Id="93ff9952-b034-454b-81ea-4bad8c5a402a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8bba05c6-87ed-4861-be67-31e187ff7e6b">
+                    <propertyInstance Id="b3920f8d-5b7c-4646-b815-4d72dfcec9cd" name="IsUnsafe" value="false">
+                      <elementDefinition Id="3dcba6de-59de-4359-9638-ca426e94b164" />
+                    </propertyInstance>
+                    <elementDefinition Id="0d78688b-fc7b-4ca7-9abc-3d6bd0f7f529" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="678c657b-6448-47a7-bb6e-c860db35c1fa">
+                    <propertyInstance Id="b34380fc-5fb6-4ee5-933e-874b5fbbbdac" name="Inheritance" value="none">
+                      <elementDefinition Id="e26888d0-e97d-42c4-8925-de1c64acd110" />
+                    </propertyInstance>
+                    <elementDefinition Id="4b4aba78-dd44-4a42-943b-62472ffd0063" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9aa11fe0-90eb-44f5-85ce-e98c6b5297fb">
+                    <propertyInstance Id="c761461d-9ab2-4bde-b440-00911a67db51" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c54af69f-f1c4-462a-89e1-5f9ce8f05050" />
+                    </propertyInstance>
+                    <elementDefinition Id="eb57c84f-5b0c-447f-a112-db7dec08ef31" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c03a4ec4-9391-4e41-b8b1-3a39bf864dd9">
+                    <propertyInstance Id="c181fc3c-858b-44d9-a92e-ebc9472041f5" name="params" value="false">
+                      <elementDefinition Id="f7ee6340-712b-4c97-bb93-f51a95e5a1b2" />
+                    </propertyInstance>
+                    <elementDefinition Id="c977968e-af41-400b-9ba4-3fd3219a2106" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6394b980-1a24-4b47-9ebf-912e0aee2e26" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1ba8c7cd-1d0e-4751-953f-18531cd83029" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cc8c013e-5de5-490e-b22e-b9fd0ed762df" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="670b56ec-cfe1-4ffd-aa2b-ece128ff1769" name="Image" isAbstract="false" isLeaf="false" cachedFullName="UML::System::Drawing::Image">
+        <elementDefinition Id="7a2b23a1-2d6b-46d9-a03c-814d8a27eea6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ace14a2e-e1c3-4e25-9701-d812adff12df" name="CarPictureFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="232454b3-5cff-48a5-8e62-7057523cc8a0" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCarPictureFactory" tag="ViewCode">
+            <elementDefinition Id="1c979312-c173-4071-92c9-50274938d4c2" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="08f6baf6-8a7e-4525-b62f-18db51eb901e" name="class" profile="CSharpProfile">
+            <elementDefinition Id="0ebdf207-286a-4854-bed6-89538de84d93" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="985058d3-0fe5-4738-afaa-8b3a8b65d3f6">
+                <propertyInstance Id="83d20d9d-a137-4d8c-a08a-3a9d3bcd60a1" name="ClrAttributes">
+                  <elementDefinition Id="ffab317e-95ab-4a14-bc64-f191686e73b6" />
+                </propertyInstance>
+                <elementDefinition Id="5f711d08-4f51-492c-b792-ca0049ad2f40" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bbb9bc5e-da6e-4dcd-8e36-0cf8ed78caa4">
+                <propertyInstance Id="e3a61e38-0865-4482-882e-359880cd8ca9" name="IsPartial" value="false">
+                  <elementDefinition Id="9d34e40a-a63f-4c13-a82b-4df51028db20" />
+                </propertyInstance>
+                <elementDefinition Id="f0e630cc-2984-40b4-9235-a38832fdf4fe" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="26e75790-d100-4268-838a-09db3bf798d3">
+                <propertyInstance Id="175b9ae3-92bb-460e-a907-064595cbc1b5" name="IsStatic" value="False">
+                  <elementDefinition Id="ba706161-1b73-413a-9475-d905bf92f832" />
+                </propertyInstance>
+                <elementDefinition Id="176ffd7d-3d65-4100-8c7a-92102b71b7d2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="686aa5bb-28a8-4510-84c8-8805e191d31a">
+                <propertyInstance Id="c5818db4-8add-48ee-9089-1465adbabf1e" name="IsUnsafe" value="false">
+                  <elementDefinition Id="1dea9cee-a559-411b-be31-3bfeb273341d" />
+                </propertyInstance>
+                <elementDefinition Id="fb020733-d676-4034-88ef-411984efa68b" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bece726e-6c49-4c32-b55e-e855088109bb">
+                <propertyInstance Id="0310c5b8-0f92-4e0e-bc49-1474d446f812" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="1d387340-5708-4d93-8566-045cdbf38a4a" />
+                </propertyInstance>
+                <elementDefinition Id="bff7c619-b435-47c7-8743-829ef8e14952" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="687bd788-10c3-47f6-ab79-751f2f943cc0" />
+        <targetEnds>
+          <association Id="94464075-a71b-4f8b-848d-e7c84173c15a" isDerived="false" sourceEndRoleName="CarPictureFactory.dictionary" targetEndRoleName="Car.Picture" isLeaf="false" isAbstract="false">
+            <classMoniker Id="cab424de-0d7e-4d76-a09a-df141602d9e3" LastKnownName="Car" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11437e8b-9077-4d43-9785-31d3d8a2b999" name="CarPictureFactory.dictionary" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5a07cbe8-0d09-4230-909f-d55c7dec37c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a80fc145-f10e-48ca-b0e8-2e2cbb7122f7" name="Car.Picture" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="bffdbc61-cc43-41ef-ac55-a9a3d9db5db2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="61c7aab0-e238-4f4d-85f7-9a7f6607aaf6" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="3decddb9-7a67-4422-9bb5-65e5e7769027" name="dictionary" visibility="Private" isLeaf="false" isStatic="true" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="fa634ad6-07f6-4d88-88da-920071e75a05" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCarPictureFactory Member%3Ddictionary" tag="ViewCode">
+                <elementDefinition Id="820c1878-f039-4f80-ba92-a4e179ff7559" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e7fc5fc0-719a-4aa7-a2b5-ad3b241a0679" name="field" profile="CSharpProfile">
+                <elementDefinition Id="ff689122-391e-46d8-bab3-38f4e4d3a098" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ba391d0f-61f1-468e-80fd-4d8b43abd608">
+                    <propertyInstance Id="1f2c1b55-d16f-44be-a47f-61e0530f7bc8" name="ClrAttributes">
+                      <elementDefinition Id="c58dff3e-2efe-4dad-8033-5a4589f34039" />
+                    </propertyInstance>
+                    <elementDefinition Id="bdd1d2a4-f2a2-4dbc-961e-b5991a39f0bc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="47ca0b01-1537-473f-9bc2-18250098a247">
+                    <propertyInstance Id="4116c91c-120d-4c97-bb5c-edfec55124e6" name="IsConst" value="false">
+                      <elementDefinition Id="370a7f2c-febd-43df-bff7-576f795b6ad2" />
+                    </propertyInstance>
+                    <elementDefinition Id="aa97c863-1b78-4862-b33d-644784d64cfa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fde94812-5d21-4583-ad16-6afede41cd65">
+                    <propertyInstance Id="5297cca5-df8b-4b95-87d9-fc5711f16f06" name="IsNullable" value="false">
+                      <elementDefinition Id="be073ba6-87a5-4b7c-ab86-36b1548d03e3" />
+                    </propertyInstance>
+                    <elementDefinition Id="208b131d-7130-4e50-be4e-95fbae4d09ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5223cc7a-89c4-47fe-9e4e-77b0c4b899d9">
+                    <propertyInstance Id="00d02a6b-d356-4aae-859d-bddb2a7abc8a" name="IsVolatile" value="false">
+                      <elementDefinition Id="3b8b9ed3-bb51-43ed-ba26-983eec473720" />
+                    </propertyInstance>
+                    <elementDefinition Id="821e1304-b59c-413a-b38c-03bc50bb475a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="44cc510a-c480-4b0d-ab3e-eb426df705c1">
+                    <propertyInstance Id="d3179cff-0462-48c6-ba98-8bf9554f54eb" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8fde2591-8b97-4109-9523-0db201dfecd3" />
+                    </propertyInstance>
+                    <elementDefinition Id="840f0946-ecc1-4edd-bb15-dd8b6b3002e4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ba80cb4a-9f80-45fe-a276-8cc94178998e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="624c8860-d645-46ce-b19c-88f747f50769" LastKnownName="Dictionary&lt;Type‎, Image‎&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ece88921-afe6-433b-879b-98085fb2bef5" name="CreatePassengerCarImage" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="11bc2859-9ce1-43c3-83f0-18c8782f7afb" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCarPictureFactory Member%3DCreatePassengerCarImage" tag="ViewCode">
+                <elementDefinition Id="ebe27e79-3767-4967-8e34-0881306548be" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="252c4c1f-244e-4d4a-a707-930eebf20822" name="method" profile="CSharpProfile">
+                <elementDefinition Id="89cad446-16ca-491e-a360-e4ff93d5a615" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b4229c99-f0ba-43a2-9db0-c91be765a9a8">
+                    <propertyInstance Id="191f1914-ccbf-4a9a-bf2c-25a9d9700eba" name="ClrAttributes">
+                      <elementDefinition Id="1028cb76-9e4b-4a89-a63a-06dce19800fe" />
+                    </propertyInstance>
+                    <elementDefinition Id="75c5c64b-7cb9-438b-9c0d-ccee1ccc173b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c0efeaa9-ac16-4bb3-95f1-4d69649d65bf">
+                    <propertyInstance Id="d0072e44-f2f2-4f82-be7b-ef37e29fc7eb" name="IsPartial" value="false">
+                      <elementDefinition Id="75ebf628-c601-461d-8521-e5c884148698" />
+                    </propertyInstance>
+                    <elementDefinition Id="934ad04e-ecd2-4f43-ae7f-4ce0e11cdf4e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9100b7db-54a0-4eff-bff6-d0cb5496a82a">
+                    <propertyInstance Id="46c24dab-3f46-4a39-9db3-a9721b7fa107" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7fd84e6e-aea1-4c0d-9420-3b728e02bb30" />
+                    </propertyInstance>
+                    <elementDefinition Id="621eb21c-ab44-43a0-b9cb-6929cc5b2af3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="843bbbfb-7cf1-4574-aa2d-2a1059baff41">
+                    <propertyInstance Id="1fb5c522-aa24-4912-8a97-668152c43301" name="Inheritance" value="none">
+                      <elementDefinition Id="37da04ae-9ddd-4cb4-bed1-a24f36f86f17" />
+                    </propertyInstance>
+                    <elementDefinition Id="7ad0331e-f0cd-48d0-8ab8-df9367694755" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4cd2544f-2058-45f1-8560-de8600f7de0f">
+                    <propertyInstance Id="9b6b17ad-f8f7-4a21-96a1-268de78dbe74" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="389a45c6-ee57-4e71-a25e-e2b6520d073a" />
+                    </propertyInstance>
+                    <elementDefinition Id="decf8e44-070b-4a21-8056-647866e134db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="010062f2-1e49-4f6c-9412-680966a6af4f">
+                    <propertyInstance Id="6a9d8b0e-201e-43ff-8ca7-04ed35374a32" name="params" value="false">
+                      <elementDefinition Id="71e5aa6c-1ede-4eb9-a236-aff3ae97e9cd" />
+                    </propertyInstance>
+                    <elementDefinition Id="f9f1ac26-1aa7-4d9c-a0fe-06ea1769ae52" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="7c131858-7689-4f48-9a38-9ef98fea883b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cb201c87-b641-4031-b9e6-4a2c78a5144b" direction="Return">
+                  <elementDefinition Id="35872ee3-6e84-4a57-8772-012eb638b3fc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="670b56ec-cfe1-4ffd-aa2b-ece128ff1769" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7c98424a-611e-4883-b387-a914745b10da" name="CreateFreightCarImage" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c1bb8c32-422e-4c97-a3bc-904ee7b8fbf5" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCarPictureFactory Member%3DCreateFreightCarImage" tag="ViewCode">
+                <elementDefinition Id="7c017b22-fc5f-475e-934e-31207237504b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3a3821a0-9789-471b-90d5-8f4d98099280" name="method" profile="CSharpProfile">
+                <elementDefinition Id="d888de22-ff9d-445f-be40-0850e1dd391d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4c7fb050-adc4-40b3-b7e5-b549a0c10076">
+                    <propertyInstance Id="21fa0753-ca82-4b39-88e6-88e58ba7103a" name="ClrAttributes">
+                      <elementDefinition Id="c991f054-ffe6-49aa-a885-e11e79693a1a" />
+                    </propertyInstance>
+                    <elementDefinition Id="11267478-0f00-4c17-b10d-1103ae761fd3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e856caf9-34d4-49d6-bcec-7cd9365d02b2">
+                    <propertyInstance Id="8c088e7b-b081-4fe4-b8f8-ae1e97da8dc6" name="IsPartial" value="false">
+                      <elementDefinition Id="ce7d34b3-ab7c-47a7-80bf-7c8b860fa7df" />
+                    </propertyInstance>
+                    <elementDefinition Id="1c2a8a3a-b6cf-48c2-a773-ecf8b249d103" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b92dd02e-4d96-41cc-bd55-a4919d51939b">
+                    <propertyInstance Id="9ffa6170-6fde-4194-a9eb-0894d10f7f6e" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a8013d2a-9987-43cc-9762-bc498836374d" />
+                    </propertyInstance>
+                    <elementDefinition Id="06e6bfe8-27e3-4576-8995-1686bcb5847c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e94776d-9929-41b0-8901-51826500eeea">
+                    <propertyInstance Id="6f8bbbed-c9be-49e6-8552-1b66d962e01d" name="Inheritance" value="none">
+                      <elementDefinition Id="abe6937b-0e5e-4b12-b7ae-1ec185276e14" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c2c4de7-6dcb-4f64-9bd0-039809becd5d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dc1d0bed-70e0-4cbd-a594-462b250cb7d6">
+                    <propertyInstance Id="98f30590-e63e-471f-aad1-cb8ce0adc6d1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c47c3d4c-b502-42b9-b113-c49881458e5d" />
+                    </propertyInstance>
+                    <elementDefinition Id="39009586-9b4b-412d-94f2-93490f9dd8bf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="020d6015-c6a2-41fa-a111-94068394bc73">
+                    <propertyInstance Id="bb2cde2a-329d-4c2d-bd96-d18510412878" name="params" value="false">
+                      <elementDefinition Id="bdf2b70c-9cf1-4828-af3b-84722e93df2d" />
+                    </propertyInstance>
+                    <elementDefinition Id="38441430-9ad7-4ce4-96f4-7cf715a1110e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cd3ba97d-3004-4934-8d24-9c0f96cc6be0" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="131000a1-0242-4ecf-9f31-babf3addbe92" direction="Return">
+                  <elementDefinition Id="3aa9f808-dcc5-42af-987f-5a443eca65cf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="670b56ec-cfe1-4ffd-aa2b-ece128ff1769" LastKnownName="Image" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2c686e2a-8fcb-4ee1-81fe-36e2cb4d5af1" name="CarPictureFactory" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="06c2f559-ecbb-49ab-92af-0f9c783de363" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DCarPictureFactory Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="8de229cc-61f7-41a0-9e9e-8a915cde85bd" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="6c3b6414-22b1-44de-8cb5-7644801f294e" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6dbd79b4-b6c2-407d-8464-29ada0bf340c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="afcdba2c-d339-4641-a073-d69d22946191">
+                    <propertyInstance Id="e970a2ba-9a4f-472e-890a-263524127e86" name="ClrAttributes">
+                      <elementDefinition Id="a0da288c-bf80-45c9-943a-d7dcbddd5e35" />
+                    </propertyInstance>
+                    <elementDefinition Id="3026c2ce-37a9-4bfd-a368-80ae1caa5b9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="72ea2fb1-a52d-415e-bf70-5e2e454d5e6e">
+                    <propertyInstance Id="c19718d3-6a4d-4a7e-928e-86388ab89342" name="IsPartial" value="false">
+                      <elementDefinition Id="bdb189a7-4a1b-47de-8abe-8754a21de3fb" />
+                    </propertyInstance>
+                    <elementDefinition Id="aca94e20-b110-47b8-b1a8-768e256abe01" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9fb19c84-5841-4dc3-8f70-db71d9ede3c9">
+                    <propertyInstance Id="f7aeba9a-c568-44d1-a20f-e873931bce19" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7361aab9-0164-499e-9134-ed96801c4295" />
+                    </propertyInstance>
+                    <elementDefinition Id="aef002e4-cf12-447d-8def-d59c3559244a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="76ae2840-5478-4ffb-b319-de9cb022f3c8">
+                    <propertyInstance Id="c5cc45bc-f2e1-4804-b02f-e62a41dcfc33" name="Inheritance" value="none">
+                      <elementDefinition Id="9024ebda-bddf-4d77-bc2a-e7c7c6d89f72" />
+                    </propertyInstance>
+                    <elementDefinition Id="b23185bf-3588-4b44-a3be-4212bd9430a8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="716e9da8-6b9d-4e56-a9d0-581ae461cd39">
+                    <propertyInstance Id="e73dbf7a-bf02-4a0a-beed-6eeb208f068f" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="8dadc97d-ae1b-4383-8327-77a2340d192b" />
+                    </propertyInstance>
+                    <elementDefinition Id="33f1d3ac-8ebc-4de6-ac50-97abec2d8267" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a8c15b04-bfc9-42ea-9407-d2e8efd98fb0">
+                    <propertyInstance Id="14fdb8a4-b4a9-4cb7-adac-8bf34b093d51" name="params" value="false">
+                      <elementDefinition Id="46e2e0c5-0487-43ba-82eb-27e308ee5a6a" />
+                    </propertyInstance>
+                    <elementDefinition Id="cfd2b342-a429-4174-9f5e-653f70779671" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="1ef4256a-b557-4da8-abe7-e942c308de77" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="624c8860-d645-46ce-b19c-88f747f50769" name="Dictionary&lt;Type‎, Image‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="UML::System::Collections::Generic::Dictionary&lt;Type‎, Image‎&gt;">
+        <elementDefinition Id="1d39249a-ab5c-4fd3-9125-233f70a8ea18" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="39c40561-c717-4472-9218-fb2d29e3f196" name="FreightCar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="21518ec1-abe7-4118-b075-569d77ca0754" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DFreightCar" tag="ViewCode">
+            <elementDefinition Id="fb800e66-52da-4963-816f-32dca31dfdd0" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="238dcd02-3c55-4af8-9f47-c699f3faf2b5" name="class" profile="CSharpProfile">
+            <elementDefinition Id="5fb838b8-ed0e-4f62-bc3e-08234c9a8a5c" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="eeb43feb-fe0a-44e7-a4a7-25290d05e21b">
+                <propertyInstance Id="0800c30e-066e-4e88-b458-f5290e0c0cf3" name="ClrAttributes">
+                  <elementDefinition Id="757d02b3-3b95-4f49-8abc-6959391b6255" />
+                </propertyInstance>
+                <elementDefinition Id="4e6e1dc0-7b78-4542-aca5-9687b7697692" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0ca31b0b-2f61-4391-b821-7e2c729d58b1">
+                <propertyInstance Id="decd1770-bc77-4c00-b097-f8acc5c62dfd" name="IsPartial" value="false">
+                  <elementDefinition Id="48f28de8-756d-4792-b1cc-ef368baec11b" />
+                </propertyInstance>
+                <elementDefinition Id="49f173db-f457-4abc-972b-db699b3fbb13" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e15c6ef7-3cb5-4824-87d3-302fa322bbf0">
+                <propertyInstance Id="e7201c10-e1ef-4886-b247-08888916c043" name="IsStatic" value="False">
+                  <elementDefinition Id="93448bce-32fb-43ed-96ab-58c4d6e52836" />
+                </propertyInstance>
+                <elementDefinition Id="e6c80835-db96-4d7a-b732-c1c5580d0b82" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b235805d-afe7-48a6-a1d6-5adc054a309a">
+                <propertyInstance Id="2719cb11-3a20-4f05-b36d-711ab4ad706c" name="IsUnsafe" value="false">
+                  <elementDefinition Id="f534a9ac-27e5-4cbb-a041-c9888992e2ff" />
+                </propertyInstance>
+                <elementDefinition Id="6a162de5-fa20-4b91-b2a3-92f5568f957e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c5e2590f-a851-4967-84b1-0f3de7594fd6">
+                <propertyInstance Id="83008afc-1190-4cf8-8eb0-b299d457a78c" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="95803811-bc44-42fa-8061-0a439e0456a1" />
+                </propertyInstance>
+                <elementDefinition Id="e236ed60-8ebd-4b21-bd94-3f07ac7ba1e6" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="b55ccfe2-9e38-4306-ab93-79fb09d0f585" />
+        <generalsInternal>
+          <generalization Id="353d5ef0-eda6-4bba-9241-040e3d1677e9" isSubstitutable="false">
+            <classMoniker Id="cab424de-0d7e-4d76-a09a-df141602d9e3" LastKnownName="Car" />
+            <elementDefinition Id="ed17e377-d56a-4819-824a-19674410c587" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="0bdbf6b8-d6e0-4f7b-a0ff-838cb5ea7970" name="FreightCar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3c22e4ef-6f52-4994-b103-7cca5c42942d" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DFreightCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="82d95d54-d0a7-4483-ac6f-89cd8e0a3c35" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="503d138c-80a7-4766-87ea-b82dda6fc3f8" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b852cb05-ef4d-4ee4-88f7-b5b6180f9667" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fc539254-fd69-49d2-a945-c1229445b2fa">
+                    <propertyInstance Id="6335cdf9-bf5c-4090-ad04-b89d5bb2f862" name="ClrAttributes">
+                      <elementDefinition Id="45bc9b49-c8c9-490f-87e8-704759c91265" />
+                    </propertyInstance>
+                    <elementDefinition Id="87cc8c42-1d7e-489f-a095-3bcf688dedeb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="656e2005-f987-48ec-9aa8-8496c6241b9c">
+                    <propertyInstance Id="844fae66-9bde-4210-affd-9baabe0dc1b8" name="IsPartial" value="false">
+                      <elementDefinition Id="65f26f54-38a0-46d8-b686-bed565d259b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="2e73dc36-c683-4226-83e3-b376868f113b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="913d3c1f-d95d-412d-8ec6-e94f80dc1693">
+                    <propertyInstance Id="86445530-70ea-48dd-a414-578b4297d0a0" name="IsUnsafe" value="false">
+                      <elementDefinition Id="db54b602-8ab8-4ad4-a57b-a534194f297f" />
+                    </propertyInstance>
+                    <elementDefinition Id="300dc5f5-e91a-41d1-8f50-ae3d91160401" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="96b1177b-740a-47c8-9a44-bdf5b596b526">
+                    <propertyInstance Id="0a56f5e8-dbfd-48af-8ad3-2ad27459c8b3" name="Inheritance" value="none">
+                      <elementDefinition Id="e9fd2eb5-06fb-487c-8aaa-a94db6c12dd6" />
+                    </propertyInstance>
+                    <elementDefinition Id="53426473-a6b8-4064-b363-5b43c3737d20" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7ff090c6-f87a-4dc6-a4aa-5ca8e1e761c2">
+                    <propertyInstance Id="82d284cd-6ee4-482d-9ec0-bc96aadedd56" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="b4d70cef-15a2-4828-abb4-3138bf588500" />
+                    </propertyInstance>
+                    <elementDefinition Id="e913f1ac-e2ed-463f-a9ef-180d73486a06" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dfadb680-c728-4039-ae05-c652b5b84654">
+                    <propertyInstance Id="ac2b5bc9-e6dd-4f43-9593-e15571f76eb2" name="params" value="false">
+                      <elementDefinition Id="87bdccb6-2025-4fae-a8e9-11a45620635f" />
+                    </propertyInstance>
+                    <elementDefinition Id="4b0ae412-612a-442d-8d1d-afc195f2f860" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="54cf3e56-8d04-48dd-943b-7e028a4138a5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8faa3a5b-d91f-4c21-891f-02e67539e590" name="model" direction="In">
+                  <referencesInternal>
+                    <reference Id="3fef684d-7fc4-4da7-ba1b-1fa5b8106862" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DFreightCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dmodel" tag="ViewCode">
+                      <elementDefinition Id="bc2a41ec-b12a-4a84-9463-160c89dbdd0e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="60f75772-0005-4eff-8735-e70abd2fb5f4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1ba8c7cd-1d0e-4751-953f-18531cd83029" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="eb538007-5bf3-4f45-b4a0-6c135918063e" name="maxSpeed" direction="In">
+                  <referencesInternal>
+                    <reference Id="457cb5f4-1c8f-4d37-9d31-0b9162bbd235" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DFreightCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DmaxSpeed" tag="ViewCode">
+                      <elementDefinition Id="76bf098a-7b03-4f67-9d1d-9d96449ddfca" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="98c4894e-16ed-4dc6-a49c-3aa111841c6f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cc8c013e-5de5-490e-b22e-b9fd0ed762df" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="17c127b8-2dcc-4e40-a8f2-b252eb4fc55a" name="PassengerCar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="8e654219-36ac-4978-9b1a-97685a4b3abe" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DPassengerCar" tag="ViewCode">
+            <elementDefinition Id="56d298b3-e4e8-4fa8-b5f2-f8bbcd6f6d19" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="077562e0-61d6-4713-8007-d26f860e35bd" name="class" profile="CSharpProfile">
+            <elementDefinition Id="aa4443d9-c160-4c20-bb1d-58f26363b937" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ef300ed2-6703-4b24-af8c-22a438303ebf">
+                <propertyInstance Id="a0c10bfd-9267-41bc-9153-3f8830de4033" name="ClrAttributes">
+                  <elementDefinition Id="19ab9eee-3772-45fa-a582-89f1d2cb4770" />
+                </propertyInstance>
+                <elementDefinition Id="ce8f4721-4f1e-49e3-95a2-25861f2a1fdd" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3e13b04b-d298-4fdc-b35f-e13c96a7f5c7">
+                <propertyInstance Id="5fd06fad-8c74-4f9a-a45c-e699d69f09a6" name="IsPartial" value="false">
+                  <elementDefinition Id="e74cca8b-2484-45ba-ba6d-7336fd4dcda0" />
+                </propertyInstance>
+                <elementDefinition Id="bcd23801-504c-48b0-b0d9-7d66da7d0530" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ee713518-9da2-454b-90a6-5a8008b2b3c9">
+                <propertyInstance Id="38ca5757-a756-4bc0-9af2-f43d0201d9cc" name="IsStatic" value="False">
+                  <elementDefinition Id="f4df8976-f14e-491b-97b1-078ac2975bbb" />
+                </propertyInstance>
+                <elementDefinition Id="7daf2883-8b3e-4deb-8259-f4c6ce96fb69" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3b645468-3360-4f9b-8b74-1b9723210b1a">
+                <propertyInstance Id="f1637133-a9a8-4517-936d-e279e593e49b" name="IsUnsafe" value="false">
+                  <elementDefinition Id="fbb5e808-f9bf-40c2-90ca-8d245cb31eb7" />
+                </propertyInstance>
+                <elementDefinition Id="740691d0-6d7a-4ebd-85db-4e332ada368e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b8cfcdce-226a-48f0-830b-0e69a62099ad">
+                <propertyInstance Id="701d9a43-ba49-472a-baf5-8b0d213dbdfb" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="ca8d057b-93d2-47ba-83fe-297484e6a948" />
+                </propertyInstance>
+                <elementDefinition Id="6b8d1422-078f-4d0b-89b2-59e3ef4b45d0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="f92e0709-aaaf-4cfd-b3e4-a2c1c7000c87" />
+        <generalsInternal>
+          <generalization Id="a76f662b-b590-451f-b926-4225e651730e" isSubstitutable="false">
+            <classMoniker Id="cab424de-0d7e-4d76-a09a-df141602d9e3" LastKnownName="Car" />
+            <elementDefinition Id="a7759b17-32d0-4830-b870-326ddecc2ec9" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="5154d817-2c12-431a-a986-b8b9b7371201" name="PassengerCar" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="393836b7-5695-4e69-ad64-22a00e62819d" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DPassengerCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="4a1d41fd-f907-4276-9b34-71fc967e3510" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f1d88a93-fc0b-44c9-bf58-2a21322e16a5" name="method" profile="CSharpProfile">
+                <elementDefinition Id="44e43586-c9b8-459e-b620-05c36ab996c2" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94a48518-9956-4e39-bff1-f5469a7e01e5">
+                    <propertyInstance Id="1b6ebdcc-6727-4151-b9ca-51f2fc43a1c7" name="ClrAttributes">
+                      <elementDefinition Id="fa3029b9-c2be-45b0-becc-87c8b696b35e" />
+                    </propertyInstance>
+                    <elementDefinition Id="563183a3-e2b7-4013-8451-53eba316d770" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="19ba2cee-70ee-4c07-a4eb-367cf649bf10">
+                    <propertyInstance Id="17392ee6-1923-4284-9895-eb9ca5c85c01" name="IsPartial" value="false">
+                      <elementDefinition Id="952f1ee1-38cd-44ae-be89-c20d14ed78a9" />
+                    </propertyInstance>
+                    <elementDefinition Id="114d1374-10c6-400a-a773-62bcfd77529a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fcd4301e-dfd2-4c50-a738-5188af4f697b">
+                    <propertyInstance Id="df0c67df-fd64-4b22-ab54-092084bbf4d4" name="IsUnsafe" value="false">
+                      <elementDefinition Id="9bd54928-fc4b-496f-87be-fc2a5708dd75" />
+                    </propertyInstance>
+                    <elementDefinition Id="339e31fa-5990-43fc-97bc-887be797e91b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8f4cd2eb-b8ab-4155-a705-bbe375ae132a">
+                    <propertyInstance Id="75aaeea9-ac83-4ac7-ac3d-78a7701fc18c" name="Inheritance" value="none">
+                      <elementDefinition Id="bd3ee2c2-2c74-4e4e-b6fc-5ab2483a1a98" />
+                    </propertyInstance>
+                    <elementDefinition Id="628062cf-70aa-48f6-8bbf-b6748d10456d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9d075fb4-839a-4c88-aa0c-a1e4f411359a">
+                    <propertyInstance Id="dd7d6db9-ea64-4de2-9825-9f020ea0083b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="31cd593a-ca3a-4e70-9e29-ab3573ac1af8" />
+                    </propertyInstance>
+                    <elementDefinition Id="513edaf6-3ad3-4a6f-b7aa-a9005c921523" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="681092f3-ce58-41cc-9082-2f1e8224c5ff">
+                    <propertyInstance Id="c3f39300-32f1-4402-ab20-9e01e89127db" name="params" value="false">
+                      <elementDefinition Id="eda676a8-0b77-41e4-bdbe-63d6ab82ae14" />
+                    </propertyInstance>
+                    <elementDefinition Id="a428aaca-6631-4cd3-8cdc-6cdc35807e9b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="ae2f51a7-fc1b-41b7-91cc-72969cbbe33d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="065bc3eb-2455-4146-a528-464bc816ff7a" name="model" direction="In">
+                  <referencesInternal>
+                    <reference Id="5656586f-ae13-4e5b-8f1f-4590d923fea8" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DPassengerCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dmodel" tag="ViewCode">
+                      <elementDefinition Id="4cee21a3-53aa-4f2e-b1da-a1c686d48f67" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="6c0ecd20-190f-4954-951d-bc29ce9662eb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1ba8c7cd-1d0e-4751-953f-18531cd83029" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3c71da77-cd7d-4dd5-aff2-5ac4967ab3b4" name="maxSpeed" direction="In">
+                  <referencesInternal>
+                    <reference Id="1e822356-a304-4753-978e-d7cb2bf44b8d" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FFlyweight%2Fbin%2FRelease%2FFlyweight.exe Namespace%3DFlyweight Type%3DPassengerCar Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DmaxSpeed" tag="ViewCode">
+                      <elementDefinition Id="85b976ca-6169-472f-96e5-43d53a6078e1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="2f920925-6095-4a46-aa3c-12943cfaa186" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="cc8c013e-5de5-490e-b22e-b9fd0ed762df" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="d6503f9b-d4cc-479c-8910-d2fc62067720" name="UML">
+    <elementDefinition Id="930c238e-7146-45db-83b6-3d82d781dc88" />
+  </package>
+</logicalClassDesignerModel>

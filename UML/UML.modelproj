@@ -64,7 +64,17 @@
       <SubType>Content</SubType>
       <DependentUpon>Facade.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Flyweight.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Flyweight.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Flyweight.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1330.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1510.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package1_1627.uml">
@@ -86,6 +96,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1342.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1510.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1532.uml">
