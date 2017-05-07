@@ -6,42 +6,37 @@
   <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
   <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
   <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
-  <Message Timestamp="2017-05-07T15:10:12" Importance="High" Text="Реконструирование запущено." />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;56c4518c-a959-4b9b-a8d5-28a280797cca&quot; -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;c3ddf8ef-1327-4b7c-8a4b-17947ac6997b&quot; -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::Car&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::Car::Car&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::Car::MaxSpeed&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::Car::Model&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::Car::Picture&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::CarPictureFactory&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::CarPictureFactory::CarPictureFactory&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::CarPictureFactory::CreateFreightCarImage&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::CarPictureFactory::CreatePassengerCarImage&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::CarPictureFactory::dictionary&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::FreightCar&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::FreightCar::FreightCar&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::FreightCar::FreightCar::maxSpeed&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::FreightCar::FreightCar::model&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::PassengerCar&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::PassengerCar::PassengerCar&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::PassengerCar::PassengerCar::maxSpeed&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Flyweight::PassengerCar::PassengerCar::model&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::Dictionary&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::Dictionary&lt;Type‎, Image‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Drawing&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Drawing::Image&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Type&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Flyweight::Car в UML::System::Drawing::Image (Association)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Flyweight::FreightCar в UML::Flyweight::Car (Generalization)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Flyweight::PassengerCar в UML::Flyweight::Car (Generalization)" />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="High" Text="Полностью реконструировано (4) типов." />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="High" Text="Частично реконструировано (4) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
-  <Message Timestamp="2017-05-07T15:10:15" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+  <Message Timestamp="2017-05-07T15:55:16" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility&quot; -  (Package)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::AutoMechanicHandler&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::AutoMechanicHandler::AutoMechanicHandler&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::AutoMechanicHandler::Helper&quot; -  (Property)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::AutoMechanicHandler::RepairCar&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::AutoMechanicHandler::RepairCar::car&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Car&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Car::Car&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Car::Crash&quot; -  (Property)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Car::Model&quot; -  (Property)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Electrician&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Electrician::Electrician&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Electrician::HardWork&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Electrician::RepairCar&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Electrician::RepairCar::car&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Engineer&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Engineer::Engineer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Engineer::RepairCar&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Engineer::RepairCar::car&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::Engineer::Work&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::TypeOfCrashing&quot; -  (Enumeration)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::TypeOfCrashing::Motor&quot; -  (EnumerationLiteral)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::TypeOfCrashing::OK&quot; -  (EnumerationLiteral)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::TypeOfCrashing::PC&quot; -  (EnumerationLiteral)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::ChainOfResponsibility::TypeOfCrashing::Wheel&quot; -  (EnumerationLiteral)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::ChainOfResponsibility::AutoMechanicHandler в UML::ChainOfResponsibility::AutoMechanicHandler (Association)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::ChainOfResponsibility::Car в UML::ChainOfResponsibility::TypeOfCrashing (Association)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::ChainOfResponsibility::Electrician в UML::ChainOfResponsibility::AutoMechanicHandler (Generalization)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::ChainOfResponsibility::Engineer в UML::ChainOfResponsibility::AutoMechanicHandler (Generalization)" />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="High" Text="Полностью реконструировано (5) типов." />
+  <Message Timestamp="2017-05-07T15:55:18" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
 </Log>

@@ -98,6 +98,48 @@
           LastKnownLocation="Package_1510.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="b8c588ac-28dd-4b93-8b20-b793f8037ca6">
+      <body>public override void RepairCar(Car car)
+{
+   if (car.Crash == TypeOfCrashing.Motor || car.Crash == TypeOfCrashing.Wheel)
+      {
+         HardWork();
+         return;
+      }
+      else if (Helper != null)
+      {
+         Helper.RepairCar(car);
+      }
+}</body>
+      <annotatedElements>
+        <classMoniker
+          Id="8be9dfc6-0042-4a4c-b063-0acdad0b9c03"
+          LastKnownName="Electrician"
+          LastKnownLocation="Package_1555.uml" />
+      </annotatedElements>
+    </comment>
+    <comment
+      Id="ac0e2a84-d8d4-429f-8ceb-3221087953fc">
+      <body>public override void RepairCar(Car car)
+{
+   if (car.Crash == TypeOfCrashing.PC)
+   {
+      Work();
+      return;
+   }
+   else if (Helper != null)
+   {
+      Helper.RepairCar(car);
+    }
+}</body>
+      <annotatedElements>
+        <classMoniker
+          Id="f453b51b-7b0d-4802-8dc2-3eabab20a068"
+          LastKnownName="Engineer"
+          LastKnownLocation="Package_1555.uml" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
@@ -197,6 +239,12 @@
         Id="f26e6162-a8c5-41e8-9f36-9d7afab6ec86"
         LastKnownName="Flyweight"
         LastKnownLocation="Package_1510.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b9b3ad83-537a-43ce-a071-3826b5633535"
+        LastKnownName="ChainOfResponsibility"
+        LastKnownLocation="Package_1555.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
