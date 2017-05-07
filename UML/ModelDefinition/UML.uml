@@ -246,6 +246,12 @@
         LastKnownName="ChainOfResponsibility"
         LastKnownLocation="Package_1555.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cecb232b-796f-4a5b-808d-e83bd9414c45"
+        LastKnownName="Mediator"
+        LastKnownLocation="Package_1636.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

@@ -1,0 +1,2090 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="cecb232b-796f-4a5b-808d-e83bd9414c45"
+  name="Mediator"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bf912c6f-8f5d-4c28-ba48-9ebe131c4176"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMediator"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4b077de9-6e27-4190-93d0-512ac5eaf5a5"
+        name="Dispatcher"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="626352c4-e948-4e13-afd3-f7284305532c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0cf53a6e-25de-4151-9d72-a3d28b49cd5e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d36b861a-b049-49ad-93bb-1b738cc12368">
+                <propertyInstance
+                  Id="e639d004-b74a-4b03-8318-dc04c0439dbf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="32140582-2471-4b87-9462-77aac995e6bf">
+                <propertyInstance
+                  Id="9254bf9d-a7c7-43dc-a8d1-ed648d1af56c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc2ee8e1-67f1-4219-89cd-23a4b9fe7bcd">
+                <propertyInstance
+                  Id="dcf1ec23-370b-4a29-ba96-7d4b50fb326f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87ec55e4-ba1e-4b63-ab2f-d33025421075">
+                <propertyInstance
+                  Id="73831b60-8c1d-4bdd-903a-c0dbf7addfad"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f37b246d-2fc4-4fea-b2eb-251fb4640549">
+                <propertyInstance
+                  Id="88c4089f-0fee-47cb-be60-c491db1f8b9f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="358e86b2-6cf6-44ac-bf38-e851cc5b85f2">
+            <interfaceMoniker
+              Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+              LastKnownName="IMediator"
+              LastKnownLocation="Package_1636.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="c3c4b1fe-8bec-4850-8496-e13661ec1276"
+            isDerived="false"
+            sourceEndRoleName="Dispatcher"
+            targetEndRoleName="FireDepartment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="204c89ec-a79d-42e5-be1b-e94a2ebc6e3d"
+              LastKnownName="FireDepartment"
+              LastKnownLocation="Package_1636.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2b9030d5-4847-4963-9e51-031129cb5483"
+                  name="Dispatcher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="91ecf3e1-bad5-4149-8705-45914f490941"
+                  name="FireDepartment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="955c9a70-75b5-40ea-9547-1f5f5c4d9291"
+            isDerived="false"
+            sourceEndRoleName="Dispatcher"
+            targetEndRoleName="Police"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="a939b7e1-b8bc-4d1f-9713-b2e00254bea0"
+              LastKnownName="Police"
+              LastKnownLocation="Package_1636.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e225c961-91ab-4e8e-a516-7075cc12a86a"
+                  name="Dispatcher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c19ffc13-3bfe-4302-96cb-8019e23cf948"
+                  name="Police"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ad9da3f8-2a9b-4ae6-98fc-536e5647333d"
+            isDerived="false"
+            sourceEndRoleName="Dispatcher"
+            targetEndRoleName="MedicDepartment"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="48d52c98-5f69-4043-9801-0680513ef8ef"
+              LastKnownName="MedicDepartment"
+              LastKnownLocation="Package_1636.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aa82258c-6733-4165-ba33-19cdcfeacb28"
+                  name="Dispatcher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="39195042-e207-4cb7-b550-851cc80c256c"
+                  name="MedicDepartment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4287108b-f2e7-49a5-a32e-cf2725e278c8"
+            name="Fire"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0d3cfc86-82c1-4f93-95a1-90527d95b04f"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3DFire"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="632f9e8b-050f-453a-bb59-0a384d20757e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3daa5aab-033b-48e6-af68-d3f35a566c13">
+                    <propertyInstance
+                      Id="aac3a7d1-1bca-4f9e-aa88-88f60aa64ebb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c06e726-deee-4149-b4bf-c6491d50d62f">
+                    <propertyInstance
+                      Id="dc794462-ab8b-45dd-bd88-4a5d2a14607e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="649661cc-d7cd-461b-b658-dc15c0c3f010">
+                    <propertyInstance
+                      Id="c9451ecf-9592-4c5f-8b45-5c2cff45f8b2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d59282-31e8-4054-b460-ce2493575b19">
+                    <propertyInstance
+                      Id="09ce9a89-56c7-4839-a3b2-422392b9ea0b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ecfba4d-b693-47dc-8d04-df29ad04b618">
+                    <propertyInstance
+                      Id="6e736069-bb70-4bc0-848d-6770b589bb13"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed1cbc74-755f-4768-959f-1e841b0e7938">
+                    <propertyInstance
+                      Id="cfdafe22-f91d-462d-965d-a68921a36e22"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e567cec-5797-4aba-938f-4a628033f2d2">
+                    <propertyInstance
+                      Id="b00a8406-0024-45de-8816-8294c62868fb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="204c89ec-a79d-42e5-be1b-e94a2ebc6e3d"
+                LastKnownName="FireDepartment"
+                LastKnownLocation="Package_1636.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e75d3402-2288-4a03-97cc-78441f00d5ef"
+            name="Medic"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="74252cab-ad4e-42cf-b426-d11c056ae78d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3DMedic"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3e7afbdc-f736-46f9-bda7-d238c0333705"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c0fb2da-7bb8-4b01-ac2b-220872db3ce8">
+                    <propertyInstance
+                      Id="4b1bbe7c-9f13-4071-a46d-664c1a74c40c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21f94193-e8f2-478b-b754-64cdb5b5b370">
+                    <propertyInstance
+                      Id="e47828a9-b6a7-4baa-b05d-73ec3d68c9d8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="313ef012-8572-4840-a9db-eb1ab4387422">
+                    <propertyInstance
+                      Id="897f6bdb-feb8-453c-abb9-fe83da630bb8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f59d228-cdab-474c-ab80-df02a001b046">
+                    <propertyInstance
+                      Id="289146fc-87c9-4bcb-9fe0-ad6e1bcd5db3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c3050fa-bac3-4266-8ac4-28d28614c162">
+                    <propertyInstance
+                      Id="67d3a382-6bd9-4758-ad98-bb26f0573605"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="765c99af-15d7-4327-afdd-36453c3b7af4">
+                    <propertyInstance
+                      Id="91f11ab8-46b8-44e6-94f6-421cb9d7fdb7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8607f288-6ead-4af1-8165-17fbd33f50b3">
+                    <propertyInstance
+                      Id="860c3d13-1c28-4b2a-a44f-ee4ecc951c29"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="48d52c98-5f69-4043-9801-0680513ef8ef"
+                LastKnownName="MedicDepartment"
+                LastKnownLocation="Package_1636.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8f4828e6-bf67-4f30-9462-0fa50fb6de07"
+            name="Police"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="217e490f-a6e9-4c29-95cd-64953fd9eff4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3DPolice"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0725eb9c-0ac8-4781-81db-98b68367536d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="752ae7c7-478d-4c15-bbc2-1bea31dc27fc">
+                    <propertyInstance
+                      Id="ace6fc12-5e3c-4951-a992-1364a8356873"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bdda87d-16c0-4c8f-92e6-b9a04824ede8">
+                    <propertyInstance
+                      Id="b71bb859-f270-4983-9f3f-f99015071f91"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d39eb52-9a82-4a05-8830-c4df4bd2267d">
+                    <propertyInstance
+                      Id="238a1ac4-0b43-4b19-bd4d-a3e6e3a14204"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72c2b759-2ad9-41cb-bbc0-37c23bde6353">
+                    <propertyInstance
+                      Id="3430af33-4b2f-47fd-907a-314534512b45"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="995e4496-a643-49e4-b69e-46bbc3d49f1d">
+                    <propertyInstance
+                      Id="87f9d72e-a82f-46fe-9bb3-e18e7f1debce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa2adf7b-fc15-40b7-b480-00f389e85e48">
+                    <propertyInstance
+                      Id="e074126d-60ce-4ef5-9aa3-d8350c8e4fc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80f194fc-6a9d-4360-891f-818a13c3b382">
+                    <propertyInstance
+                      Id="803849d7-1c23-4264-98bd-842045b9b6fe"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a939b7e1-b8bc-4d1f-9713-b2e00254bea0"
+                LastKnownName="Police"
+                LastKnownLocation="Package_1636.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fb612955-95fd-425f-97da-71bce6a77f63"
+            name="SendMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f640dc7a-c5fc-4dad-891b-ea0c735e2cd0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0996cf53-3600-442b-b8da-cfd7e9f6b9f1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9dafc75-172b-45a7-98ae-ec5465882b88">
+                    <propertyInstance
+                      Id="133ea0ba-ea71-4775-bce1-0243f650850e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ebb2c4b3-04c3-4db2-a181-db358788cf6f">
+                    <propertyInstance
+                      Id="3c93dd21-eb1e-4c7a-9bfc-a19b30d4a6dd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b770feff-29c6-4418-aee4-ffda41819f01">
+                    <propertyInstance
+                      Id="0dca25fb-b412-4888-bf66-be9c2b3663c6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0db4a9f3-dee6-4fde-88ea-a27cc76685fa">
+                    <propertyInstance
+                      Id="48da2c40-3d54-4211-8017-0890d506198d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="664c3798-b97e-47c5-a7ab-b369748a2ba7">
+                    <propertyInstance
+                      Id="69f96e93-bf99-4c30-bfad-c8e08a8da514"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4452b97-9f94-4a41-9d90-11d0fb832a2d">
+                    <propertyInstance
+                      Id="e2c733e1-e435-40e7-88d2-b725d2cf5208"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="034e42c1-d916-41f6-b76f-5d2b9442868a"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="dcbf3ace-ddb8-46e2-86fc-25798937afc2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8e18a097-2950-40cf-9acf-43e90f6b60cb"
+                  name="service"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3ef54f9a-c46c-4432-96cf-644d5ec30316"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)]) ParameterIdentifier%3Dservice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0066a250-c946-47ad-bce0-ae01021d2138"
+                      LastKnownName="Сolleague"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c31712e2-1f0a-4289-8ebf-324c31813f9f"
+            name="Dispatcher"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="07d83be0-ce1a-4edb-874c-c11f81482ab5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DDispatcher Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aa39c299-dccc-4280-901b-e10bc4a7a47f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e1d742b-d1bd-4ed7-bb7b-b6ede5978c10">
+                    <propertyInstance
+                      Id="6b1e20bd-f629-4881-b012-af64bf3d98d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf7d8ae8-08ee-409a-b160-f76e4d569ede">
+                    <propertyInstance
+                      Id="942265aa-94de-475c-bda7-9144a7d41f27"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6354d14b-2142-4568-9e55-3aad91e9abd7">
+                    <propertyInstance
+                      Id="f3251100-eafa-4b3f-a84c-0ed9a21b1506"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96bde220-e6c2-49c2-a20d-ac60c48d6dad">
+                    <propertyInstance
+                      Id="9ad9021d-bc53-4ec0-9d37-eb98fb3f2358"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ce42f2c-93aa-45d5-b79b-565fee8be1c9">
+                    <propertyInstance
+                      Id="4c6454d3-d1e1-402f-84c8-0ef2cdc3bc6d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87da1a41-d5d3-4663-999f-579fbdad5fc4">
+                    <propertyInstance
+                      Id="190e1783-7ad3-4b12-9856-63508c9fa6d2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0066a250-c946-47ad-bce0-ae01021d2138"
+        name="Сolleague"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8d1bd756-2f15-416a-a7bc-8cabdad9b07c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="32475ba4-436e-42dd-a1dc-55e1837d75e9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc006597-7a93-4157-b6d0-8431600ad639">
+                <propertyInstance
+                  Id="f523ea6f-ff56-49ac-a44b-fef8ac46d1ce"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c25215d3-85ee-4d41-ac14-002d90f830cb">
+                <propertyInstance
+                  Id="7e7b4724-fe58-44f3-91bd-08dd7c65cd28"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="440c6691-7144-46b4-9060-f63f1ef068b5">
+                <propertyInstance
+                  Id="7ae80453-7ca4-4763-9eb9-7211c1626e3c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="467f06b2-9ffb-4eae-a436-7b831e8f90b3">
+                <propertyInstance
+                  Id="d84d2e3d-c35c-4920-ac9a-48b3cf52f60c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="756116f5-6a3e-4c45-a059-ea762873752c">
+                <propertyInstance
+                  Id="da08200d-21ef-4b61-89eb-caa39c8f1354"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="bdc42242-6a32-4154-9741-ec7f8876f6fe"
+            isDerived="false"
+            sourceEndRoleName="Сolleague"
+            targetEndRoleName="IMediator"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+              LastKnownName="IMediator"
+              LastKnownLocation="Package_1636.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb6b2835-2b00-4cc8-81e0-8624e54b740d"
+                  name="Сolleague"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c96e091a-19c0-4722-ab21-a8a32e6a2ea4"
+                  name="IMediator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="3f1a489c-4dfb-47aa-b740-9d0c35734c58"
+            name="dispatcher"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f04153bf-f20b-4a76-90cb-f655728d86ab"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3Ddispatcher"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5eac00f5-73a6-490b-a7c1-6365d45fc721"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="588970e2-e426-4ab2-a154-9c11296421c9">
+                    <propertyInstance
+                      Id="e3c09006-265e-4dda-aec1-e1564e278a54"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="911fdc70-1ac5-446a-a558-2579050abc5c">
+                    <propertyInstance
+                      Id="4326ee4e-429e-494c-9f30-c9a371b87fa4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef24c6b3-a3e8-4806-97bc-3b4c569620f2">
+                    <propertyInstance
+                      Id="ad620fba-1cfb-4b53-90c6-3f05cccb9671"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98ecae67-1022-40cf-8c83-30b3249c5fc7">
+                    <propertyInstance
+                      Id="ea8b84a0-88e6-4256-bba5-6e46fe79f218"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b7cda31-94e6-4ae6-854b-ed6a768c23cb">
+                    <propertyInstance
+                      Id="e32785e7-6e60-4c28-8e18-1ba88e6107ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+                LastKnownName="IMediator"
+                LastKnownLocation="Package_1636.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b9272d4d-4a92-4b26-a288-46313eddcec2"
+            name="Attention"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dd6c920c-be32-4898-aadc-daada5d729aa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="753cbcc5-851a-4e3d-98e9-ef9a6184eb87"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="add63979-356f-4778-88bd-c4a5af4aad30">
+                    <propertyInstance
+                      Id="5ebf7e46-a64a-4203-b516-cbf8a4a244fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40bb4dbb-a2b6-42e6-9e58-89d80803c033">
+                    <propertyInstance
+                      Id="966207ce-55e7-4eff-91a6-94974c04bced"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c87c319b-b187-401d-88d2-e4ca01759b2e">
+                    <propertyInstance
+                      Id="413b507a-7c4c-40d7-a0df-f9d59df8e08e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6483f859-3054-43b6-a331-4b81b0392577">
+                    <propertyInstance
+                      Id="0df804f7-9914-4c4b-ad5f-bff43cee3625"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7cf930d-dc71-4330-b3c8-c749b5d81b90">
+                    <propertyInstance
+                      Id="efbfbb0b-3f00-4c33-b670-9f80c10255e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="472e8b24-18cb-48cf-ae2a-102c12f16698">
+                    <propertyInstance
+                      Id="c64195fe-ba6a-4f84-90ff-4f4720e645f4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9b28a4b0-e2f2-4c38-92b9-4b09099a2002"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8bf92c90-e576-47f7-afa5-5ec4375e3f77"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0e9b6b81-2eba-4d4d-a5a4-7460fce577b6"
+            name="Сolleague"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="638129c2-7043-4ba5-b8e2-d1dc8496c86e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="19bc901e-d268-4d41-b47f-a30be11e5d0b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fd0e5be-fdf7-4db3-a6c9-1d75f87b49b8">
+                    <propertyInstance
+                      Id="37d8be05-856c-45b8-a264-b91c0f41908a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="599627d8-a966-4476-ae72-30ef3563238c">
+                    <propertyInstance
+                      Id="2846320b-e612-4134-afe1-410bf2a5a20e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77a51f6f-fdd4-4ee9-9c97-dcdc94f2c9cf">
+                    <propertyInstance
+                      Id="6855e1bb-7d10-406f-9104-52a837728f78"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42d4a10a-a563-4947-9703-096d412e5b1c">
+                    <propertyInstance
+                      Id="b3bdbfe5-5a83-4362-a8f1-995160d8b928"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7814d09a-434c-4b9a-b8b7-651bbd764cde">
+                    <propertyInstance
+                      Id="8ef132bd-32dc-4091-91a5-d36bf082c4ad"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c089860-6529-4196-823f-4ca6d810e37b">
+                    <propertyInstance
+                      Id="736a0e70-1fe7-47e7-9c87-1ae3730a353a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3de3c39a-e005-41f8-8260-55db860cb0d2"
+                  name="dispatcher"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ead4501b-61cb-415a-a61a-5e2aa29ca83d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)]) ParameterIdentifier%3Ddispatcher"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+                      LastKnownName="IMediator"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3ed30a1e-11f6-4f90-9b08-26bbc5d733fe"
+            name="SendMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d69afecc-fa9a-42e3-90dc-83b8ebdbf5a3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f7ba80e8-6777-4069-bfa6-24a1f08aa36c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb09c43f-4adc-42ab-95f3-80c6fb9256b9">
+                    <propertyInstance
+                      Id="4b151899-3e61-4a78-935d-481a42a219b5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="926b20de-5c63-4512-9858-16c7eb4b9b0f">
+                    <propertyInstance
+                      Id="47e6e620-7622-4f66-b380-c6281e5e811c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="876ceffe-998b-4fdd-b64e-7813adfe78d5">
+                    <propertyInstance
+                      Id="24eb3202-3f8d-471d-84b3-e441ab7a8e7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b02e2634-48cd-4e20-90f3-40858b2d043a">
+                    <propertyInstance
+                      Id="10aaad5d-6db7-4006-af1b-89a2f8056fe9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18f17ec5-fdf7-4304-90bc-4a2775fc09d4">
+                    <propertyInstance
+                      Id="aa44ff71-46e0-4d74-af8f-810825ab8cac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33d1f890-43f5-4aa0-8796-fc49da2ea2df">
+                    <propertyInstance
+                      Id="1bb78451-6d3a-4f16-a7fc-aecfc24b9952"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="162af3e8-f6ca-43f5-8a78-6a4b1895dd59"
+                  name="message"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6fbef796-dc24-4ace-a740-8b9750ced08b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmessage"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="204c89ec-a79d-42e5-be1b-e94a2ebc6e3d"
+        name="FireDepartment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="332f5e3b-bd2e-44d7-82e3-dd7ef483175b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DFireDepartment"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e0f3c49f-d63b-46e1-aca4-a1f1b5488a85"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5bdbe747-8667-4ce4-82cc-4e1cb89c3cdf">
+                <propertyInstance
+                  Id="d2a1adcd-7bba-45b3-9abd-952e088702c4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="527b45d5-d746-41aa-bc21-31ce6ed018ab">
+                <propertyInstance
+                  Id="cb25a295-d869-4d5e-b2be-5e9517e143db"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e55ab558-9e91-48cc-9ee4-0b4f9a6159ca">
+                <propertyInstance
+                  Id="c4ac8802-e9f0-4df5-81aa-448ce540de90"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0688881f-6263-48d5-bfb0-9ace668de395">
+                <propertyInstance
+                  Id="88c72342-d675-4258-84f4-36cff0361530"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e89e953-1e94-489d-81e6-5c0611cc2519">
+                <propertyInstance
+                  Id="32a7198c-a178-4fbf-8561-1bd26f0efd6e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="fa5847d2-a965-4331-97ff-30e04794f22c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0066a250-c946-47ad-bce0-ae01021d2138"
+              LastKnownName="Сolleague"
+              LastKnownLocation="Package_1636.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="99c58402-14f0-405f-b5bc-2bbef446aeb9"
+            name="FireDepartment"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1fa5fe09-b32b-4427-94d3-745e24a373be"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DFireDepartment Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e00d8ab9-1772-4a45-a741-e878f1082bb6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ddc911c1-1c79-42f2-a3bc-c1d5290c721d">
+                    <propertyInstance
+                      Id="5e85c694-b881-47dd-936b-332d375fd0ed"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9e6deb2-0550-421c-9f19-5f777059a216">
+                    <propertyInstance
+                      Id="9dfe9ef0-6a06-463b-880c-672b25d5a42e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90ccb721-be37-4489-9e8a-a67431442570">
+                    <propertyInstance
+                      Id="a6829643-047d-430e-ada0-737885aff685"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4fe10bf-44b7-4ffc-901b-8d8768efb6d8">
+                    <propertyInstance
+                      Id="b5bfb473-961c-4328-8741-4171c13c07ae"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="688e3309-8ee5-47be-b783-af021afe11ed">
+                    <propertyInstance
+                      Id="494a7aab-36d1-45c2-95cb-bc0856849c59"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="477f1db0-c729-49ca-8523-231f4ec44735">
+                    <propertyInstance
+                      Id="9cabc59c-1c65-4ddd-8480-229ae5b22620"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a2512362-040a-4db7-adde-4183563d98c4"
+                  name="dispatcher"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="028c9a4f-f34d-4d8a-96bf-0cb213d1faea"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DFireDepartment Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)]) ParameterIdentifier%3Ddispatcher"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+                      LastKnownName="IMediator"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d317268-23ea-4f24-be83-5296138ed582"
+            name="Attention"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e90813ee-0eba-4b0d-b77b-a02df66efb85"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DFireDepartment Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4e54aa8d-3556-4ffd-8397-623fbe6b87d6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bacc88d8-6587-4d76-b8e3-7ebe6f00b433">
+                    <propertyInstance
+                      Id="9afabf00-58ea-4502-924a-051a94b0d4b9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68fe6635-ed16-4812-9e28-a7c87ed648f6">
+                    <propertyInstance
+                      Id="4e3a5d98-3702-4511-b8d1-5d7873d3c65f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5001d28c-07a1-4930-99b1-5af5d3f9b43c">
+                    <propertyInstance
+                      Id="0f3395ba-f37a-4c34-920f-8e35fe3e50f1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b62b9c1-cb3b-4a46-a5aa-4a3561759081">
+                    <propertyInstance
+                      Id="37ffdac8-6fd5-4c3f-9ce1-ea0d1e597bd9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89530951-16e0-4fed-92de-6e3daf2f1f51">
+                    <propertyInstance
+                      Id="38e1411f-0736-400d-84fb-b43e18dc6a15"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d06568b-9b76-4ec7-8cb5-832338e4e595">
+                    <propertyInstance
+                      Id="ffeab1b1-b8e2-4d03-87bd-d80e152a1087"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a0c65a90-9c72-4ed6-943c-dd4f85bc5b4a"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="02e2f751-c382-4229-839e-90ccd87d65bd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DFireDepartment Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="48d52c98-5f69-4043-9801-0680513ef8ef"
+        name="MedicDepartment"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="213b0e22-40d5-4d1f-8ff6-c5c53f16e743"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ba22c852-a02e-4c66-931c-2da07584c5f8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bda5f63a-1572-4be8-9bee-7450be3d7eb4">
+                <propertyInstance
+                  Id="06d9a49e-0d2f-4c34-b8fe-c5d058d0007a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="813ec21f-f0db-477e-9eba-feda072833d7">
+                <propertyInstance
+                  Id="ec6da3da-8207-45e8-884e-a4e454712fc4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="455cad06-174b-4222-b61e-3a159ba89546">
+                <propertyInstance
+                  Id="c2436c17-f328-4702-bb5a-ca6be33f9798"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2681e5af-04d7-4a10-885c-c6826f406570">
+                <propertyInstance
+                  Id="95a4ee21-fd47-4375-8bb7-df5c644b0d1b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cf27147-89c8-4a81-91b8-2fce2e463be5">
+                <propertyInstance
+                  Id="d179903e-3318-4967-b5ac-16fa9a8e6462"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="698aef35-1176-47e4-b365-5d49bb702f55"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0066a250-c946-47ad-bce0-ae01021d2138"
+              LastKnownName="Сolleague"
+              LastKnownLocation="Package_1636.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="01a033c9-155e-4873-9df1-2cd5f6c47d4b"
+            name="IsScope"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b0a4056b-72c1-45e7-bc6c-cd6fe2ed8804"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment Member%3DIsScope"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eee314b7-c1ef-4738-b083-c4f7a19075a7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93c59445-ff90-486f-a14e-abff5c2429ee">
+                    <propertyInstance
+                      Id="4addd858-29aa-424f-946f-09a78d082162"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ae126f2-f570-4e64-b455-f5a9903448db">
+                    <propertyInstance
+                      Id="4e8612bd-c463-4538-8518-11ab32d31ff4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bc1bf8e-5be1-45f8-b460-5f5d3a7f11b3">
+                    <propertyInstance
+                      Id="b71a5441-df9e-42de-a401-403aac0a5bcd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb878327-72a5-4be3-885e-d0966489a21a">
+                    <propertyInstance
+                      Id="76cad214-cc01-4f66-81e0-e5e847d11cf5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c037cfcc-2acb-4046-977a-7ae9a7d503a7">
+                    <propertyInstance
+                      Id="d0999400-c573-4d02-9cae-4eec1edbb29c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38370ae4-c070-4d3a-bb5f-6fb979513b63">
+                    <propertyInstance
+                      Id="73d365b5-ab00-4346-99a1-c11552b71cdb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe136df7-f680-4167-af88-d40edfa17fe3">
+                    <propertyInstance
+                      Id="69279bde-f923-48cf-a0da-9c0c1a38167f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1bf645f7-3b57-498f-b8d8-36430a2ade93"
+            name="Attention"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="376c07d6-705a-433d-8843-ac40555bee41"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="496f7f09-4194-4351-ab4e-bf7554fd7856"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4f7c27f-9e2d-4573-8546-75cdabe6c6ae">
+                    <propertyInstance
+                      Id="defd1e70-10da-43c6-9776-8b46dc25dd16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea99e11f-1c1d-4d64-b3c5-a9f2f82ceac8">
+                    <propertyInstance
+                      Id="7fbb08c9-e776-4210-b278-21c73a674b6e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73ba248b-abe7-45e3-82c8-dab5670a9287">
+                    <propertyInstance
+                      Id="4b24c77b-7532-4da2-adf1-5769675aa2ac"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9fe207f-550d-4d48-8d19-bb01b6d6f3e7">
+                    <propertyInstance
+                      Id="46769cce-5f39-4131-b63b-0f07a7b749cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1c9b6d2-5eca-478a-af3a-f953abd9a908">
+                    <propertyInstance
+                      Id="f8b305c6-ae24-401b-b706-47dc62abfc3a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81fa7705-f020-4c66-927b-bf0406dde34e">
+                    <propertyInstance
+                      Id="12647dc2-4181-4e84-bffd-257475a6c97e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d8896440-a7bf-4007-93b3-98a1e1cb8ec4"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d7512153-1723-4071-b822-c9b04cceeb82"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1890ee4c-73ad-4858-9a13-83da3778de7d"
+            name="MedicDepartment"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e7e5bf9f-6570-456c-a62d-02cfde024c5f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3462a99e-ab62-4933-8da7-91591b6b02fd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afc5e7d9-a6c7-4bd5-a759-0a0cd96b03d1">
+                    <propertyInstance
+                      Id="274288cc-1d6c-4915-a388-f910353f506f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae9222ca-0d7e-42ce-851a-59d08a498229">
+                    <propertyInstance
+                      Id="8b3543cb-7d39-4d97-8d0e-7610716408c2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e25301fd-d5e0-4964-a746-0e93ccd1bcb9">
+                    <propertyInstance
+                      Id="4c7ce44e-0b73-4e25-a207-35ceccc1948b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5810d6c3-9f57-4943-b256-a83fc2ee55da">
+                    <propertyInstance
+                      Id="0a3109f2-639b-4572-98fa-5e7f0436af59"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f7f2c68-f0d8-4c0c-bcb9-a5b99d8e6e58">
+                    <propertyInstance
+                      Id="3f275872-7eb8-4eb1-8f33-403d2c90c488"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a990357-90a7-4372-8572-362871f35f9a">
+                    <propertyInstance
+                      Id="90144f65-3a72-4ced-bac2-1058fc4a053b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92235e3a-2745-41da-8b36-4665ad9c5e22"
+                  name="dispatcher"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a2c3052d-97a0-4f98-a87f-9323d60cde8f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DMedicDepartment Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)]) ParameterIdentifier%3Ddispatcher"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+                      LastKnownName="IMediator"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a939b7e1-b8bc-4d1f-9713-b2e00254bea0"
+        name="Police"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7580ff06-15ba-4f80-b29f-b9b40bbd687e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6696c86-13bf-484b-b7b1-a6e7fcd088c6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7599c6cb-eaef-4e5f-8063-88eec5ae5efc">
+                <propertyInstance
+                  Id="3a713c36-72bf-408c-974e-d04033d5d32f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f404a99f-a8bf-4662-b4af-3849892166ac">
+                <propertyInstance
+                  Id="3038d583-aaed-4ed7-b089-c6f188414fe0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0590123a-38c9-4a0e-8d59-6940d63d0be6">
+                <propertyInstance
+                  Id="f870cebb-67ef-420d-9b6e-2fa699f78e7f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9a1f4e2-8054-49ad-9a7c-6cded2be8144">
+                <propertyInstance
+                  Id="747493f6-964b-4adb-8110-b5a5d25cd16d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1dfb442-0cb7-466c-91c1-8378c8c11821">
+                <propertyInstance
+                  Id="72e562a1-38c8-4a4f-b4e7-75a2c0c3d67e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e4efc67d-5c83-40c4-aa2a-9c3c824357ee"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0066a250-c946-47ad-bce0-ae01021d2138"
+              LastKnownName="Сolleague"
+              LastKnownLocation="Package_1636.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="5c15c719-64e4-4810-8fa2-251e4134e10b"
+            name="IsMurder"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b61c0e13-8720-424e-8524-281338022532"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice Member%3DIsMurder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="80ea293b-66dd-4ffa-969b-8bd40c699a92"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5ea957a-0e01-492f-a3b5-e4a79f7b2833">
+                    <propertyInstance
+                      Id="9810e28d-9080-48ea-a0ba-3fae6ecefc93"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f5b27a2-ab1e-4d05-8152-38e193e196d6">
+                    <propertyInstance
+                      Id="e620e007-6efd-45aa-adad-7c49d64c62de"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="038f1602-7ac4-459f-84e0-bb877286ea11">
+                    <propertyInstance
+                      Id="bea5d6cd-3c0d-4192-aca0-6fe9d29a1f2e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92c45e94-0fdc-4cb8-baa2-d2baf62643d9">
+                    <propertyInstance
+                      Id="6cd16ccd-0a78-42cc-87a1-9463c7acb4c9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="990a5ebe-dddc-45ea-90c9-db960db27f25">
+                    <propertyInstance
+                      Id="744215bf-f230-44dd-81bc-2738d6a82ef0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16754932-df91-4c5a-a085-a8dd744850d1">
+                    <propertyInstance
+                      Id="0eddfc63-6bf3-4ac3-99e3-bfa20267d15f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b83d254-4e40-46aa-b762-c2be2190f4b0">
+                    <propertyInstance
+                      Id="ffdd3a4c-4d3c-4c3b-bf7e-78796c73bdcb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e0f4de86-3fac-4610-b0f1-7880927870ba"
+            name="Attention"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4acb0f2c-094f-4f9a-9f45-3bded2ad3c81"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d62514bd-8b8d-4b79-9558-4494b7db9505"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f17108c2-57f5-4f1a-853a-050454c615ae">
+                    <propertyInstance
+                      Id="b470d1a7-2a84-42e0-883a-10a1352c1044"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42af6a7c-c379-4b26-9805-1abc6998de33">
+                    <propertyInstance
+                      Id="f1b3335b-66ff-4510-aef1-c6ad25b58724"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03f3eeb7-8d2f-43ab-9045-fded88a8db93">
+                    <propertyInstance
+                      Id="4960d06c-7870-48f7-bc56-035809c08068"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="802dae1f-668f-4dbd-b312-96ea2adfc3ed">
+                    <propertyInstance
+                      Id="cb432ed0-a3c8-44bf-a508-60c712d135c9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48d145aa-bd1d-47b9-908f-eed13e813729">
+                    <propertyInstance
+                      Id="be58918a-eb4d-4d06-96b5-fe3edca9a0e0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c76fc0b-8139-4c8e-b7d5-d372b19140da">
+                    <propertyInstance
+                      Id="0cf2c137-ece3-49b9-bab9-23308b70bc55"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4fe645d8-cf1d-45da-a303-8c05cb3ab6bf"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d4ec2c43-e77d-4bf8-b4d1-0921c5d5ba86"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice Member%3D(Name%3DAttention OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f179889c-14eb-4f7c-8631-82c1d7654458"
+            name="Police"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8e5aa2ab-49ab-4412-a506-fe88a452385d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="985a7fc8-1f29-44de-936d-4c27207439e9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42df47d4-4e74-443f-b80f-0d4b255040c4">
+                    <propertyInstance
+                      Id="d4c44a2e-f3e3-4d80-a092-561abe22969a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86325569-e669-4008-af70-fcd05e540506">
+                    <propertyInstance
+                      Id="43fdbfd5-f081-42de-bbef-32e0352a5f49"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89117ab3-3fd4-45bd-8143-01839ae27714">
+                    <propertyInstance
+                      Id="8d1c528e-1381-42b9-96a5-f28303d1ecf6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="997d72c3-966a-4e56-90fa-078e4bf2d581">
+                    <propertyInstance
+                      Id="1d1e25a7-4463-412c-b4be-c87cc51a36ac"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="344a9ba5-aa50-4426-8fb6-df49f3b3d476">
+                    <propertyInstance
+                      Id="325dc895-cbba-4ced-b2cc-1b77c97bfbd9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bf718f0-efa1-41c4-be17-a522b70614b8">
+                    <propertyInstance
+                      Id="8308c231-1b42-4bca-b711-5d19fc51543c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20f78a62-99db-44ba-bbf4-488a58be9be6"
+                  name="dispatcher"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="939fffd8-bbe1-45a9-82fe-ed84dc004cee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DPolice Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator)]) ParameterIdentifier%3Ddispatcher"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+                      LastKnownName="IMediator"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c951a29e-2522-4c44-9e59-bf36086eee5d"
+        name="IMediator"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="bff4e6b3-d44d-49a7-bf7e-bb4c121a1ced"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eb025c60-986e-4f45-bc70-3cc5f3a8b7a8"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5f1d2c7-8606-40f9-9415-026b2fe162e8">
+                <propertyInstance
+                  Id="92c1605f-7424-40c8-ac36-aac62e73a933"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2f84f60a-cf61-462c-856b-5708914ca92b">
+                <propertyInstance
+                  Id="bdb0828e-442a-4812-a500-5340ed23f3ac"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c806fb8-1479-4dba-a40e-939fcbdd2e43">
+                <propertyInstance
+                  Id="27954c1b-5753-4916-81ad-0b4db3813cee"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b42cb82-b7fe-4b12-9fc8-0fa97185b9bd">
+                <propertyInstance
+                  Id="ea1651d0-38bb-43f9-954c-fe31c726d8ad"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="5eb8dc86-4c04-4705-9036-e8c7d585e571"
+            name="SendMessage"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9aab884f-d286-49a1-afcd-9ccf555b28bd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="67224129-d6e9-404b-bacd-c0dec02edde0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b05f311-9cda-4e49-b7e3-bdac8a57dbed">
+                    <propertyInstance
+                      Id="06e08c3c-bf12-463d-bfbf-8eef1217655b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8acb9fad-f739-4407-82c1-0c6ec320ee81">
+                    <propertyInstance
+                      Id="2409ef6c-945f-4447-9b7f-a2e49411086f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8dff949-819f-4a56-a43f-b4e066a47ba0">
+                    <propertyInstance
+                      Id="1cbe5361-5560-4f66-a7a8-de55b1e24729"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8803d6e-dc46-4b84-873d-1766ca46d802">
+                    <propertyInstance
+                      Id="c0361911-d9d1-40f7-999f-807fa2aa9424"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e89f1d-2854-420b-920d-1c49573c4a2f">
+                    <propertyInstance
+                      Id="5a0c21de-7958-4e90-8679-e29d2099a7fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0603b6b-5d83-47e9-93af-b97de1282ac2">
+                    <propertyInstance
+                      Id="ececf705-3c85-4482-bb3d-ceba1985562b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06b688c3-6216-418a-b600-72b94504be62"
+                  name="msg"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7bda168a-162c-4890-85c7-5977647187d8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dbec197d-fd12-4a20-aa13-8ebc84cc43ad"
+                  name="service"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="638f346b-06c2-4152-8f80-0e4255f3aa94"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DIMediator Member%3D(Name%3DSendMessage OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FMediator%2Fbin%2FRelease%2FMediator.exe Namespace%3DMediator Type%3DСolleague)]) ParameterIdentifier%3Dservice"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0066a250-c946-47ad-bce0-ae01021d2138"
+                      LastKnownName="Сolleague"
+                      LastKnownLocation="Package_1636.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
