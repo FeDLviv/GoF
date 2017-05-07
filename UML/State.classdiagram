@@ -1,0 +1,1807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="c8675c06-ee5c-4566-893b-55c9afc42b21" name="State" linkedPackageId="217228d4-3f73-4feb-a064-474e6cc22374" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="780a6e5d-9828-4811-be94-b47469d9361c">
+      <profileInstance Id="5b7c154c-86b7-4ae7-859f-d136730633ff" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dc9e8e26-00a6-4179-b450-c56ed9c68043">
+      <profileInstance Id="2dcf35e7-33a5-466a-8c07-6124f65280ec" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e6ffe377-4290-4d1f-ad35-5796485412d5">
+      <profileInstance Id="8d3e2297-4e1b-413b-bf0d-5e8fc2e8eac7" name="CSharpProfile">
+        <elementDefinition Id="3b8165c5-f5e1-4d01-ae28-6e32d3ab6616" />
+      </profileInstance>
+      <elementDefinition Id="d06c08c3-3bbd-4131-9654-8a9b14c7dd42" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0e16a111-34e6-40b5-bc83-1206c75b007a" name="Autumn" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="801a2309-f2f8-4e8f-9e65-733b1d9ef4e7" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn" tag="ViewCode">
+            <elementDefinition Id="7714cf17-8e35-4ac9-948a-12d7cd597405" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="1d6f6a72-b338-426e-ae41-79b93374b085" name="class" profile="CSharpProfile">
+            <elementDefinition Id="e348bbf1-4106-499e-8d22-b9a38c303ce4" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ba7935ce-2368-40e9-a69c-2fce24020641">
+                <propertyInstance Id="96b35447-1369-44e9-9d37-d675be570351" name="ClrAttributes">
+                  <elementDefinition Id="3e2ecc53-b416-4b62-ab7b-bf22227d4efb" />
+                </propertyInstance>
+                <elementDefinition Id="2c0b3578-c6f8-4a05-8c5f-bcaa05364a9f" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="626a2b06-b122-4d1c-9c96-5662fd35c784">
+                <propertyInstance Id="c3b3f1ce-dfad-441a-b598-69a3447003b0" name="IsPartial" value="false">
+                  <elementDefinition Id="180d7a2f-f827-415a-bf95-d31507b57378" />
+                </propertyInstance>
+                <elementDefinition Id="48237531-2a6e-4b0a-8f25-f39150062ea6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="539b4197-6444-4e71-be6a-246cb7b67b2f">
+                <propertyInstance Id="372152a3-6225-43eb-ad3d-5fb3c4ef12b9" name="IsStatic" value="False">
+                  <elementDefinition Id="c1ce7f8c-1a75-4483-a585-d29ff08a1474" />
+                </propertyInstance>
+                <elementDefinition Id="03301a6d-3864-4cb8-acd0-17e460092940" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1ca0a925-6cdb-44f4-a944-55babbf92c36">
+                <propertyInstance Id="614c8b00-4c4c-4005-bb20-b0d3ff577d06" name="IsUnsafe" value="false">
+                  <elementDefinition Id="fc039a66-4013-43b0-afca-842018b1a7dc" />
+                </propertyInstance>
+                <elementDefinition Id="40163790-9a46-41b3-a97f-238d10bf5c85" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d461c2ef-1257-4fc0-a721-0e944d013b44">
+                <propertyInstance Id="f1f3d19b-26ca-4de4-8cd4-a5ec675c65b4" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="819a5bdd-3973-4d45-99c3-b0588cc55b2d" />
+                </propertyInstance>
+                <elementDefinition Id="5cfacccf-b669-4aa4-ae1d-e232d3e59df1" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="0930a280-5c94-4daf-8b74-b57c90c91280" />
+        <generalsInternal>
+          <generalization Id="c40e1015-366e-48d4-8691-366cccab84d2" isSubstitutable="false">
+            <classMoniker Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" LastKnownName="State" />
+            <elementDefinition Id="75a7be9b-01ed-4858-8403-aa0ea2c3943e" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="001c9280-b3d0-464b-8bb2-4250ebe269b5" name="BeginAutumn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c6b24340-34bd-42f2-9fa5-d771c87609f4" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="22ae8bd8-db60-4481-8824-f733566623ce" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d14bbaf8-e3c6-4d0d-ac77-da9f15429b12" name="method" profile="CSharpProfile">
+                <elementDefinition Id="be2a8bde-e7ec-45a2-a10d-23745dd525c4" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ed6f2844-2898-4fb4-9b4c-8cfd28993a13">
+                    <propertyInstance Id="a69e79d8-efc3-4b7e-b3fe-3e4c635dbace" name="ClrAttributes">
+                      <elementDefinition Id="013178b6-7ae0-4030-8549-26d79b4547af" />
+                    </propertyInstance>
+                    <elementDefinition Id="af04f3a6-8053-4a15-8bbc-a04329b12e11" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8f4a8778-6027-4e07-b1aa-33d7ee7164a2">
+                    <propertyInstance Id="987324e1-a384-4cdc-9376-fbbe3345c665" name="IsPartial" value="false">
+                      <elementDefinition Id="290882e5-2188-4767-b5df-b227e779d494" />
+                    </propertyInstance>
+                    <elementDefinition Id="212f4c38-8bf7-42eb-a69a-df3828ee3328" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0edc2656-aa4f-4b83-8b77-fbe6bd334b56">
+                    <propertyInstance Id="72027553-2f29-4a25-a3b9-c9f5fc84c5f7" name="IsUnsafe" value="false">
+                      <elementDefinition Id="be87d035-9d25-492e-8330-d15eb0f7680a" />
+                    </propertyInstance>
+                    <elementDefinition Id="8f8ddb78-cd25-41e3-814b-7ec40a1679c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a124cbc9-f5be-44cf-8a45-93dd3aa66d9d">
+                    <propertyInstance Id="4f75326c-b388-48a4-931f-0259741ffc99" name="Inheritance" value="none">
+                      <elementDefinition Id="7391bebc-a940-4776-8344-86c355905d76" />
+                    </propertyInstance>
+                    <elementDefinition Id="265fc8cd-0542-4574-bfe1-4a2ad1b29682" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8eb8dd16-3bbf-4e88-b8e0-4cc436e1b5d5">
+                    <propertyInstance Id="b4bf7451-1f19-4484-b457-4a026385d8da" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d1efb502-6ef4-43cb-a03d-d242a1773038" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d95cef0-45ff-4c2e-b104-a29ddc27a555" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="31423291-78b6-463b-ae8c-c31e16f0266b">
+                    <propertyInstance Id="054ae309-c5a3-459a-b9f6-5dbdc4fba626" name="params" value="false">
+                      <elementDefinition Id="3b8f6f18-12d4-4ec7-b808-1a43f4dad501" />
+                    </propertyInstance>
+                    <elementDefinition Id="5a4d0cfd-a54e-4f51-b372-26417565ef5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="76180c80-b4a4-4698-a72e-7a9de095923d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="33a03a84-fdaf-4021-902c-7a7eeab00d3b" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="c3907c81-1126-40b6-a53f-1536342c0bb3" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="d1f72da0-cedb-4625-9b38-9adcbc1f0f92" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="6be62d02-ec5e-452a-8813-1ad80741324b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5bf98b87-2277-4643-bd4c-847392fb0a47" name="BeginWinter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3112d662-7539-4874-b8c8-d1db72137cbd" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="2aef6a23-4b4a-4f2a-9714-9486a8f2d146" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f3a39e1f-ba1d-460a-8356-a42ba3ab4ac2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="bca46ff8-49d4-4b02-b972-969293307ca5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b199e07e-9de5-4464-a3d7-c9350d949e10">
+                    <propertyInstance Id="5a4d24a9-12c4-4244-819f-ed99181b9846" name="ClrAttributes">
+                      <elementDefinition Id="09140eab-d77a-497f-83e4-9e9d98870213" />
+                    </propertyInstance>
+                    <elementDefinition Id="c7795816-e9f7-43e3-ac66-8b698fe97fa2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a0b054bf-7955-4fdf-b716-e2c4fe610d4b">
+                    <propertyInstance Id="1db64980-367f-4f71-9f3c-87481d108577" name="IsPartial" value="false">
+                      <elementDefinition Id="b6423644-e4d8-410c-9acc-f8652a357733" />
+                    </propertyInstance>
+                    <elementDefinition Id="b5e72dc6-a31a-4137-b990-3d304d93bca6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="34379da4-d3ee-48cf-bfbc-cecc6576ebc6">
+                    <propertyInstance Id="038f8be6-0c17-4496-93eb-52ba75fbee92" name="IsUnsafe" value="false">
+                      <elementDefinition Id="e0eedef6-3c1a-40df-afc2-dd0206408634" />
+                    </propertyInstance>
+                    <elementDefinition Id="44687dc9-4aeb-428e-b210-3549d5156c3b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9859d0cb-ede4-416c-9346-cb31658119ac">
+                    <propertyInstance Id="7cc300cb-d0b9-40f7-adfc-884b0842d4c5" name="Inheritance" value="none">
+                      <elementDefinition Id="39174b97-cab2-4a8d-9d0e-680822c10924" />
+                    </propertyInstance>
+                    <elementDefinition Id="3f414c45-4aba-4fd7-b753-71e2e6e2e294" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1bec9cc4-1b74-42e2-8fd5-3fc08f2fb2cd">
+                    <propertyInstance Id="7b9e61fc-848b-4768-bccb-4810bb4dc4e3" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ba635170-4072-4a09-aee9-2644d1e48670" />
+                    </propertyInstance>
+                    <elementDefinition Id="15ed9d62-4187-49d5-b85b-59a3e5e094fd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5bfc4d95-9e88-4f78-bc74-ebce3d29a59c">
+                    <propertyInstance Id="39286d91-bf0f-48d2-87cf-8071323052c5" name="params" value="false">
+                      <elementDefinition Id="0d5186ee-418e-4448-885f-58d70584399d" />
+                    </propertyInstance>
+                    <elementDefinition Id="ec3c6e14-dbed-4e3c-88b3-5fb68a89cc8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d020d7b2-051f-4f74-8691-a1d0b5fd88b2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f09d1ad9-5c52-4cfd-b7a9-bf47a7016dd8" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="c22c9230-b357-4f26-a2fc-e8edf5ed270e" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="88ff56d1-4583-4451-91ad-464a50e0a255" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="5d0c13fc-3f67-4726-8b7e-5f52b5cb455f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="dc56a10f-35ac-46e7-8afc-d4284a3e47ba" name="Autumn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="f2a80ac9-8f48-46c5-9645-dee50865c60a" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DAutumn Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="e3e6ab8c-2d0d-4c31-b376-dcdeebc0ee02" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4a9e3fec-8808-49b4-a6e3-a731a2e6d2c7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="86597124-9dad-463c-90ce-d19fa998ef62" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="65a2923e-34bd-4e2e-926f-ccea5c871c03">
+                    <propertyInstance Id="f55751a8-ed3b-4404-a925-6a30523fc64c" name="ClrAttributes">
+                      <elementDefinition Id="4587ba3c-48a5-4550-aa43-cd699d8cd725" />
+                    </propertyInstance>
+                    <elementDefinition Id="d377b130-baa8-4b24-8679-71d78cf9a236" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b07be870-d341-40c3-992e-cd2e59aa2a82">
+                    <propertyInstance Id="94b5a51c-ddea-406a-9f60-40fee10f2fee" name="IsPartial" value="false">
+                      <elementDefinition Id="07ceab53-096e-4379-9f49-3beaa17352b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="5c52995d-574d-4ece-b0bc-0d19586f1384" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bde3f3f3-90eb-45a3-9d53-3ba080e22d8e">
+                    <propertyInstance Id="b40b33a8-e599-4138-8fdf-534e1a10f619" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b68421e8-7138-40dd-a7a8-5f5b57904a91" />
+                    </propertyInstance>
+                    <elementDefinition Id="1b2af0f0-dc72-42f5-8a76-9f1226f6e80a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e15a5979-9903-484a-9585-cad47109f3a5">
+                    <propertyInstance Id="1c1f1866-9663-48e0-b372-d71a361ef85d" name="Inheritance" value="none">
+                      <elementDefinition Id="87011f95-ef76-4f06-834b-82580da4fe8a" />
+                    </propertyInstance>
+                    <elementDefinition Id="4dd3cb37-1ba1-4eec-9d63-36eb2e9807c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6c7039b9-1d6b-45f5-ba18-85cb91ab8ce8">
+                    <propertyInstance Id="5c64f6f7-5bcc-47df-9f50-4a655925572e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1ff8a2cf-9cf7-40d7-963a-61098830ceb4" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3a8df4f-171f-40a5-ad65-f76689be55d3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7e5c699a-c907-4553-b2c6-42217b9cccc0">
+                    <propertyInstance Id="b317c375-e338-4950-b8f6-cd1eb3e456e6" name="params" value="false">
+                      <elementDefinition Id="671bc49e-0bd5-4ae2-a3ab-72c149a552ee" />
+                    </propertyInstance>
+                    <elementDefinition Id="c75b149c-b049-4a80-a7c6-8f590baa6d07" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f4a610f0-19b0-4469-b095-5f97994080e2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="52b2da67-01bd-429a-bb7f-dd958472913d" name="Weather" isAbstract="false" isLeaf="false" cachedFullName="UML::State::Weather">
+        <elementDefinition Id="4b4ade42-b66b-423f-ab94-39d9007c0f03" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0239d986-b313-42ce-bd5a-c66b93359597" name="Spring" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="833d06f0-90ff-414f-b7ec-cffa61f66662" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring" tag="ViewCode">
+            <elementDefinition Id="1e656f3e-a41e-4830-8381-780f6916667a" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="e67c8110-35c7-4889-b0c4-7deb6953ff96" name="class" profile="CSharpProfile">
+            <elementDefinition Id="280bfce7-e2f6-4fa2-b923-50b039d284b6" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="0a8ee706-853f-40ef-af07-c0b22e24164d">
+                <propertyInstance Id="ceea7ff1-2efd-46ea-8847-bd8234dae64d" name="ClrAttributes">
+                  <elementDefinition Id="489cdc82-b217-4c07-85ac-c5a071080f2d" />
+                </propertyInstance>
+                <elementDefinition Id="32765de1-53ac-4af2-ac4a-0932b7424f67" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cce53f6f-bbfb-4348-98a2-da9c642eaf05">
+                <propertyInstance Id="11dd379b-e936-46c6-aab7-ef2534a804cc" name="IsPartial" value="false">
+                  <elementDefinition Id="8849653a-72f5-443b-9a64-525ecf48586f" />
+                </propertyInstance>
+                <elementDefinition Id="24d6d6b4-d4d5-40d0-bd07-edd098448faf" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="afb4ee54-dfde-459a-9846-65ca43857822">
+                <propertyInstance Id="1e5b651b-e892-456f-b85d-11c2501e1880" name="IsStatic" value="False">
+                  <elementDefinition Id="6db512c4-b5e2-4ba2-824b-31a8443c3c48" />
+                </propertyInstance>
+                <elementDefinition Id="1f75c811-e5af-43de-bccb-35b5e95567f2" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="80fe22a3-8f85-4667-9766-0436989b7042">
+                <propertyInstance Id="24479953-e3c0-4c79-8ce8-62b0f48fbeb4" name="IsUnsafe" value="false">
+                  <elementDefinition Id="f5df0ae9-e8d9-4532-8c61-e3e12123603b" />
+                </propertyInstance>
+                <elementDefinition Id="4b82786d-f523-45d2-9f8f-5380f995d391" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1a801a49-5350-4384-a30d-b0368bb0d12b">
+                <propertyInstance Id="6364f83a-3a67-4184-8873-dff2358c6696" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="80c7d4d9-ca2a-4064-9866-61e0378e59fe" />
+                </propertyInstance>
+                <elementDefinition Id="8632e805-24cc-490c-bbb3-a40c354b21d1" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="173e9156-0ee2-4ac2-9032-90570d0c0450" />
+        <generalsInternal>
+          <generalization Id="8463240c-5ef9-4f5a-9241-572be9160545" isSubstitutable="false">
+            <classMoniker Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" LastKnownName="State" />
+            <elementDefinition Id="48ffdc77-448d-4ab5-a9f3-42fe21c02e68" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="8fdc4b3f-2343-4e87-a0a7-92833de8bd68" name="BeginSpring" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="596cb80d-f3e2-44ea-92cb-98c0a6c1dca3" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="b0cf3dce-ecf6-4684-80f4-80c4d99dd1bb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="4433ecac-74f2-40e8-9b2a-c60c7a955f04" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b233650f-8a29-48c9-b247-9701be1d3207" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22aa8f06-b1a9-43ea-ae32-0deddfde2fce">
+                    <propertyInstance Id="407f47e4-953b-4792-ae8a-211c67e6327a" name="ClrAttributes">
+                      <elementDefinition Id="53540033-7893-4b33-871b-cf05017a1dde" />
+                    </propertyInstance>
+                    <elementDefinition Id="9fa9fb76-4190-4e52-926a-f48898662ce0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3c3a4398-e747-4913-bc0d-11c11d9a0d5c">
+                    <propertyInstance Id="46fdd259-e693-4902-8faa-f8d8e0c2a6e2" name="IsPartial" value="false">
+                      <elementDefinition Id="9743cc7c-1125-4d23-ad73-0f22670e7ec6" />
+                    </propertyInstance>
+                    <elementDefinition Id="1e6708bf-9411-4808-9254-8f297aa377e6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0656c05a-f1fe-4293-a715-20758f1f7474">
+                    <propertyInstance Id="5302046b-31a0-468a-af70-e69de1b78d7a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0a05ae4f-b7f6-4a9d-a854-f652878ed8e4" />
+                    </propertyInstance>
+                    <elementDefinition Id="e12f4157-b67e-4bd2-a99b-b12f749bd6a0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="679c6bfa-5a6a-4c6a-a5c6-67387b696875">
+                    <propertyInstance Id="9c8323a5-5444-4a26-88d9-92ab1c39bcf9" name="Inheritance" value="none">
+                      <elementDefinition Id="d7a6a8ca-49f9-4cf6-90dc-d2b19990dace" />
+                    </propertyInstance>
+                    <elementDefinition Id="31ccb501-f01d-4761-8af1-ab74aa891bc0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cdd98666-0024-461d-816c-48fbb9be501b">
+                    <propertyInstance Id="7bc2ea77-b00c-49f3-a452-e9bdb93ef7bf" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c733477a-c4ba-4edd-aa16-0854214b4c53" />
+                    </propertyInstance>
+                    <elementDefinition Id="fc20dc3f-1beb-474f-b9f3-e89869fc01c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0a4db01c-5c01-46da-8c3e-d9221759812a">
+                    <propertyInstance Id="ac6ee138-6b01-429e-ad90-eb8f0d45b47a" name="params" value="false">
+                      <elementDefinition Id="e14042f3-1deb-4c4f-9ec6-111fb0875a30" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ed008df-b349-43c7-900e-3b9354fcc31a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="bc26ebe2-90cc-4ae8-9cb5-feba260b9092" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5b26a12b-2731-49c6-beee-c9c30a1b9426" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="da2665c0-38c1-4f7a-afaf-0dcc6ceef8f0" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="67216cbd-f2e1-4996-b8a9-c9d24580e45b" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="f3737b83-94f5-47c2-af0c-8e9d6d003811" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="576ea4c0-6ce7-440e-8aff-0d7dce4e9ecd" name="BeginSummer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ee4b1e30-64b8-4904-b488-1a9edd2c925d" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="48eb60dc-d5f4-4967-b359-bed6c1fffa5c" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5f904480-ebf6-4217-83fd-3603c20e013e" name="method" profile="CSharpProfile">
+                <elementDefinition Id="28a29407-c027-493b-8dfd-3cc98cdd1d58" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f1731a09-e343-4dba-aad3-3c4c920cbcdd">
+                    <propertyInstance Id="da61d659-28b7-44aa-8a75-6de1d75ca875" name="ClrAttributes">
+                      <elementDefinition Id="5d19329f-aa03-4745-83ea-3e5af1d0aeed" />
+                    </propertyInstance>
+                    <elementDefinition Id="2533120d-31c9-4d71-b4e3-4895a905757c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="643d3490-1063-4834-bb85-8002dd34d813">
+                    <propertyInstance Id="7288f949-2a7e-4587-a816-62fc9da0e88d" name="IsPartial" value="false">
+                      <elementDefinition Id="0adbdce2-83b7-4ab8-9482-f183f0c0510a" />
+                    </propertyInstance>
+                    <elementDefinition Id="bd190689-2233-4f4c-8027-5dd21687242e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6e3c68a1-939a-42ee-8cef-9c00f006942b">
+                    <propertyInstance Id="55105d2b-d830-4160-abbd-08653ade3dc6" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5693de17-051c-4baa-9e4b-069cf88dd8d2" />
+                    </propertyInstance>
+                    <elementDefinition Id="9a7fa477-0aaa-4e80-a767-aaffcea788fd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="90b8a370-5787-4bfa-9441-efabf465265b">
+                    <propertyInstance Id="ce842f2c-5499-4bb1-9494-bc067ee0361d" name="Inheritance" value="none">
+                      <elementDefinition Id="fd7dffc1-4bcc-4b0d-b43b-3fd40c7a8071" />
+                    </propertyInstance>
+                    <elementDefinition Id="5160a7fa-f7b4-489a-a7d8-2baea9ffb4f9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4a23e589-33fb-4471-b406-a03908b6f4ef">
+                    <propertyInstance Id="0a284cb0-2818-43b3-b6cd-b91bfd8b6073" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f23cbd84-908c-4a22-aede-1a3440f5a0ef" />
+                    </propertyInstance>
+                    <elementDefinition Id="78ce2605-be39-4d2c-9f78-ced11b1a75ff" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cd46adda-6eaa-4f9a-b608-5ce634d554d9">
+                    <propertyInstance Id="9f633f89-85c8-4a74-baf8-f14b63770da8" name="params" value="false">
+                      <elementDefinition Id="e88c37cf-ef2b-49a6-aaf5-f34718c724e7" />
+                    </propertyInstance>
+                    <elementDefinition Id="df9ddf4d-0f43-4a9b-bbe8-1cf994db7472" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e546bd6f-f728-4278-bb88-64b8e094fb2c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bbf96aec-7829-4ae3-acc1-cfe48826b96a" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="b103fa2b-6e4c-432f-8a5a-6c0b44148aa1" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="9bf95d29-ca1c-428e-9b78-d8dd33ce28d9" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="3b1075c4-1101-45e4-a32d-b75f6d951d50" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7ce0778b-be4c-4f53-b45c-943448c04632" name="Spring" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fca51fa1-02cf-4ce8-b328-88c355ea30bd" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSpring Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="327d5e25-e9f1-482d-ad2a-c19ea76f67b7" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="64c47b3f-e74f-4af1-aaeb-718d4243db77" name="method" profile="CSharpProfile">
+                <elementDefinition Id="04456d94-7bfc-472e-92b7-88f8035214cc" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3d198d71-30ea-457d-bd81-a5e43bce05ba">
+                    <propertyInstance Id="ae381880-f497-40cb-9a89-429a3fcc87ba" name="ClrAttributes">
+                      <elementDefinition Id="8cb57b03-8418-4d73-b57c-c322963a4ecc" />
+                    </propertyInstance>
+                    <elementDefinition Id="f95974bb-3d16-4f4b-bc0a-75d4d6bb346d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d2224ede-c3e5-409e-a72f-41d13735cd1d">
+                    <propertyInstance Id="f6b65b29-9f38-40a9-96ed-d09eb0751233" name="IsPartial" value="false">
+                      <elementDefinition Id="5ee4b9d8-40da-4387-bdb1-357ac18af98b" />
+                    </propertyInstance>
+                    <elementDefinition Id="913ed742-5215-4bba-87d6-fc21331a3791" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fd9435cf-9cdc-40b2-8fc5-93751a5c0171">
+                    <propertyInstance Id="774b5834-7685-40fc-ac80-0726cb3750b7" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2eae5448-9d67-4bed-8c11-d6f5a6e2016a" />
+                    </propertyInstance>
+                    <elementDefinition Id="255402a2-47b9-4878-9b45-1d8ab2ec4e46" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8649c7bf-ee1c-466a-8e0d-03b35f0d00f9">
+                    <propertyInstance Id="07003816-8e9a-45ae-a51e-7f39c91abe05" name="Inheritance" value="none">
+                      <elementDefinition Id="a66f68cc-0370-413f-8876-11a4ef13447b" />
+                    </propertyInstance>
+                    <elementDefinition Id="a4089256-47b3-44b8-9a6a-d37826ec9b47" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c6186f03-f14b-43d5-9d22-25add93bde57">
+                    <propertyInstance Id="217d2236-41f8-4b36-bfbb-5e48a968511c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f0850e33-762a-4840-a3fd-0c4eac2e9d16" />
+                    </propertyInstance>
+                    <elementDefinition Id="b9540a64-5dc3-4cf9-a94f-2e93bf362fa6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9921ae35-d840-4d22-ad03-103a58036d59">
+                    <propertyInstance Id="7c4c8940-80c7-4974-a944-6bdd61899402" name="params" value="false">
+                      <elementDefinition Id="7baec8a3-1a90-4a25-9bcc-9a983571e936" />
+                    </propertyInstance>
+                    <elementDefinition Id="cad59b1f-6651-4db7-b770-55311d5384ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="53d9f2ab-2db1-40a4-9f30-8b19cf99ad31" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" name="State" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="27c7fd6e-eef5-432d-b643-7781a1820a44" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState" tag="ViewCode">
+            <elementDefinition Id="e52540e7-ce49-474d-b604-4dbc1e845c5b" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="65542242-1312-4d35-9bd5-8abf69eaec62" name="class" profile="CSharpProfile">
+            <elementDefinition Id="59d77386-f510-46e1-9d15-51994e744a7d" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="86f0f2e5-86d8-4814-b169-02f0286fc1cd">
+                <propertyInstance Id="ce7cb86c-2bc1-4d02-8a38-bd53b1573a2c" name="ClrAttributes">
+                  <elementDefinition Id="c29d9afa-6230-45d9-9559-d8c80f270326" />
+                </propertyInstance>
+                <elementDefinition Id="641407ed-7497-45b9-88ee-b7af89e368bf" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="937308ad-23c2-480b-b278-e7fe02c10602">
+                <propertyInstance Id="b69e0096-f7b3-4bb8-991a-dbc257de699b" name="IsPartial" value="false">
+                  <elementDefinition Id="0526450e-6190-4a13-9157-9e3594ef5fdb" />
+                </propertyInstance>
+                <elementDefinition Id="96502b61-e484-4eea-95cb-b8797cfe7883" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="3557d43d-ab13-4bab-ae6a-c4516dae5748">
+                <propertyInstance Id="0d6a672b-30ab-4ea2-b961-5e4074432e55" name="IsStatic" value="False">
+                  <elementDefinition Id="4f8eab5d-e122-402b-9f1c-f369107a5686" />
+                </propertyInstance>
+                <elementDefinition Id="3bbf09b8-2c4e-45ae-9476-ab3541961a34" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d3c72cfa-6440-4256-9fdf-139016b55ca9">
+                <propertyInstance Id="12299f8b-e38b-469e-83a5-6f020b4f6326" name="IsUnsafe" value="false">
+                  <elementDefinition Id="5d8da852-a9c0-4fe6-80d2-63133f4cc93a" />
+                </propertyInstance>
+                <elementDefinition Id="2c31bf65-d7cf-4ed0-a412-243d6842b3f9" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5c30bf94-3517-46a8-b6a8-09a42bdaea9c">
+                <propertyInstance Id="7ff2da7b-ca16-41e8-9727-70eba4571305" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="53e8748a-c156-4998-a5c2-a5980a2e931e" />
+                </propertyInstance>
+                <elementDefinition Id="79f80ce8-3918-4cbf-a1ff-50c2a991ad6f" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="58cca575-3f37-41ad-9c31-bf40d9ce2fb6" />
+        <ownedOperationsInternal>
+          <operation Id="af0c4f85-674c-42b8-acc6-ba8262cb039a" name="BeginSummer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ea689853-5fa6-4ab9-92a4-dba8cb5d8f61" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="4b01aa4c-6ab2-4df5-bf47-d30dc29bd742" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0b24c04c-da06-4a23-8f44-dfad10aee24c" name="method" profile="CSharpProfile">
+                <elementDefinition Id="86075ccc-dc53-4f33-b8b5-d49d8fe4fd8e" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="47b12a51-4bdc-41b0-92c9-1b03fd1f2863">
+                    <propertyInstance Id="1e811949-6323-40a2-a966-de63cd52c6a3" name="ClrAttributes">
+                      <elementDefinition Id="d7b60983-ccc2-46b2-ba31-b6ca48f7bb12" />
+                    </propertyInstance>
+                    <elementDefinition Id="7082fa8f-600a-4fd0-9669-e6140e9c4f59" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c8b9aecb-5ab3-4bbe-a29c-482f4095710f">
+                    <propertyInstance Id="7ebf80f2-44d8-482b-9a74-b281a728959a" name="IsPartial" value="false">
+                      <elementDefinition Id="7c15ea9b-d74e-4ba2-99f6-410887a8dc80" />
+                    </propertyInstance>
+                    <elementDefinition Id="08a163e2-fc4f-405d-a590-bbba2be9b141" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="17b830d4-f9a1-4a63-ba60-1c210e21aa45">
+                    <propertyInstance Id="ea9bd68f-08ca-4746-b5ff-7e2dfd021e0a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ec6ce5b7-ad3f-4ea0-97b0-f7c4d9a69605" />
+                    </propertyInstance>
+                    <elementDefinition Id="0970df9a-3c54-4ae3-9784-42200b3c8382" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e4ed374b-9af9-42be-bdfc-5cd41b27e947">
+                    <propertyInstance Id="ec31eb53-cbb0-4456-9dfd-4386685fdc79" name="Inheritance" value="none">
+                      <elementDefinition Id="de8c8bf8-2d0a-4819-aa4a-ad837e443f7b" />
+                    </propertyInstance>
+                    <elementDefinition Id="03aa4666-e2e2-49d9-b04b-4f2c59c6b2b3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a744f91-a591-46be-b285-280dd877afed">
+                    <propertyInstance Id="81a7927d-b877-4386-8f89-00da4f5e6a77" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d0825885-3f7a-47e9-9116-fb4e2101bf0e" />
+                    </propertyInstance>
+                    <elementDefinition Id="086fc82c-4610-4caa-9be2-2fbbeed334c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9b54dafa-5b3b-4ec6-b4a1-e2b18d13b168">
+                    <propertyInstance Id="94ca2229-8ae7-497a-9d93-486019c322f1" name="params" value="false">
+                      <elementDefinition Id="dd0a0fca-01c4-4ab9-b09f-790c2dfcd0d2" />
+                    </propertyInstance>
+                    <elementDefinition Id="98721eb1-616f-4c99-84e5-a54ea20e338f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d63dc674-2f77-43c9-a779-2b110e0e89a7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="008f707e-add8-4773-aa31-ae9ca1e85413" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="7ea0f521-fa72-4b95-aa68-70289838cc47" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="0fd1bf76-82f8-467d-be1b-1e6e0d291d76" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="42c23287-bb4d-4532-8d51-c30b94584d74" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1943e228-1ee4-453a-a787-7bc71002aeff" name="BeginAutumn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="42b36ed9-dd06-4d60-a114-7a08f23230a8" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="5eb6c0cb-a63f-4b87-9e49-eb5df4906aa2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="afc8c6da-a808-42e2-b500-720fe09b2560" name="method" profile="CSharpProfile">
+                <elementDefinition Id="220039d3-dae1-40f1-9712-db1c01453081" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2b1393c9-0b87-4b3a-8e8a-c238532cb295">
+                    <propertyInstance Id="34184891-af54-4a01-9dac-6b3afb712be4" name="ClrAttributes">
+                      <elementDefinition Id="df885dcd-b4b1-462a-9734-b580dd07ed67" />
+                    </propertyInstance>
+                    <elementDefinition Id="8f8beb93-7e82-4116-a8e0-f03d95432c26" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f0ecb2cf-5909-4daf-adc4-827c7e8ad116">
+                    <propertyInstance Id="7d245197-9f99-4fd8-b0bc-f946acc1c80f" name="IsPartial" value="false">
+                      <elementDefinition Id="85c33270-23b9-4c0a-8e39-91c84d9c1b0e" />
+                    </propertyInstance>
+                    <elementDefinition Id="bea9e9ce-52f4-4cfa-9f6a-d40bce48128b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="92d3090d-5e42-4aa7-b4f0-8d5965a264b9">
+                    <propertyInstance Id="26634510-e177-409f-84c6-59d5a5c34f38" name="IsUnsafe" value="false">
+                      <elementDefinition Id="c523d33a-11cc-4f41-ac33-dfb1165b36b6" />
+                    </propertyInstance>
+                    <elementDefinition Id="562e5feb-4e27-4e65-8983-94fb9cb7a723" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94b8760b-333d-4dbb-8350-b8368ba1a532">
+                    <propertyInstance Id="5df8aa1f-d6a0-4cf0-a75f-cf7a72c7df65" name="Inheritance" value="none">
+                      <elementDefinition Id="ab7e9672-83b2-49a9-8260-a317abcbd910" />
+                    </propertyInstance>
+                    <elementDefinition Id="6be3e973-d7d2-4ff5-b8d5-fc1ddb9ac02a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="582eca08-9466-4503-af54-5c4ea9d75570">
+                    <propertyInstance Id="ab0f78e3-3844-482e-a1d7-7d2d98383bbc" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="59dd3b43-1988-4022-8a2f-69431d71ab1f" />
+                    </propertyInstance>
+                    <elementDefinition Id="c889aacc-acd6-4888-8bf3-8682d6e78912" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3f4e3a4b-d8c1-429d-94fc-f3d3c5cb9163">
+                    <propertyInstance Id="93151edc-0bc4-4eda-be28-38a8dbf4da49" name="params" value="false">
+                      <elementDefinition Id="506667f0-9dbc-4736-a378-58fb5488569f" />
+                    </propertyInstance>
+                    <elementDefinition Id="87e70d3f-d6a4-464b-9ac5-451eaf36cd42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2fb86cc4-3478-488f-a80b-c82aeb5b10c2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d44f6e34-8eb0-41b3-8911-fb6c64c0211c" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="4999d00e-79c1-4ce9-9aa3-dc1a832e75c6" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="f0adb6b0-39c6-405a-afc6-84deb2f8de85" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="ab34346c-4cea-450c-a2dc-937d789c4773" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="341d9ee1-5380-4f44-8a37-af4dc734a42c" name="BeginWinter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="1356535d-c028-4aae-875e-a32539a20ab2" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="ecb3fa34-a2eb-48be-8dc8-372cb3c4756a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="16a12831-831a-4038-ab58-65fbe4d48410" name="method" profile="CSharpProfile">
+                <elementDefinition Id="923dcffb-4fe5-4ab5-bf83-514a886574a6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="88cea223-b9da-4acc-a779-9d30595c9842">
+                    <propertyInstance Id="197d5436-f7c2-47f4-b019-cb46b0897325" name="ClrAttributes">
+                      <elementDefinition Id="f4da497e-dd2a-4319-b6b9-4172b0dc8624" />
+                    </propertyInstance>
+                    <elementDefinition Id="4fdd8b82-8a74-4db8-b8a0-791a7d93adaa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6413b9ba-7b30-45f4-a88a-71546ed8ece7">
+                    <propertyInstance Id="547e9c51-05fe-4afd-b481-bfc90e90fc6f" name="IsPartial" value="false">
+                      <elementDefinition Id="3ceb661e-7c2c-4630-b5fc-117e0f6f65f8" />
+                    </propertyInstance>
+                    <elementDefinition Id="3249a74a-66e2-4ac1-b64b-fb92ff958472" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5d99e36-7b67-4f6d-85bd-a3185f6597be">
+                    <propertyInstance Id="ec2dca63-34e7-4156-b06b-a30bcc346c37" name="IsUnsafe" value="false">
+                      <elementDefinition Id="1525a968-41f8-4448-8cf4-0e85a0264b1b" />
+                    </propertyInstance>
+                    <elementDefinition Id="e397236f-4090-456d-b827-c00c35daa23b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8f2e6e7c-30b0-41a2-ab63-13dbc359b043">
+                    <propertyInstance Id="19b663f4-bf9e-452b-98c3-1aa3669d18eb" name="Inheritance" value="none">
+                      <elementDefinition Id="d66d51c3-3377-412a-8cd8-3faa709abed1" />
+                    </propertyInstance>
+                    <elementDefinition Id="ad3c7344-a9a6-4e5c-acd0-fbf3374063e0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6b07a487-d4f1-4089-80e2-4435dd77f847">
+                    <propertyInstance Id="dc03adc4-94a9-4dd6-a4de-d41ccf4760db" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="efc1cbfb-bcc6-4c71-b3ef-2cb92ad374a2" />
+                    </propertyInstance>
+                    <elementDefinition Id="66b580ca-2201-4b1f-aecf-6a78119ed6ec" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4ecc579a-44a8-4b73-b61c-f384441ad1af">
+                    <propertyInstance Id="1025e82f-dd14-42c4-92fe-a1fb69708e6c" name="params" value="false">
+                      <elementDefinition Id="27096c46-118c-4693-b909-9155a6a13ba4" />
+                    </propertyInstance>
+                    <elementDefinition Id="d95705f2-8c3a-4709-bb20-f0abab0684d2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9e929749-45df-4562-994a-3734f95293a5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="53a21e3e-79b0-4598-ba63-9cb744f47dc0" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="bc7958ea-9f0d-4e90-84f1-8a9c0a502356" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="392dd1b9-0850-4951-a7a8-cec3e6988d07" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="bad235bb-cd85-4b64-816f-26e5bb3280d2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7d08a745-dea7-4614-b736-8f1bf89d2f68" name="BeginSpring" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="f904beee-c999-4592-b9e9-30dbe33d5152" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="eb4282f7-2d01-4613-9ebd-5f70f2e3d94a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a483dea3-d58e-425b-89ee-3421df69fd39" name="method" profile="CSharpProfile">
+                <elementDefinition Id="42e250a7-e1da-4206-acc9-5a0b699d9d14" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="826cde2d-86ba-4754-bada-cb2086d1a447">
+                    <propertyInstance Id="8a235073-0b2e-4940-89f7-2fb68eb3cfb3" name="ClrAttributes">
+                      <elementDefinition Id="6e584b65-7384-48b5-a4cf-57b67664213a" />
+                    </propertyInstance>
+                    <elementDefinition Id="57b4c04f-1a74-453b-b8f9-91831f580462" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9e8a5256-693d-47b2-a5f5-8ebd4d667335">
+                    <propertyInstance Id="6a8742b3-4c83-4dfc-9eb1-021008e5297a" name="IsPartial" value="false">
+                      <elementDefinition Id="808613b2-264f-4612-a0e9-9dd0b3b17cae" />
+                    </propertyInstance>
+                    <elementDefinition Id="83feb2ea-78b4-4b85-862f-ef62908621ea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68c6587c-c031-4e95-b894-50777324d452">
+                    <propertyInstance Id="00d20a06-a6e6-4f24-8dee-875bd6524e4d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="010dcfe1-8506-4140-a7db-4ded79e45975" />
+                    </propertyInstance>
+                    <elementDefinition Id="ce2959f5-26c0-4b81-9b15-9afdeb989070" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6edd4e6-7aa0-406b-a74f-de1e78f1124d">
+                    <propertyInstance Id="3122e9bf-92a7-4dd3-8a6c-f6450157ee9a" name="Inheritance" value="none">
+                      <elementDefinition Id="11f9c96d-c972-4154-8784-d457ae281ac8" />
+                    </propertyInstance>
+                    <elementDefinition Id="55227207-cb8f-4e02-b31a-e5fb69bc2099" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7fe9a30d-dafa-40fc-857b-bef40d6f4248">
+                    <propertyInstance Id="c0dddc9e-9882-43ec-8468-3345c9f1a611" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="19a05f74-002d-4fcf-b85a-34ea33030fdf" />
+                    </propertyInstance>
+                    <elementDefinition Id="9c3052c4-0ce9-48d4-84e3-642f714b37be" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9a2f206d-21ff-4b52-abb1-d2efe42bb99d">
+                    <propertyInstance Id="34dcc5e9-ef9f-4cf4-b372-9fdd691058e9" name="params" value="false">
+                      <elementDefinition Id="1b21afa5-97c5-4ba0-8c24-0105c6f97218" />
+                    </propertyInstance>
+                    <elementDefinition Id="e67dbb35-e38f-4c86-89d9-c9251e4b573f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9cedc2a2-ac8f-4ab6-8155-b8f73282c2e9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a07ec973-bc46-4906-9a81-e628cbe2476f" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="0b45d79a-84f0-4a64-affb-7e69a23a199e" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="db7aeecb-4ac9-407b-ac22-747faf573a00" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9b7ad57b-120c-4531-8198-94bd45ddde1d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="54c7e061-9df0-40c8-a1c3-44caff3f9dfc" name="State" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3ff0586d-2cc0-4956-872e-fe5868e70000" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="450673d6-242c-4622-a21d-3975022cb2a6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="8ec30fa5-78df-4192-9af1-770337115944" name="method" profile="CSharpProfile">
+                <elementDefinition Id="af4575dc-118a-491d-ad35-7ceebb805fe8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="744c07eb-6d76-4283-9735-9908c27793d9">
+                    <propertyInstance Id="12531c2b-56e3-455e-ab3d-26123b8b38fc" name="ClrAttributes">
+                      <elementDefinition Id="d384731f-1aa0-499a-ba2a-4f1c7ff9ddc5" />
+                    </propertyInstance>
+                    <elementDefinition Id="581ca0d7-322a-4e7d-81ae-fb7b4abbeb46" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="274bcc8a-bbe9-402d-a2db-50d239b25b9f">
+                    <propertyInstance Id="ec5b6ed4-78be-4b5e-bb7a-033bc5eeaeca" name="IsPartial" value="false">
+                      <elementDefinition Id="8fd56851-5592-41c5-add9-d7d2349f6ca0" />
+                    </propertyInstance>
+                    <elementDefinition Id="f1fde178-f0bd-49f2-9e66-e7802bdde179" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6fbf485-7b7d-412e-be33-9b731bdb6c10">
+                    <propertyInstance Id="0f31c1f8-2a55-4bff-9f8b-4ad25277d574" name="IsUnsafe" value="false">
+                      <elementDefinition Id="809631d5-9208-4e23-9754-628bbf655864" />
+                    </propertyInstance>
+                    <elementDefinition Id="39fa9cad-b5ea-4ff5-970b-dd372de0e978" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f554aa4a-e43f-4cef-8237-bbb6b345e674">
+                    <propertyInstance Id="589cc317-caf5-4294-8c06-d3bfa339a828" name="Inheritance" value="none">
+                      <elementDefinition Id="eb9b5756-150c-4d7c-88d2-3104f120ee14" />
+                    </propertyInstance>
+                    <elementDefinition Id="3e06cdcc-97bc-4142-a7b1-cbb22943d008" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0491c008-7c06-4914-b1fb-bb103b7ebd1d">
+                    <propertyInstance Id="d7446e8a-f430-41d7-8c7b-dc63cbbee09d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="65ba9114-790b-4d8e-b8a2-847923f4b5e7" />
+                    </propertyInstance>
+                    <elementDefinition Id="f6f41723-72eb-47a0-948b-889da3ed6e1f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4ed8a2a8-bcf3-4d9f-ad77-121f04b18781">
+                    <propertyInstance Id="877fbb42-be86-4924-9b09-542bd6846b2c" name="params" value="false">
+                      <elementDefinition Id="c60f3872-7391-408b-b473-7365c54cf459" />
+                    </propertyInstance>
+                    <elementDefinition Id="1bf5a50c-e689-496a-8057-a00cac333510" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d136713d-829e-47d5-a090-f445380e0499" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9875663d-101a-4229-8aca-1ceb1cb7609b" name="Summer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="e5ddff83-202a-466c-ba9b-137a07cf1b37" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer" tag="ViewCode">
+            <elementDefinition Id="aac7dd42-54d5-4521-b8be-a863812b2a37" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="dd3d3166-94ec-48af-bd74-d276578271f7" name="class" profile="CSharpProfile">
+            <elementDefinition Id="597a7810-3269-44bb-a9c4-bc5ce4ec1ffa" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bb8912ec-3df3-462b-abcd-12774b263cc1">
+                <propertyInstance Id="9c6b1f4f-fc16-4ea6-a93c-c565a3f9baf5" name="ClrAttributes">
+                  <elementDefinition Id="8ae41535-955f-4609-a214-9bbad167d640" />
+                </propertyInstance>
+                <elementDefinition Id="1ed6b8b3-3550-40f4-8f3d-7846a5b15b33" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="93d51c29-dd15-4467-a025-6f0af874f940">
+                <propertyInstance Id="961d1e39-4600-4ea4-9513-35dc3fabe693" name="IsPartial" value="false">
+                  <elementDefinition Id="04934153-e3a5-4884-be7a-7fbce08e81df" />
+                </propertyInstance>
+                <elementDefinition Id="931e4acb-3fac-4483-9fbf-d75997887f0e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9743367b-76ae-41af-a1cc-bfbb8c7a04cc">
+                <propertyInstance Id="a4811485-4134-4c10-915d-50f648750b32" name="IsStatic" value="False">
+                  <elementDefinition Id="c68b4580-82bd-4c87-a4b1-3b1d21479925" />
+                </propertyInstance>
+                <elementDefinition Id="05ef4c91-be43-4295-8c52-de97caacfb5e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6db196e4-99c9-45ec-8cb7-d72883f7641e">
+                <propertyInstance Id="35d2a8c5-6040-4bde-8966-27797edbe637" name="IsUnsafe" value="false">
+                  <elementDefinition Id="8ffec41a-4341-4d97-ae34-259314be945a" />
+                </propertyInstance>
+                <elementDefinition Id="f2b04436-3009-4127-8e77-936b1377913d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fd882866-4a83-41d4-a1f2-d26b81843953">
+                <propertyInstance Id="40d3e700-9a01-4e1e-9635-619a238a4eed" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="3b19938d-b689-40ef-9a15-ee125de832c6" />
+                </propertyInstance>
+                <elementDefinition Id="404a6858-49f6-453c-be29-956ba7843d53" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="2e9968ba-eaf5-402f-8e22-7c14fe9f7e60" />
+        <generalsInternal>
+          <generalization Id="2800ac32-c7b2-4fec-a81a-a9c82fb0ca99" isSubstitutable="false">
+            <classMoniker Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" LastKnownName="State" />
+            <elementDefinition Id="0c5a7dec-3f09-4ebe-a212-554ba60962e4" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="e076b0ff-1df4-4f90-82bd-a05df1dad288" name="Summer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="00bc9252-0fb5-42c1-8ef1-ecdc5153894d" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="d270ea61-6dc0-4ab2-a850-cec9ec67ae4a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="995cfbb4-258b-4b74-81a4-883b48378ded" name="method" profile="CSharpProfile">
+                <elementDefinition Id="adae198d-020a-48f0-a71d-7e72aff65406" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3b561eb0-e18d-49cb-9c3b-6905ef830b35">
+                    <propertyInstance Id="a2d4063b-b4aa-41a7-97a9-bf5df8f2d846" name="ClrAttributes">
+                      <elementDefinition Id="9d52f88e-50a0-4c1a-b2e5-389057d7102b" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6e808d4-039b-4940-a5f2-5b0d1abba726" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="91a09404-d545-4911-ae36-7ec05cb8bf5e">
+                    <propertyInstance Id="6f021845-8503-4759-bcd8-2b2d68ba5ba1" name="IsPartial" value="false">
+                      <elementDefinition Id="feb9ebee-52f3-4ba0-9a20-10471e7337db" />
+                    </propertyInstance>
+                    <elementDefinition Id="f161b616-42c1-48de-aef6-644ec7942863" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e52dc2b7-58a8-403a-ba63-8c30e025f412">
+                    <propertyInstance Id="033e77a7-acc7-4c1b-9a0b-1c4dae69e213" name="IsUnsafe" value="false">
+                      <elementDefinition Id="06958fe9-c172-405e-8941-bb912ed2b94f" />
+                    </propertyInstance>
+                    <elementDefinition Id="0416f50e-e3fb-4333-99e8-b1909050f14c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3abb9d9d-7844-4f39-941f-b9b3ba04f813">
+                    <propertyInstance Id="f42f9406-5590-493f-b7c7-ee914fbdc36b" name="Inheritance" value="none">
+                      <elementDefinition Id="eb26451f-b7ba-410d-94d2-efde2a75c34e" />
+                    </propertyInstance>
+                    <elementDefinition Id="083e45d2-8e3d-490e-a5ae-c8eec4643c7f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ec4c1d39-1ef2-4322-8c0f-ecbaf908dde4">
+                    <propertyInstance Id="26b5646a-8a19-4320-8b60-e9ef1bd023a2" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e0c95df7-626d-4e30-bfc7-a520418e7685" />
+                    </propertyInstance>
+                    <elementDefinition Id="29a5806d-429a-49f4-ac39-67291e7945c0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ad60cec3-2b50-4af5-9b21-e9946638ec33">
+                    <propertyInstance Id="dcd9f7b8-ea1e-424b-9825-74f90b5d1163" name="params" value="false">
+                      <elementDefinition Id="050a9438-76c6-4680-a76b-e1287c2e2eb4" />
+                    </propertyInstance>
+                    <elementDefinition Id="9032dabf-e9e7-4bad-969e-30a6ecfacfd0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="671652b1-d5b2-4e2f-81bb-35a85e176cf5" />
+          </operation>
+          <operation Id="563b3a41-ae85-4559-9554-5db5ccf56bb1" name="BeginSummer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="39f55be2-54c4-4a73-80dd-da22b13578b6" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="d325266e-e4b7-4313-aeb4-4e8197637b83" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="20ba85b1-acbd-493a-bac2-5663397ce061" name="method" profile="CSharpProfile">
+                <elementDefinition Id="38b081d2-d781-4701-8c06-fd680bed09d8" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4f2a9895-bb59-49a9-9b26-663c3879d042">
+                    <propertyInstance Id="6d33e58a-49ab-44f6-94f1-726c15cf22ab" name="ClrAttributes">
+                      <elementDefinition Id="1602dc26-0b36-4a7b-9ffe-6efbf2622b52" />
+                    </propertyInstance>
+                    <elementDefinition Id="19cabb25-54e0-4901-9af9-186e3dc4b6a2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3efef339-cfa2-45c3-bfc7-ded05b772f33">
+                    <propertyInstance Id="1d7fb068-c41c-4891-b52b-ae222d7db72b" name="IsPartial" value="false">
+                      <elementDefinition Id="ea811858-6e7c-433a-87e4-e83a51847084" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6f80ad5-b155-481f-a45c-eb26deb7a102" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="53ee0b91-43e8-417b-ab01-c2ce1577baf2">
+                    <propertyInstance Id="825ca737-6762-4c24-8b52-f3e8557ea928" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5942c321-c4be-4c65-89e9-55ce39647197" />
+                    </propertyInstance>
+                    <elementDefinition Id="040bfa52-f7ab-42e9-b0d4-3326237ab65f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2f0b39f0-0c54-4c01-b4d4-0109c986bdaf">
+                    <propertyInstance Id="955f9734-6566-45bc-b0f5-e911f57d52ee" name="Inheritance" value="none">
+                      <elementDefinition Id="8aae878a-6ec7-47d8-b434-776925338e4d" />
+                    </propertyInstance>
+                    <elementDefinition Id="12cb0c06-b0bd-42e4-9dbf-b93eac23e8b9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1cc005c9-c9bb-4ea7-9584-1b06c3300f39">
+                    <propertyInstance Id="657861a7-b032-488c-8631-7ae4310ef707" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0399c708-b605-4bbe-b93f-5ed9a5747041" />
+                    </propertyInstance>
+                    <elementDefinition Id="b6c540e4-11c1-426f-9a93-411ae890721f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2194fb52-aeda-4795-ac2a-960d1c1c15f7">
+                    <propertyInstance Id="07f16d57-85ef-40e0-be95-b84c4a85ccb1" name="params" value="false">
+                      <elementDefinition Id="62afb6e4-1380-4b60-bc09-882948bb3753" />
+                    </propertyInstance>
+                    <elementDefinition Id="062aa485-74c4-44cc-9196-b70644fb5ac8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="00572c0d-6f31-4be5-90b8-75a52c033cbf" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cfd24268-6739-4c38-a805-c5721943502e" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="b9e0e57b-fbfe-4271-8cfe-2de9714255ef" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer Member%3D(Name%3DBeginSummer OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="5ec5fb59-445b-4e31-8f04-aafb0e47d272" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="39ae7578-7195-455c-93a2-9bbe29c878b0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4be1f030-9d10-45d2-bc15-f67a1605b826" name="BeginAutumn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="4479347a-839c-4a21-ba55-71848c6a7514" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="84638d90-6890-4775-a92d-36aeef0cc213" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="3cbdbd97-9f03-400f-9840-6f815bb8f21b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b5c68571-383a-4d8a-bab7-7383c8fb358f" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="df0af43b-5b8a-44b3-b509-f69a5024f320">
+                    <propertyInstance Id="b4502f5a-4b5d-4df3-9379-71fc072d0bd8" name="ClrAttributes">
+                      <elementDefinition Id="bed90f64-f7bd-4779-b83a-1bf6913b15d4" />
+                    </propertyInstance>
+                    <elementDefinition Id="4a33de0b-10ea-47ab-a78a-f8d17122dd7d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f6e329aa-c0a1-4de4-b807-c02228d760ab">
+                    <propertyInstance Id="dde014bd-545d-4f30-a060-d1ae2a55889f" name="IsPartial" value="false">
+                      <elementDefinition Id="a90ad344-bffb-4d93-ac48-650019cbcc57" />
+                    </propertyInstance>
+                    <elementDefinition Id="c6c8e39b-df4a-466e-80db-3cb374f41b5c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="87404a1e-4351-4d0e-9d5a-0671d89c4507">
+                    <propertyInstance Id="902b4fb8-9531-4b0c-811c-8c9d3223efde" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7c19fe61-ded1-4a48-9cc6-b83ef8310c04" />
+                    </propertyInstance>
+                    <elementDefinition Id="4436ce96-cb8b-47f1-b7f1-85705c04ee10" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6e1edbb-c520-428e-aeed-b9c86e90c97f">
+                    <propertyInstance Id="0af71f4c-085b-456b-b5bd-e11d204632f7" name="Inheritance" value="none">
+                      <elementDefinition Id="34ee8c33-2731-46e4-a086-2d9388513f97" />
+                    </propertyInstance>
+                    <elementDefinition Id="537d1fe7-e24e-4355-8b0b-3653100524db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="74184d07-9257-4a5c-95a7-a995e6e3a424">
+                    <propertyInstance Id="98a08299-186b-41e8-89f0-ca6f02418e5a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e2d207d4-b30c-419a-b026-d30ad426e4e1" />
+                    </propertyInstance>
+                    <elementDefinition Id="ab42a1ef-44da-4978-9747-b0612e13f8db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e078d50-d012-4b4e-93d2-e58cab613b72">
+                    <propertyInstance Id="7420c0b2-32cb-4174-9398-35f07b717a5a" name="params" value="false">
+                      <elementDefinition Id="5332910c-d5c6-4bac-8efc-873903966268" />
+                    </propertyInstance>
+                    <elementDefinition Id="efdb563a-0aab-4058-b08f-66b8af55ca7c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c1da6d42-4819-46a5-a155-50e948507639" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c36e501b-3f9a-446c-a04e-d84641193b77" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="ef93bbb5-7570-44ac-b1aa-899ba6c203b3" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DSummer Member%3D(Name%3DBeginAutumn OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="71603771-62ab-42bc-ab46-15a883188397" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="bcb67f0e-e9da-497b-8fe4-5eba07f283fc" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aa68c050-9aec-4c41-8aea-9aa809f4a1e5" name="Weather" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="5b2ed1d0-c439-4ca4-b885-6f967a2d1b54" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather" tag="ViewCode">
+            <elementDefinition Id="1e09a86b-3af4-4c27-aa9e-37f52d709653" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="83bd1103-ef67-43c2-b890-40de2be03208" name="class" profile="CSharpProfile">
+            <elementDefinition Id="7fa26e7a-d695-4c82-8c2c-679fa9e67225" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="35000a71-3a64-4329-9151-9a00d55af84d">
+                <propertyInstance Id="3a50ddb2-b860-44c9-ad59-172f8e73fc58" name="ClrAttributes">
+                  <elementDefinition Id="36bcf558-3d94-4591-8387-e8ec6cd8226e" />
+                </propertyInstance>
+                <elementDefinition Id="a7c64bc7-59fa-4c99-a725-8d55994441ea" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f49b501c-6ef0-4ee0-a4e3-737f8ad88faa">
+                <propertyInstance Id="8c78a400-189d-4015-98bf-d1f3cb337331" name="IsPartial" value="false">
+                  <elementDefinition Id="153d86ed-a863-4247-a580-f9f5dd20f196" />
+                </propertyInstance>
+                <elementDefinition Id="d5a4c8a2-98e1-48bb-bebc-22fb8c1e2330" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9c25e8f0-9b18-4e1d-8071-0350954b167b">
+                <propertyInstance Id="11c174a0-37f3-4b0c-b03c-8b400b0179e8" name="IsStatic" value="False">
+                  <elementDefinition Id="a9660d79-f738-4c7b-99ea-e7e37edfab6b" />
+                </propertyInstance>
+                <elementDefinition Id="cdef4d94-2e86-4dfc-ae6e-690b1e33a559" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9259ecd3-ab95-4c28-9ec8-9fa43d89d49e">
+                <propertyInstance Id="8a51ab7c-d148-48c9-9d6d-a9da1eb289f9" name="IsUnsafe" value="false">
+                  <elementDefinition Id="1e39f145-fd9b-41cf-a35b-0d2086a897d1" />
+                </propertyInstance>
+                <elementDefinition Id="a74cdb74-8b12-49df-8ad8-e262e7fb3425" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="b1af1dc6-7afc-4d28-b3c0-091a5f424238">
+                <propertyInstance Id="1bcda396-bbaf-4977-a05d-485ec58d6a78" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="db9b6ea0-1e6c-441a-bd5d-2f6ca97d0c95" />
+                </propertyInstance>
+                <elementDefinition Id="3c339e44-7294-46e2-af18-34062f71dc45" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="4b4ade42-b66b-423f-ab94-39d9007c0f03" />
+        <targetEnds>
+          <association Id="f598a3d5-be00-4108-84de-598d5699318f" isDerived="false" sourceEndRoleName="Weather" targetEndRoleName="State" isLeaf="false" isAbstract="false">
+            <classMoniker Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" LastKnownName="State" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d2fc4dae-cea7-4167-a97d-bc85aa87f240" name="Weather" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="03077616-b1aa-45a6-9178-2994e852caeb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1647bec7-d426-4c27-b677-6328e0e2faf2" name="State" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="60a51005-dfe0-403b-a829-5eccf0f86b4f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7b83bb67-e0be-415c-8190-196121fb4be4" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="4972f7cc-0814-4c71-b0c8-d9d81069b1ba" name="state" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="e4b0ea48-e97f-4651-8ed7-f0aac6a569a8" handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3Dstate" tag="ViewCode">
+                <elementDefinition Id="bce69864-1c2a-46aa-8759-a1e7881ce412" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c7b54c97-a589-49cd-a93d-93736980eec9" name="field" profile="CSharpProfile">
+                <elementDefinition Id="b25f7de4-2e58-47ab-9270-219cd67db9f6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="60103f67-7cc1-44c0-95af-b28a396a08aa">
+                    <propertyInstance Id="6ac9474f-9e1b-4122-bf7d-50b944e0fb3c" name="ClrAttributes">
+                      <elementDefinition Id="e9bcddcb-afd3-4dac-83e5-eb1eb32c8f6c" />
+                    </propertyInstance>
+                    <elementDefinition Id="60fcea55-3154-40b2-a5de-2b3992e09b90" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56665ee4-145c-4528-9406-ea2420301586">
+                    <propertyInstance Id="b6bcb6c3-f4db-4593-b472-abe833a12331" name="IsConst" value="false">
+                      <elementDefinition Id="56e36d75-952c-4223-86dc-c46fb149d60b" />
+                    </propertyInstance>
+                    <elementDefinition Id="3994c774-b40f-406d-be43-8e66f40972fc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b7b2a189-0a9e-4d3d-8cbf-11d1f59a7e90">
+                    <propertyInstance Id="24e041ce-a6a9-4898-890b-cfa93c66b249" name="IsNullable" value="false">
+                      <elementDefinition Id="542adbc2-7f45-4687-8d6b-e3f492465741" />
+                    </propertyInstance>
+                    <elementDefinition Id="d45b41d7-def4-457e-8399-b3a74304afe3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d7ecf65b-ab72-4027-82ac-37916f3be2d7">
+                    <propertyInstance Id="0c1e16cf-0db6-48a0-b10d-6e6d8d0d6956" name="IsVolatile" value="false">
+                      <elementDefinition Id="56fc410a-6eba-4e8a-9242-63a0b11b0083" />
+                    </propertyInstance>
+                    <elementDefinition Id="6e6f74f7-82f4-4f3e-a59d-f4a9e8a126d0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="919ec071-f5a0-43f7-b629-e13abfa95add">
+                    <propertyInstance Id="76578bf2-75eb-4b24-b6c5-d5d76f103378" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fe4ccb3a-b71c-4c48-89c2-8b069b5bdefd" />
+                    </propertyInstance>
+                    <elementDefinition Id="c8bd46fd-73b9-44ef-abc7-768934d5b63d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="471381d8-b36c-4023-a3e3-0ec98ae3de2d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="067fca33-a1c3-495c-a3f9-2a09dcef7942" LastKnownName="State" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="3906e5d2-9aa3-4bd4-a67e-f8b1c6440b72" name="SetState" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="2b4c7c78-1921-4bf2-bc12-204d7a8bca85" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3D(Name%3DSetState OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState)])" tag="ViewCode">
+                <elementDefinition Id="da39e23a-b1e0-46ee-bd9e-a6d2e8b7a167" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="d85f4e60-1aa4-41fa-94b1-58fcfd39a5b2" name="method" profile="CSharpProfile">
+                <elementDefinition Id="47ff3573-6185-4d2a-95f0-f93c4bd9747d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="33900280-00ca-41b0-9254-6ea23526d544">
+                    <propertyInstance Id="a957c02a-6314-4d31-8e56-5dfdf76fac2a" name="ClrAttributes">
+                      <elementDefinition Id="5b9cb48e-a06e-4c04-8b04-1f352c3b4b0a" />
+                    </propertyInstance>
+                    <elementDefinition Id="11f34c71-9cf9-4670-92b4-bf35e2101c29" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1330aa2d-0444-416e-994a-8b21045a2a38">
+                    <propertyInstance Id="0c6b1c57-b0b8-4611-a453-7866e870e1b8" name="IsPartial" value="false">
+                      <elementDefinition Id="29bbc759-3d87-4c00-8e86-26b4059f472c" />
+                    </propertyInstance>
+                    <elementDefinition Id="32b6d446-6ff4-4d16-84b9-ade38871844a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f0330aec-d165-44d0-9dd3-ee93a6d1f606">
+                    <propertyInstance Id="82d256f0-5a89-4a83-8c95-908788864e5f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ea458b34-31df-449a-9ac5-7dc1a82890ec" />
+                    </propertyInstance>
+                    <elementDefinition Id="b01532b0-3e69-44d6-bd7c-26ba6adf89db" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c9e319bc-bccb-4337-8612-abaa61b327b9">
+                    <propertyInstance Id="d6abe4c6-e09c-4993-9b0f-f046456559fe" name="Inheritance" value="none">
+                      <elementDefinition Id="28a284ad-bad9-4723-bef1-2481bb860019" />
+                    </propertyInstance>
+                    <elementDefinition Id="482c68c6-da08-4912-aa1e-d44829336b77" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7723691b-2745-4995-af85-4e498eb71c78">
+                    <propertyInstance Id="7e0f66cb-e49f-482b-a752-6bc992234f4a" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="604c67b2-08df-408e-8d3f-5283c5a2bfa5" />
+                    </propertyInstance>
+                    <elementDefinition Id="a3c2bfd2-6e50-42f2-a8cf-d5b085f2dfea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="674dde05-38be-4212-bf41-c338688fa5ae">
+                    <propertyInstance Id="4f107933-f253-45e6-8b6f-7f3357585250" name="params" value="false">
+                      <elementDefinition Id="5172c28f-82d8-4b9f-944f-ab8f2291809f" />
+                    </propertyInstance>
+                    <elementDefinition Id="ec2078d4-6d59-46ff-b738-071b850e71ef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0776aa3d-7476-4fd5-bfea-394bed4d0900" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e15dd02b-b077-4059-aaf7-b4ceda1e4f91" name="state" direction="In">
+                  <referencesInternal>
+                    <reference Id="02fa3a4c-8f2b-4f28-9939-de2e92138cfb" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3D(Name%3DSetState OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState)]) ParameterIdentifier%3Dstate" tag="ViewCode">
+                      <elementDefinition Id="a5ee12cd-7476-42f8-8721-13744b3bc13e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b85ea8f6-7e5a-4965-87ea-3fe6adc3a16f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="067fca33-a1c3-495c-a3f9-2a09dcef7942" LastKnownName="State" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="e8df3764-de1b-4932-8e4a-0abf3129d24d" name="Weather" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="913fa365-4cb7-4fb8-9d5f-fcedf8dc6f80" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState)])" tag="ViewCode">
+                <elementDefinition Id="3c445e8c-013c-4ffb-b409-bccb1be9f2a6" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c0ceb41b-bd5f-4c8b-85d1-28a2c3a0cfef" name="method" profile="CSharpProfile">
+                <elementDefinition Id="636a153b-3fa9-41b3-b1a2-e64dbf130f55" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d3dd40c7-6e9a-4e57-bfd2-5d994b6defcb">
+                    <propertyInstance Id="64648e67-cf61-4c93-9bc3-135a435ae6d8" name="ClrAttributes">
+                      <elementDefinition Id="a7401271-6e4a-41ba-80fe-0381f34c057a" />
+                    </propertyInstance>
+                    <elementDefinition Id="551d2de4-17e5-45be-a682-4a2bbe5fe4d3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5072bce7-92b9-461d-be2b-434d59eab534">
+                    <propertyInstance Id="ea112865-ae6b-4520-9d7e-ba2222a8697f" name="IsPartial" value="false">
+                      <elementDefinition Id="026260af-3178-47f1-9249-648450016ed1" />
+                    </propertyInstance>
+                    <elementDefinition Id="5b44b722-375a-45fd-92f3-d98a43bfdfef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aada0607-feb9-4ac4-9a90-b21b6f03eb0e">
+                    <propertyInstance Id="d1980779-a2b7-4383-970a-3b98ab000355" name="IsUnsafe" value="false">
+                      <elementDefinition Id="02696981-c62c-4807-9169-f79a7a2b9fb5" />
+                    </propertyInstance>
+                    <elementDefinition Id="46bd85ab-d00f-4fd8-a6db-c336766861b7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b6a1c89c-fefb-4a4f-a56c-5a0aebd444dc">
+                    <propertyInstance Id="a17a6357-4561-460b-b62c-d6b74ee71cf7" name="Inheritance" value="none">
+                      <elementDefinition Id="f2bea479-3564-446c-8bf3-16ae10b5c1f0" />
+                    </propertyInstance>
+                    <elementDefinition Id="147804ab-9296-46c7-b413-137e1b53c83f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5793c155-cbe3-4720-b8a0-087ec97fc286">
+                    <propertyInstance Id="b18b564a-c39e-4b29-8b76-6af7371c03a1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="19b10101-37d9-4c71-a347-6e0ed0d1725b" />
+                    </propertyInstance>
+                    <elementDefinition Id="b6be7c5d-e00f-4960-9e76-b62448c71e58" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3f4f6126-d337-4948-856b-139152d38573">
+                    <propertyInstance Id="2e443469-b0d5-48f1-8b2d-78b91e2c340b" name="params" value="false">
+                      <elementDefinition Id="9ed0eabe-10b3-4d90-9b6d-e7da24030bcc" />
+                    </propertyInstance>
+                    <elementDefinition Id="e5ac0639-c457-4db9-a207-a826877ac867" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f3069984-2baa-43e9-ab9b-fc6c1bb232a9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e35c0653-0b1c-4fea-ad4b-04178160ceb7" name="state" direction="In">
+                  <referencesInternal>
+                    <reference Id="9b4c0adb-507a-45c1-9ad0-83187e6944c3" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DState)]) ParameterIdentifier%3Dstate" tag="ViewCode">
+                      <elementDefinition Id="4751239a-5023-4255-9b59-f4d4e2093ce8" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="482c4436-934d-49e7-a876-83c81654dc84" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="067fca33-a1c3-495c-a3f9-2a09dcef7942" LastKnownName="State" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="771aef8a-8c34-4d6b-aed5-962047298710" name="BeginSummer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="a2cffd3e-6503-4989-9e64-0ad4f648fab0" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3DBeginSummer" tag="ViewCode">
+                <elementDefinition Id="64f351fa-882f-45f3-8535-06d145a27244" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="575bec5c-2042-4a99-a46f-615016fd9d8f" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4e7f9589-65e3-484d-8644-aacb893f0f87" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4919d064-5b6c-44f6-8318-24c87cd60e45">
+                    <propertyInstance Id="4d2d5073-b8be-4ce1-a1df-58bf221741f4" name="ClrAttributes">
+                      <elementDefinition Id="4977b212-29ec-4da2-92ac-97d6f67d7095" />
+                    </propertyInstance>
+                    <elementDefinition Id="7e82fe61-b214-434e-a9d7-e0166eda0e94" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1e0eee55-4ac9-4f6f-96c2-1b735fd83a1a">
+                    <propertyInstance Id="b22f8614-7e3f-4e23-9826-f84d33c6fcb7" name="IsPartial" value="false">
+                      <elementDefinition Id="8cf4ded2-c383-4df1-8b3c-f97a2ecf2b5a" />
+                    </propertyInstance>
+                    <elementDefinition Id="54d22018-7428-48d1-bbf1-85738cb70cd6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="18738dcd-094f-4d10-a9a7-d16fc3de0ae5">
+                    <propertyInstance Id="725d53d3-fd82-4aa0-b0b2-53f72d44aa39" name="IsUnsafe" value="false">
+                      <elementDefinition Id="96331fb4-7036-43f2-9b87-24b17ec77acd" />
+                    </propertyInstance>
+                    <elementDefinition Id="175b560b-473a-4aef-b499-13f3dc2c1698" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2204d37d-fcdb-407f-b7a7-2bf68432f79f">
+                    <propertyInstance Id="a101928b-2e49-478f-92fb-8466dcc455dc" name="Inheritance" value="none">
+                      <elementDefinition Id="0f247fba-6d3c-43cc-b85a-f8d9caf1f079" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6519a6a-eb62-40f2-87b8-7e2c78331e52" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5ddb8a21-e495-4016-b48e-b875302d2727">
+                    <propertyInstance Id="1178a01f-2b62-44f0-826f-17bf35cc1e25" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="bfaaf83e-e7ed-403d-af86-e2c7a5837420" />
+                    </propertyInstance>
+                    <elementDefinition Id="88aefd59-cd16-43d9-9e22-221710f22e68" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="62636e30-90d6-4c17-b7b0-f8c7ec7bd459">
+                    <propertyInstance Id="77217d1f-5d45-4ad4-8dd9-8265a66d1978" name="params" value="false">
+                      <elementDefinition Id="fa349f45-874f-42ad-bcc8-a73ba2a2f296" />
+                    </propertyInstance>
+                    <elementDefinition Id="52f3b7bb-14f3-4754-b8a4-34b93b7bc06f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0521e594-5621-4a54-ab47-c48b57ad440a" />
+          </operation>
+          <operation Id="0e9e1ab5-e0b8-4597-90c3-b54eac199178" name="BeginAutumn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="6bdf15e4-ec35-45d1-97b6-37c5c561b3a8" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3DBeginAutumn" tag="ViewCode">
+                <elementDefinition Id="b123cfbd-1239-48eb-b1a2-24d89a2cc9f0" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="41876f6b-4e76-4c95-91d8-17eae1b35e8b" name="method" profile="CSharpProfile">
+                <elementDefinition Id="797b7d68-6c81-4335-b546-036a3785e92d" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="67c93278-818c-4362-b243-60d8b608aae4">
+                    <propertyInstance Id="abf8ec8e-606c-42f9-bff4-637d55043e8b" name="ClrAttributes">
+                      <elementDefinition Id="3af4f4ee-5122-4d72-9b85-a8f964dfb738" />
+                    </propertyInstance>
+                    <elementDefinition Id="f1e67f2a-647b-4fdc-b0c2-b613e5d5ed51" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5499ae5-5981-4e63-9643-f1056515ca53">
+                    <propertyInstance Id="54012822-80e7-407b-81f8-ee6c3439adfe" name="IsPartial" value="false">
+                      <elementDefinition Id="b759dd98-07a2-41eb-aae6-1184e1247ba6" />
+                    </propertyInstance>
+                    <elementDefinition Id="33ac679c-2c3d-49c2-9065-8773ed71b5f1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2e91d0f2-b4a2-47a7-bbfa-86261b370312">
+                    <propertyInstance Id="552335dd-e0bf-4a7b-8208-a03e0a8d7a74" name="IsUnsafe" value="false">
+                      <elementDefinition Id="a5521506-2ce2-4820-b31a-04cadbc4fadf" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4549eee-694c-4522-9748-8044277eaf2c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c1eeb2c9-b2f1-4f6f-baa4-8ce16cd602f5">
+                    <propertyInstance Id="aa535174-6b21-42d7-b674-58b2f53c5e6b" name="Inheritance" value="none">
+                      <elementDefinition Id="8e670213-426e-46f7-8292-dbf1f3a5f1f3" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b1856de-e753-4e8d-9a19-9b6732afaae7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="84050b5b-d3a4-44fa-8bcd-8b29f54953a2">
+                    <propertyInstance Id="4399b2ef-0d58-4a0a-a002-2145108054e7" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fc8a4904-a4e1-45b2-8240-e73c51dfe861" />
+                    </propertyInstance>
+                    <elementDefinition Id="f6f6e462-5b05-4aac-9ac1-c39430337c60" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="eb5e8f0f-0e91-4137-bdc8-6cbfe61eed45">
+                    <propertyInstance Id="9938cee6-47bc-40c3-88d9-c79748855b03" name="params" value="false">
+                      <elementDefinition Id="ac34b4b3-36f6-42d5-890b-600d344b9393" />
+                    </propertyInstance>
+                    <elementDefinition Id="de15bc8a-075d-43e8-bbd4-d448d7ff8075" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6418b94a-6b27-4811-b3f5-0681f8387d83" />
+          </operation>
+          <operation Id="b933b39e-91d5-454b-a6f8-fe43c9f9f2ea" name="BeginWinter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="6fcf24cc-75aa-466a-a3cb-8e5e939e264b" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3DBeginWinter" tag="ViewCode">
+                <elementDefinition Id="0d98d63a-9a64-4d97-a036-269c4e0e93a2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c3346c48-5697-46c2-b46a-e1156683766a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0044ded9-10b2-4dd7-a109-ae9934edfafc" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="34c382c8-f732-4f7f-82d7-5c744a442c25">
+                    <propertyInstance Id="a6e8fdc8-e76d-4d2c-b683-8e2b20b914a5" name="ClrAttributes">
+                      <elementDefinition Id="ed0bb735-01b7-4d54-bb3d-336fd608cccf" />
+                    </propertyInstance>
+                    <elementDefinition Id="5ee03cf1-f7c7-4eae-a7b8-29a8c4a52dca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3c7bb5b0-fce9-4e08-afd9-8216196603c3">
+                    <propertyInstance Id="300be391-56e6-4677-bb0b-2c0f0bef8c77" name="IsPartial" value="false">
+                      <elementDefinition Id="80fe14f7-b682-4d77-b73c-25ea62701663" />
+                    </propertyInstance>
+                    <elementDefinition Id="9ad798a1-c1db-4d1e-8598-f5d4fdbd3203" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6f461fca-8c39-4b63-9024-11a02caae844">
+                    <propertyInstance Id="80a33465-163a-417a-b2e1-b643247e1e8d" name="IsUnsafe" value="false">
+                      <elementDefinition Id="35d6b803-1cc4-488f-9325-cf1a4015946f" />
+                    </propertyInstance>
+                    <elementDefinition Id="baf32915-1967-4308-81af-b8550744ca24" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8bf31694-d052-4ee6-91f3-d24cd4108ebc">
+                    <propertyInstance Id="acaef476-36b5-44ae-aef3-2800ff7eaba4" name="Inheritance" value="none">
+                      <elementDefinition Id="fb81296d-e8d4-4202-a9ce-9ae17471921d" />
+                    </propertyInstance>
+                    <elementDefinition Id="a0eb13e4-4f1e-4e66-9a1e-c5d89244eb14" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="079caef4-4e7a-4a9b-8b87-b3a8fe0dc3b0">
+                    <propertyInstance Id="b247421e-a5c9-49b3-916f-05e3dd1778dd" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d6c77ad9-616f-4a47-8da1-ae8920e98e97" />
+                    </propertyInstance>
+                    <elementDefinition Id="6f8a484f-5e92-4606-8f0b-26548f0ee429" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3225f3b9-9a58-48a5-863d-291d95ee88bc">
+                    <propertyInstance Id="c5ed6c31-9b57-4ad8-b498-4122343a2d72" name="params" value="false">
+                      <elementDefinition Id="fea71546-f4f0-4bf9-b87f-5acf006f3f83" />
+                    </propertyInstance>
+                    <elementDefinition Id="db4b56e9-cf41-45b5-a95f-e1e7685faf8e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="3753a639-834a-4abf-9600-f0aa7069dd18" />
+          </operation>
+          <operation Id="af07fcb1-778c-4138-99d2-81312efb3a6a" name="BeginSpring" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="bc857255-2480-4381-9fc2-b7a68da80919" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather Member%3DBeginSpring" tag="ViewCode">
+                <elementDefinition Id="41fb2c00-5adc-4fe1-b42b-ebb6152789da" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5b5ff397-8e9a-42e9-a0bb-f747c77628c8" name="method" profile="CSharpProfile">
+                <elementDefinition Id="9f747553-b251-4f33-804e-a8c346e54249" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d2d52157-d42f-4cbb-a6ee-274f2a6f71c4">
+                    <propertyInstance Id="6e5b9513-e328-47ec-9bd4-4150654647b4" name="ClrAttributes">
+                      <elementDefinition Id="378a20c6-4395-48c8-880d-93d3d132a335" />
+                    </propertyInstance>
+                    <elementDefinition Id="0471c1dd-465d-4998-98d5-c6ec66608aef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="873a4c6f-3d34-4ba9-a41c-4f59dce092de">
+                    <propertyInstance Id="497de019-e685-42db-a731-312ca6f2c6b1" name="IsPartial" value="false">
+                      <elementDefinition Id="b6fcfcc2-d112-4c19-890b-c34139b639e7" />
+                    </propertyInstance>
+                    <elementDefinition Id="4964a6fc-8377-4f66-beb5-e3485595e8fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0657d908-448f-4307-8954-e034281b657d">
+                    <propertyInstance Id="da44d9d1-3237-4bd7-b9dd-63370b19e0f3" name="IsUnsafe" value="false">
+                      <elementDefinition Id="40f5a237-0ffb-4593-9df1-2379cc9fbf2d" />
+                    </propertyInstance>
+                    <elementDefinition Id="b539825a-8ebc-4f94-8ea9-5ef5d51d43da" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0392ce32-1153-4122-8c20-7e28ac461be3">
+                    <propertyInstance Id="ebe93fe0-e680-4606-95c6-d9a0f609eb87" name="Inheritance" value="none">
+                      <elementDefinition Id="910d5e9f-4d06-4726-a325-02c9f1e8508d" />
+                    </propertyInstance>
+                    <elementDefinition Id="b912045c-32d1-4b9c-a2a1-bd9f6d337dbb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e25b7a06-c453-4395-b949-12e455ff2c3a">
+                    <propertyInstance Id="19e40f2c-5265-4311-bba2-366de1fa8273" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="53964e60-a71c-4463-a85f-c00f455428f9" />
+                    </propertyInstance>
+                    <elementDefinition Id="5f5f663a-0294-456c-a384-80c7c3f2f1fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3f4f26e1-58da-4035-8aa9-c5b771503cbe">
+                    <propertyInstance Id="5c329f6c-16d1-4dd0-ba86-6aea5b79f59e" name="params" value="false">
+                      <elementDefinition Id="35d85f28-6daf-4474-9522-a4cf92b86ec6" />
+                    </propertyInstance>
+                    <elementDefinition Id="ffcae5a1-3d8f-47ec-a2a9-d5136219b03a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cd3cd044-4736-4747-9b99-8bef1e9dec24" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="067fca33-a1c3-495c-a3f9-2a09dcef7942" name="State" isAbstract="false" isLeaf="false" cachedFullName="UML::State::State">
+        <elementDefinition Id="58cca575-3f37-41ad-9c31-bf40d9ce2fb6" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="721168cc-85fd-4137-8705-460c8c6b9ab7" name="Winter" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="72a6c1fd-f609-4677-af2a-c26c285d7dac" handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter" tag="ViewCode">
+            <elementDefinition Id="6cc12579-cdb8-4d82-959a-fd8384c2be7c" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="6240163f-293d-422f-9b9c-eb0aed05c3d4" name="class" profile="CSharpProfile">
+            <elementDefinition Id="4099fc0e-b5cb-4fd2-8b0d-c30a091928a0" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="c8f578f2-5506-429d-8a6a-7e006cf19017">
+                <propertyInstance Id="76b0e838-5f0f-403c-858d-7bc3088f776c" name="ClrAttributes">
+                  <elementDefinition Id="d59a7929-3ebe-480a-9fec-a0cbb7a31426" />
+                </propertyInstance>
+                <elementDefinition Id="fdf35cda-a95d-4b56-b40e-f2ac17c0c7f6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="a705f207-9ae5-488f-918c-41a4f48c7cce">
+                <propertyInstance Id="4c02da68-3514-4404-ae13-0197d1f98a75" name="IsPartial" value="false">
+                  <elementDefinition Id="46b40d46-5634-40b7-a08f-903cbd127781" />
+                </propertyInstance>
+                <elementDefinition Id="239292fe-31f7-41d8-8f68-9e214ed7872e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="bf083e8f-14ec-4a8f-9675-9e82e978fd65">
+                <propertyInstance Id="752e5e64-a40f-47d0-94de-9a4dc9eaaee0" name="IsStatic" value="False">
+                  <elementDefinition Id="70cc5612-3448-4e2f-8d1e-de88245eb388" />
+                </propertyInstance>
+                <elementDefinition Id="3c86df30-acd1-4480-891e-8ae22e8e8cb6" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9dfa621b-d675-450e-809a-6c07b4baa19b">
+                <propertyInstance Id="4ea80fb0-f164-410f-9a41-accaf28a3cc3" name="IsUnsafe" value="false">
+                  <elementDefinition Id="fb3f9e7e-4c4b-4a57-a47a-d8bfefc1a91a" />
+                </propertyInstance>
+                <elementDefinition Id="c1a8ca26-e812-4a45-83a1-db9ef8de57e4" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fb4bd62f-765e-4d80-a7ce-f3809a0d726d">
+                <propertyInstance Id="f02f774f-92de-426e-8d48-5359831a1dc6" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="fc2df49e-45fd-496b-a5c3-212de4d73a27" />
+                </propertyInstance>
+                <elementDefinition Id="cb32cffc-8a92-4b17-9ba5-ba5d1c8869d0" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="a059c312-ff90-4f33-9dea-1c9baccad961" />
+        <generalsInternal>
+          <generalization Id="4a6ae83b-823c-4531-84d2-1c2b075c92fe" isSubstitutable="false">
+            <classMoniker Id="32d1da1c-9cd3-4312-8959-cf5a6b141fb0" LastKnownName="State" />
+            <elementDefinition Id="bcdb50ea-f9a1-4792-bc05-5b9920e90049" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="6652ee75-bb4f-4974-b839-397e6f6e6504" name="Winter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c144f150-d291-41de-9b64-b4c7f8340580" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter Member%3D.ctor" tag="ViewCode">
+                <elementDefinition Id="17a8a919-bfea-469f-bfee-8975aeef2c50" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c0ce4b0a-8f02-4655-85fb-b496a6529203" name="method" profile="CSharpProfile">
+                <elementDefinition Id="740cd829-a1fc-4c6e-ace3-81bdad023582" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2860aa58-0ef4-4779-a57e-94e9effdf548">
+                    <propertyInstance Id="deb03be9-232a-475e-97a5-369b69475cc4" name="ClrAttributes">
+                      <elementDefinition Id="dd829ea9-512f-49b3-82f3-d310932b1523" />
+                    </propertyInstance>
+                    <elementDefinition Id="e4e074cc-887c-4629-9ace-3d4167c3c740" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b52ead82-e67e-4029-9cc4-d8b07b7c49e0">
+                    <propertyInstance Id="7a384a0e-7286-45ef-957c-bcd6cdf4c2f7" name="IsPartial" value="false">
+                      <elementDefinition Id="5bece039-46b0-4169-9e98-1e6d2d43af17" />
+                    </propertyInstance>
+                    <elementDefinition Id="6aca5bfe-b889-4e3b-9e8e-f730c00911c1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c2801c6e-7ed7-459a-be03-22f86beb4383">
+                    <propertyInstance Id="ad52ce27-ed5c-4066-a888-4e74613cbfa7" name="IsUnsafe" value="false">
+                      <elementDefinition Id="2d64a706-e777-44b8-bb31-85cf9515efea" />
+                    </propertyInstance>
+                    <elementDefinition Id="50b56bf0-695e-4a8a-9f79-ee0b011a477a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="93fddfc8-b97d-4c87-a8f8-e4d2a8bb09ca">
+                    <propertyInstance Id="430841d4-a132-4454-b26e-4c4adf6bf243" name="Inheritance" value="none">
+                      <elementDefinition Id="69985f94-26f1-4cf4-90fa-edbd33a805ef" />
+                    </propertyInstance>
+                    <elementDefinition Id="26402799-b99b-48d3-8ab3-f389ca7a6b00" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="feacc658-93de-44eb-91b1-ab34551f4c2c">
+                    <propertyInstance Id="1b359044-b9c7-4be4-ad2e-412d1a679462" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7a411c7e-7bda-4148-860d-de42eb47d2e2" />
+                    </propertyInstance>
+                    <elementDefinition Id="947d69dc-f6fe-428e-a9dc-8c6b7ed8db9f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c38706ff-ac9a-40ed-89c9-f75d333bf038">
+                    <propertyInstance Id="d82745d2-8d04-4b06-a4e8-b0a2f33c2055" name="params" value="false">
+                      <elementDefinition Id="3024253d-1ed6-4091-8da3-552d44923c74" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c2d71e0-386d-413f-aad4-3bf750ae99e1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="6716afeb-8d83-4b0f-9b67-ed8e24b66649" />
+          </operation>
+          <operation Id="58b769e9-1a47-41eb-bd9a-f6ff290bd862" name="BeginWinter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="498a83a1-ec67-4dad-87da-15399b71b1b0" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="cc34a6ee-ee25-45a5-8fc4-43e98bf0ad79" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="6e921f62-c581-4c5f-8bf8-7b2bb67b7128" name="method" profile="CSharpProfile">
+                <elementDefinition Id="220371bb-074f-46a2-b76c-528df393a359" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="421ef867-d581-4fae-896d-0e11600da725">
+                    <propertyInstance Id="2622735c-0eb7-403b-b348-20008f960bd4" name="ClrAttributes">
+                      <elementDefinition Id="c7064182-2324-45fc-85d4-f30b5fc3a16f" />
+                    </propertyInstance>
+                    <elementDefinition Id="05d79c7c-5bca-4285-848b-5ec0e156f9ce" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="db18f048-db6b-44bd-bea3-96c15bbe2111">
+                    <propertyInstance Id="5e0680fa-e814-4f12-b823-38a83c29d192" name="IsPartial" value="false">
+                      <elementDefinition Id="1d4a6bbf-78d3-40a7-9d57-56c03b2a4bac" />
+                    </propertyInstance>
+                    <elementDefinition Id="4a40e4a8-39ed-4bc1-9e04-62ae20571ab7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="274656ab-7119-41be-b057-0624e2304cf8">
+                    <propertyInstance Id="bef84941-a108-47ac-83dc-cfc67acaa536" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b5ca10ce-9026-42e7-a48e-7ca4663f1d92" />
+                    </propertyInstance>
+                    <elementDefinition Id="1984dd47-dbbd-4c18-8708-7ae272d83d1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6560bec0-dd37-458e-b107-03dbdba7d316">
+                    <propertyInstance Id="3ee7e086-22af-42d7-b01e-33850e0104d0" name="Inheritance" value="none">
+                      <elementDefinition Id="3b6c33e1-831d-4c3d-beae-74f5a435c719" />
+                    </propertyInstance>
+                    <elementDefinition Id="25c166df-0e71-41b1-87fe-9649fab6b8c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="434afa3c-6434-4ef8-9596-d793e31d7574">
+                    <propertyInstance Id="c9d42a83-8454-444e-a49e-c58b6b39ab77" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7b3520fb-6a13-4e2d-8ce6-1b2a05e4c13e" />
+                    </propertyInstance>
+                    <elementDefinition Id="660f67bb-35d3-433a-97ae-808538757602" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d72bff19-5ab3-47be-ba93-7b67417515d1">
+                    <propertyInstance Id="977abb61-afff-43f3-bb72-ab95b6903598" name="params" value="false">
+                      <elementDefinition Id="f2f2a911-2784-48c9-9d23-010ec9d3ecb5" />
+                    </propertyInstance>
+                    <elementDefinition Id="c3a7e005-8447-4365-b47a-481548990eeb" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9363ccd1-5536-424c-b8c6-7726673ff113" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="07b0f867-21e5-4db1-ba26-7b6b824e1e9e" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="6275359b-4141-4a60-b908-a8b604e386ec" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter Member%3D(Name%3DBeginWinter OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="22838fdd-3ca6-420f-b92f-dbd679070965" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="04dc5740-abd7-48fb-84c1-53516fbdfb90" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d293259e-998c-4fa5-8e8d-51fb44155dd3" name="BeginSpring" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="3c9fcf51-3c69-44b0-b0c8-cef8392004c3" handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)])" tag="ViewCode">
+                <elementDefinition Id="f0d4c5b6-b232-4f63-bcde-98e51682aa6a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="80524b1b-f1a3-47ec-939d-b4ada0d79bb9" name="method" profile="CSharpProfile">
+                <elementDefinition Id="34c3cbfd-9d38-40bd-b262-4ac96a463283" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e2907fa0-78d1-4864-8f1c-27c69017d3cb">
+                    <propertyInstance Id="735bf5b2-e282-4c0a-a5c1-531138f7f0d6" name="ClrAttributes">
+                      <elementDefinition Id="34d6b471-3245-4d4d-81c3-a856c55013f5" />
+                    </propertyInstance>
+                    <elementDefinition Id="78ebadf3-2006-4f21-a00c-ee6978706c9e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a95f8ce9-70a9-43e4-914d-23afb6e28460">
+                    <propertyInstance Id="2ad99874-7a08-4fc5-8be2-a51d884a217a" name="IsPartial" value="false">
+                      <elementDefinition Id="d5b0e333-5c07-4598-bc9c-9222ecb0532c" />
+                    </propertyInstance>
+                    <elementDefinition Id="da41b24e-3d09-4b15-b17a-f69cb50a9e9a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7a5f0196-7471-4a22-b785-845c8ea85f7a">
+                    <propertyInstance Id="f043ec81-2cb9-4628-92ae-3be4768833a1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="42785cb1-7cf4-402c-8133-f3e3ddd34ea1" />
+                    </propertyInstance>
+                    <elementDefinition Id="b1e9b09d-6c81-4c67-8949-ff6605321251" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="193f3bff-9daf-4f92-ab58-bd5dee2d16d0">
+                    <propertyInstance Id="7d40c6fa-0fe2-41bf-ab55-22efccb44594" name="Inheritance" value="none">
+                      <elementDefinition Id="77fdd88e-7c7e-460c-a5aa-380cd6346a08" />
+                    </propertyInstance>
+                    <elementDefinition Id="6c93142f-cc33-4ef5-8c64-5d81eacdc644" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="090c5c17-26d0-4e43-b2a8-1423c631cf6c">
+                    <propertyInstance Id="ea21dafe-edf1-4f1b-bbec-231b4444203f" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="953a15e4-1dc7-40c8-92bb-2143896de6f8" />
+                    </propertyInstance>
+                    <elementDefinition Id="a652021c-dd17-49fa-881f-2bb9bfb05563" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="696ec50a-7515-4938-9d1c-600183cf99ce">
+                    <propertyInstance Id="365a8e4d-1276-46ae-bf17-3f539f00c5b2" name="params" value="false">
+                      <elementDefinition Id="4e070b74-7a60-4a85-8ffe-65a60dcc9710" />
+                    </propertyInstance>
+                    <elementDefinition Id="1d7c0817-d3b7-49e9-b2e7-c50d50365dea" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e5823873-c201-4976-9e93-d80262d6a2eb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="106fc834-ce93-414e-8087-687a56503129" name="weather" direction="In">
+                  <referencesInternal>
+                    <reference Id="d76d4d7e-34b9-47e5-99c4-b44905221f90" handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWinter Member%3D(Name%3DBeginSpring OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FFeD_Lviv%2FDesktop%2FGoF%2FState%2Fbin%2FRelease%2FState.exe Namespace%3DState Type%3DWeather)]) ParameterIdentifier%3Dweather" tag="ViewCode">
+                      <elementDefinition Id="aebe989b-09af-4725-aecd-10abc089d4de" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="587d1eb3-b0c6-460a-a95f-431e80379548" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="52b2da67-01bd-429a-bb7f-dd958472913d" LastKnownName="Weather" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="217228d4-3f73-4feb-a064-474e6cc22374" name="UML">
+    <elementDefinition Id="930c238e-7146-45db-83b6-3d82d781dc88" />
+  </package>
+</logicalClassDesignerModel>

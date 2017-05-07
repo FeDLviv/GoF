@@ -252,6 +252,12 @@
         LastKnownName="Mediator"
         LastKnownLocation="Package_1636.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3f09b230-be19-482e-adba-ba384d04dfe9"
+        LastKnownName="State"
+        LastKnownLocation="Package_1724.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

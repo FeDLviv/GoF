@@ -6,54 +6,56 @@
   <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
   <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
   <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
-  <Message Timestamp="2017-05-07T16:36:31" Importance="High" Text="Реконструирование запущено." />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Boolean&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator&quot; -  (Package)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::Dispatcher&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::Fire&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::Medic&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::Police&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::SendMessage&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::SendMessage::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Dispatcher::SendMessage::service&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::FireDepartment&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::FireDepartment::Attention&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::FireDepartment::Attention::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::FireDepartment::FireDepartment&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::FireDepartment::FireDepartment::dispatcher&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::IMediator&quot; -  (Interface)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::IMediator::SendMessage&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::IMediator::SendMessage::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::IMediator::SendMessage::service&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment::Attention&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment::Attention::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment::IsScope&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment::MedicDepartment&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::MedicDepartment::MedicDepartment::dispatcher&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police::Attention&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police::Attention::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police::IsMurder&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police::Police&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Police::Police::dispatcher&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague&quot; -  (Class)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::Attention&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::Attention::msg&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::dispatcher&quot; -  (Property)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::SendMessage&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::SendMessage::message&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::Сolleague&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Mediator::Сolleague::Сolleague::dispatcher&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::Dispatcher в UML::Mediator::FireDepartment (Association)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::Dispatcher в UML::Mediator::MedicDepartment (Association)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::Dispatcher в UML::Mediator::Police (Association)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::Dispatcher в UML::Mediator::IMediator (InterfaceRealization)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::FireDepartment в UML::Mediator::Сolleague (Generalization)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::MedicDepartment в UML::Mediator::Сolleague (Generalization)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Mediator::Police в UML::Mediator::Сolleague (Generalization)" />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="High" Text="Полностью реконструировано (6) типов." />
-  <Message Timestamp="2017-05-07T16:36:33" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+  <Message Timestamp="2017-05-07T17:24:35" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State&quot; -  (Package)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn::Autumn&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn::BeginAutumn&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn::BeginAutumn::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn::BeginWinter&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Autumn::BeginWinter::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring::BeginSpring&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring::BeginSpring::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring::BeginSummer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring::BeginSummer::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Spring::Spring&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::State&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginAutumn&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginAutumn::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginSpring&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginSpring::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginSummer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginSummer::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginWinter&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::BeginWinter::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::State::State&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer::BeginAutumn&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer::BeginAutumn::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer::BeginSummer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer::BeginSummer::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Summer::Summer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::BeginAutumn&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::BeginSpring&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::BeginSummer&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::BeginWinter&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::SetState&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::SetState::state&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::state&quot; -  (Property)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::Weather&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Weather::Weather::state&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter&quot; -  (Class)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter::BeginSpring&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter::BeginSpring::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter::BeginWinter&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter::BeginWinter::weather&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::State::Winter::Winter&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::State::Autumn в UML::State::State (Generalization)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::State::Spring в UML::State::State (Generalization)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::State::Summer в UML::State::State (Generalization)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::State::Winter в UML::State::State (Generalization)" />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="High" Text="Полностью реконструировано (6) типов." />
+  <Message Timestamp="2017-05-07T17:24:36" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
 </Log>
