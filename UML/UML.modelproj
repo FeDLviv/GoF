@@ -57,6 +57,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Decorator.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Facade.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Facade.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Facade.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1330.uml">
       <SubType>Content</SubType>
     </Content>
@@ -64,6 +71,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package2_1627.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1239.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1330.uml">
