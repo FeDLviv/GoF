@@ -258,6 +258,12 @@
         LastKnownName="State"
         LastKnownLocation="Package_1724.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="77b4fe86-375f-4ea3-b19e-5ecd4e84cbb9"
+        LastKnownName="Interpreter"
+        LastKnownLocation="Package_1605.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

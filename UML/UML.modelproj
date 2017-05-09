@@ -78,6 +78,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Flyweight.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Interpreter.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Interpreter.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Interpreter.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Mediator.classdiagram">
       <SubType>Content</SubType>
     </Content>
@@ -119,6 +126,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1555.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1605.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1614.uml">
