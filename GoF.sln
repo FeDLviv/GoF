@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{E0A41775-C33F-45E7-9DE3-D9B981BD33B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{9141A7D0-BBC1-4776-84BB-A4393EB87297}"
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{A86BC016-3B30-43BF-A95F-2ECDDE65D43F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Interpreter\Interpreter.csproj", "{6FFAEE2D-9DD9-470D-8F76-1F9B342C6ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{4DC89AC9-87F3-41B7-91C5-6083270F08AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +217,16 @@ Global
 		{6FFAEE2D-9DD9-470D-8F76-1F9B342C6ABE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{6FFAEE2D-9DD9-470D-8F76-1F9B342C6ABE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6FFAEE2D-9DD9-470D-8F76-1F9B342C6ABE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Debug|x86.ActiveCfg = Debug|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Debug|x86.Build.0 = Debug|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Release|Any CPU.ActiveCfg = Release|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Release|x86.ActiveCfg = Release|x86
+		{4DC89AC9-87F3-41B7-91C5-6083270F08AC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
