@@ -98,6 +98,9 @@
     <Content Include="ModelDefinition\Package1_1510.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package1_1555.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModelDefinition\Package1_1627.uml">
       <SubType>Content</SubType>
     </Content>
@@ -145,6 +148,13 @@
     </Content>
     <Content Include="ModelDefinition\Package_1724.uml">
       <SubType>Content</SubType>
+    </Content>
+    <Content Include="Observer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Observer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Observer.classdiagram</DependentUpon>
     </Content>
     <Content Include="Prototype.classdiagram">
       <SubType>Content</SubType>

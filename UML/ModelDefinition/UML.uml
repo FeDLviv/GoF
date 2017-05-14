@@ -264,6 +264,12 @@
         LastKnownName="Interpreter"
         LastKnownLocation="Package_1605.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b9142210-01de-4987-973f-4e2037be2404"
+        LastKnownName="Observer"
+        LastKnownLocation="Package1_1555.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
