@@ -6,50 +6,38 @@
   <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
   <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
   <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
-  <Message Timestamp="2017-05-14T15:55:29" Importance="High" Text="Реконструирование запущено." />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;15541911-7bdb-4468-aaff-4508726344aa&quot; -  (ClassifierTemplateParameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;String&quot; -  (PrimitiveType)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer&quot; -  (Package)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver&quot; -  (Class)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::BankObserver&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::BankObserver::name&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::name&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::Update&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::Update::buy&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::BankObserver::Update::sale&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::IObserver&quot; -  (Interface)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::IObserver::Update&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::IObserver::Update::buy&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::IObserver::Update::sale&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject&quot; -  (Interface)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject::AddObserver&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject::AddObserver::observer&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject::NotifyObservers&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject::RemoveObserver&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::ISubject::RemoveObserver::observer&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject&quot; -  (Class)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::AddObserver&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::AddObserver::observer&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::buyUSA&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::BuyUSA&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::NotifyObservers&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::observers&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::RemoveObserver&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::RemoveObserver::observer&quot; -  (Parameter)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::saleUSA&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::SaleUSA&quot; -  (Property)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Observer::UAHSubject::UAHSubject&quot; -  (Operation)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System&quot; -  (Package)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections&quot; -  (Package)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic&quot; -  (Package)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::List&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::List&lt;IObserver‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Decimal&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Observer::BankObserver в UML::Observer::IObserver (InterfaceRealization)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Observer::UAHSubject в UML::System::Decimal (Association)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Observer::UAHSubject в UML::System::Decimal (Association)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="Diagnostic" Text="Отношение реконструировано в модели UML: UML::Observer::UAHSubject в UML::Observer::ISubject (InterfaceRealization)" />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="High" Text="Полностью реконструировано (4) типов." />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="High" Text="Частично реконструировано (3) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
-  <Message Timestamp="2017-05-14T15:55:36" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
+  <Message Timestamp="2017-05-14T16:27:13" Importance="High" Text="Реконструирование запущено." />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;1e6a75b1-911d-4b35-b8d4-93dffde9c29d&quot; -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;Integer&quot; -  (PrimitiveType)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento&quot; -  (Package)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker&quot; -  (Class)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker::F5&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker::F5::memento&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker::F9&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker::PanzerCaretaker&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerCaretaker::stack&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento&quot; -  (Class)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento::Lives&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento::PanzerMemento&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento::PanzerMemento::lives&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento::PanzerMemento::shells&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerMemento::Shells&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Medium" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator&quot; -  (Class)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::Battle&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::lives&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::Load&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::Load::memento&quot; -  (Parameter)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::PanzerOriginator&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::rand&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::Save&quot; -  (Operation)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::Memento::PanzerOriginator::shells&quot; -  (Property)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System&quot; -  (Package)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections&quot; -  (Package)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic&quot; -  (Package)" />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::Stack&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Collections::Generic::Stack&lt;PanzerMemento‎&gt;&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="Diagnostic" Text="Элемент реконструирован в модели UML: &quot;UML::System::Random&quot; -  (Class)   (реконструирован частично - определение не обновлено) " />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="High" Text="Полностью реконструировано (3) типов." />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="High" Text="Частично реконструировано (3) типов.  Эти типы не были включены в исходный выбор, поэтому их полные определения не реконструированы.  Данная пустая операция лишь проверила наличие этих типов в модели UML, поскольку они необходимы для полного описания других элементов." />
+  <Message Timestamp="2017-05-14T16:27:15" Importance="High" Text="Операция реконструирования завершена; ошибок: (0), предупреждений: (0)." />
 </Log>

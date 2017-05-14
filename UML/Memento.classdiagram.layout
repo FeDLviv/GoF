@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Memento">
+  <logicalClassDesignerModelMoniker Id="2aa01231-4a20-4335-8795-23c82cbf7fd8" />
+  <nestedChildShapes>
+    <classShape Id="2e25f3fb-d151-40da-9c72-66881e9973e9" absoluteBounds="8, 0.5, 2.125, 1.6683043545484542" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="3f832503-c906-4b3c-9441-530eca23e55c" LastKnownName="PanzerCaretaker" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="6e5a570e-c5a6-481d-abf0-20c75adb26f9" absoluteBounds="8.015, 1.0153356393178306, 2.0949999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="89376fb9-8363-463f-8c5b-d8d9c39e3626" absoluteBounds="8.015, 1.3866637519001959, 2.0949999999999998, 0.68164060264825821" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fd7eb0f-9256-4c15-96fd-98fcccea1ead" absoluteBounds="3.375, 2.625, 2.875, 1.508148109515508" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="0c28b890-0909-4c36-b8ca-4640faca9414" LastKnownName="PanzerMemento" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="9cce4ea4-d4fd-46c6-b9cc-f34d846946e7" absoluteBounds="3.3899999999999997, 3.1403356393178306, 2.8449999999999998, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="991aec4d-e0c7-4f04-8816-d21b5ecc1636" absoluteBounds="3.3899999999999997, 3.6718199969331424, 2.8449999999999998, 0.36132811258236575" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8 : 1.65030549234466); (7.27083333333333 : 1.65030549234466); (7.27083333333333 : 3.07135511618969); (6.25 : 3.07135511618969)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="1" targetMultiplicity="1">
+      <associationMoniker Id="2a164893-1059-47e5-a50c-cd1e9a53be2e" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="2e25f3fb-d151-40da-9c72-66881e9973e9" />
+        <classShapeMoniker Id="3fd7eb0f-9256-4c15-96fd-98fcccea1ead" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3e0bf294-311a-4e73-9465-45d6cd7bd128" absoluteBounds="0.5, 0.5, 2.125, 2.1487730896472934" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="1fb757c6-cbcd-4870-8d54-78ab1db0550a" LastKnownName="PanzerOriginator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="97a75388-db09-4b7c-b6dd-a455707d7660" absoluteBounds="0.51499999999999968, 1.0153356393178306, 2.0949999999999998, 0.68164060264825832" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ad7d5562-0284-418b-9ad3-35135354b11f" absoluteBounds="0.51499999999999968, 1.706976241966089, 2.0949999999999998, 0.84179684768120455" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <dependencyConnector edgePoints="[(2.625 : 2.14812574141069); (3 : 2.14812574141069); (3 : 3.0579552991952); (3.375 : 3.0579552991952)]" manuallyRouted="true" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="1025983e-27b8-4ce4-9e4b-4ac9af273dea" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="3e0bf294-311a-4e73-9465-45d6cd7bd128" />
+        <classShapeMoniker Id="3fd7eb0f-9256-4c15-96fd-98fcccea1ead" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

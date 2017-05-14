@@ -190,5 +190,63 @@
         </appliedStereotypesInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="78bc8254-5f84-4437-bbeb-eba8dfb39176"
+        name="Random"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8076c5a9-b30d-4a7f-a47b-9c942ce2e32d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FProfile%2FClient%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DRandom"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4dcbd272-bf24-4ac0-a3a1-f07e62d7cb63"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70c87214-0b0e-475d-af11-0711154b79d9">
+                <propertyInstance
+                  Id="ad343fa1-b76d-46bc-a7dc-c0d5c3b64d63"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2f501ec-ed6c-4a7e-851a-39bdee61bd26">
+                <propertyInstance
+                  Id="16e8d87d-2c9a-4505-af67-84e533e4f839"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88c8e86c-9a5e-4082-88af-beee74636c88">
+                <propertyInstance
+                  Id="a732d572-ea94-4cb9-853e-ef8f73be7912"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="390e7bb1-2a27-4125-820d-473d36dc088e">
+                <propertyInstance
+                  Id="3687bad7-e52a-4114-ac21-08f20f9184fc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4746a3a-e14d-4cab-a853-c35eb6f8dcec">
+                <propertyInstance
+                  Id="c4ea99a0-b6f3-48f4-970d-dbe26418fc16"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
 </package>

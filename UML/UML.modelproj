@@ -92,6 +92,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Mediator.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Memento.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Memento.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Memento.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Package1_1330.uml">
       <SubType>Content</SubType>
     </Content>
@@ -105,6 +112,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package2_1627.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1627.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1239.uml">
