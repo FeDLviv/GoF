@@ -276,6 +276,12 @@
         LastKnownName="Memento"
         LastKnownLocation="Package3_1627.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="94188264-5295-4c1d-b91a-7ee448d6ad5a"
+        LastKnownName="Command"
+        LastKnownLocation="Package_1610.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

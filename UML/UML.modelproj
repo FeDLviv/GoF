@@ -50,6 +50,13 @@
       <SubType>Content</SubType>
       <DependentUpon>ChainOfResponsibility.classdiagram</DependentUpon>
     </Content>
+    <Content Include="Command.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Command.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Command.classdiagram</DependentUpon>
+    </Content>
     <Content Include="Composite.classdiagram">
       <SubType>Content</SubType>
     </Content>
@@ -142,6 +149,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1605.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1610.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ModelDefinition\Package_1614.uml">
